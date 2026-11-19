@@ -1,36 +1,248 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# PST Website
 
-## Getting Started
+### Power Sixers Trading and Contracting W.L.L.
 
-First, run the development server:
+A modern, responsive and multilingual corporate website for **Power Sixers Trading and Contracting W.L.L.**, a Doha-based MEP and technical services company in Qatar.
+
+The website is designed to present the company's services, projects, business information and contact details through a clean, professional user experience.
+
+---
+
+## 🌐 Website Overview
+
+- **Company:** Power Sixers Trading and Contracting W.L.L.
+- **Location:** Doha, Qatar
+- **Industry:** MEP & Technical Services
+- **Languages:** English and Arabic
+- **Direction Support:** LTR and RTL
+- **Architecture:** Next.js App Router
+- **Deployment:** Netlify
+
+---
+
+## ✨ Features
+
+- Modern and professional corporate design
+- Fully responsive layout for desktop, tablet and mobile
+- Multilingual support (English & Arabic)
+- Arabic RTL layout support
+- Localized navigation and language switching
+- Homepage with multiple content sections
+- Company overview and business information
+- Six dedicated MEP service categories
+- Individual service detail pages
+- Project showcase with individual project detail pages
+- Reusable and modular components
+- Smooth animations and interactive transitions
+- SEO-friendly page structure and metadata
+- Optimized image assets
+- Contact information and inquiry navigation
+
+---
+
+## 🛠️ Technology Stack
+
+| Technology | Purpose |
+|---|---|
+| Next.js | React framework and application routing |
+| React | User interface development |
+| JavaScript (JSX) | Application logic |
+| Tailwind CSS v4 | Styling and responsive layouts |
+| next-intl | Internationalization |
+| Framer Motion | Animations and transitions |
+| Lucide React | Icons |
+| React Hook Form | Form handling |
+| Zod | Form validation |
+
+---
+
+## 📂 Project Structure
+
+```text
+pst-website/
+│
+├── public/
+│   └── images/
+│       ├── logo/
+│       ├── hero/
+│       ├── about/
+│       ├── services/
+│       └── projects/
+│
+├── src/
+│   ├── app/
+│   │   └── [locale]/
+│   │       ├── about/
+│   │       ├── services/
+│   │       │   └── [slug]/
+│   │       ├── projects/
+│   │       │   └── [slug]/
+│   │       ├── team/
+│   │       ├── contact/
+│   │       ├── layout.jsx
+│   │       └── page.jsx
+│   │
+│   ├── components/
+│   │   ├── common/
+│   │   ├── layout/
+│   │   ├── home/
+│   │   ├── services/
+│   │   ├── projects/
+│   │   └── contact/
+│   │
+│   ├── data/
+│   ├── i18n/
+│   ├── lib/
+│   ├── messages/
+│   │   ├── en.json
+│   │   └── ar.json
+│   └── proxy.js
+│
+├── jsconfig.json
+├── next.config.mjs
+├── postcss.config.mjs
+├── package.json
+└── README.md
+```
+
+---
+
+## 🏗️ Services
+
+The website presents six core service categories:
+
+1. MEP Installation
+2. HVAC & VRF Installation
+3. AC Maintenance & Repair
+4. Ducting & Chilled Water Piping
+5. Plumbing & Fire Fighting
+6. Skilled MEP Manpower
+
+---
+
+## 🚀 Getting Started
+
+### Prerequisites
+
+- Node.js
+- npm
+- Git
+
+### 1. Clone the repository
+
+```bash
+git clone https://github.com/SaifurAlamin/pst-website.git
+```
+
+### 2. Navigate to the project directory
+
+```bash
+cd pst-website
+```
+
+### 3. Install dependencies
+
+```bash
+npm install
+```
+
+### 4. Start the development server
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open your browser and visit:
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+```text
+http://localhost:3000
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+---
 
-## Learn More
+## 📦 Production Build
 
-To learn more about Next.js, take a look at the following resources:
+To create a production build:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+```bash
+npm run build
+```
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+To run the production server locally:
 
-## Deploy on Vercel
+```bash
+npm run start
+```
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+---
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## 🌍 Internationalization
+
+The website supports two languages:
+
+- English (`/en`)
+- Arabic (`/ar`)
+
+The application uses `next-intl` for localized routing, translations and language management.
+
+Arabic pages support right-to-left (RTL) layout, while English pages use left-to-right (LTR) layout.
+
+Translation files are located in:
+
+```text
+src/messages/
+├── en.json
+└── ar.json
+```
+
+---
+
+## 🖼️ Image Management
+
+Website images are organized under:
+
+```text
+public/images/
+```
+
+Project images are maintained in a single directory:
+
+```text
+public/images/projects/
+```
+
+Descriptive image filenames are used to make project assets easy to identify and maintain.
+
+---
+
+## 🚀 Deployment
+
+The project is prepared for deployment on **Netlify** with its Next.js runtime support.
+
+Recommended deployment workflow:
+
+1. Push the source code to GitHub.
+2. Import the repository into Netlify.
+3. Configure the build command as `npm run build`.
+4. Deploy the project.
+5. Configure a custom domain when available.
+
+---
+
+## 📌 Project Status
+
+The website is under development. Additional sections and improvements, including the Gallery, may be introduced in future updates.
+
+---
+
+## 📄 License
+
+This project is developed for Power Sixers Trading and Contracting W.L.L.
+
+All company branding, logos, project images and related business materials belong to their respective owners. Unauthorized reuse is not permitted.
+
+---
+
+**Built with Next.js and React.**
+
+*Power Sixers Trading and Contracting W.L.L. — Build · Install · Maintain.*

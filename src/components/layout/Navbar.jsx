@@ -27,25 +27,20 @@ export default function Navbar() {
             <div className="mx-auto flex h-20 max-w-7xl items-center justify-between px-5 sm:px-6 lg:px-8">
 
                 {/* Brand - Always LTR */}
-                <Link
-                    href="/"
-                    dir="ltr"
-                    className="group flex shrink-0 items-center gap-3"
-                >
-                    <div className="flex h-12 w-12 items-center justify-center rounded-xl border border-white/15 bg-white/10 text-xl font-extrabold text-white transition-all duration-300 group-hover:bg-white group-hover:text-pst-navy">
-                        PST
-                    </div>
-
-                    <div className="text-left leading-tight">
-                        <p className="text-lg font-extrabold tracking-wide text-white transition-colors group-hover:text-blue-200">
-                            POWER SIXERS
-                        </p>
-
-                        <p className="mt-1 text-[10px] font-semibold tracking-[2px] text-blue-300">
-                            BUILD · INSTALL · MAINTAIN
-                        </p>
-                    </div>
-                </Link>
+                
+                                    <Link
+                                        href="/"
+                                        dir="ltr"
+                                        className="flex shrink-0 items-center"
+                                    >
+                                        <img
+                                            src="/images/logo/logo3.png"
+                                            alt="Power Sixers Trading and Contracting W.L.L."
+                                            className="h-11 w-auto object-contain sm:h-12"
+                                            width="300"
+                                            height="150"
+                                        />
+                                    </Link>
 
                 {/* Desktop Navigation */}
                 <nav className="hidden items-center gap-7 lg:flex">

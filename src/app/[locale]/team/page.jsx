@@ -2,6 +2,7 @@
 import { hasLocale } from "next-intl";
 import {
     getTranslations,
+    getMessages,
     setRequestLocale,
 } from "next-intl/server";
 import { notFound } from "next/navigation";
@@ -12,6 +13,8 @@ import LeadershipTeam from "@/components/team/LeadershipTeam";
 import TechnicalTeam from "@/components/team/TechnicalTeam";
 import TeamCommitment from "@/components/team/TeamCommitment";
 import TeamCTA from "@/components/team/TeamCTA";
+
+const BASE_URL = "https://pst-project-qatar.netlify.app";
 
 export async function generateMetadata({ params }) {
     const { locale } = await params;
@@ -25,21 +28,23 @@ export async function generateMetadata({ params }) {
         namespace: "TeamPage.metadata",
     });
 
-    const pageUrl = `/${locale}/team`;
-    const image = "/images/team/team-hero.webp";
+    const messages = await getMessages({ locale });
+    const metadata = messages.TeamPage.metadata;
+
+    const pageUrl = `${BASE_URL}/${locale}/team`;
+    const image = `${BASE_URL}/images/team/team-hero.webp`;
 
     return {
         title: t("title"),
         description: t("description"),
-
-        keywords: t("keywords"),
+        keywords: metadata.keywords,
 
         alternates: {
             canonical: pageUrl,
             languages: {
-                en: "/en/team",
-                ar: "/ar/team",
-                "x-default": "/en/team",
+                en: `${BASE_URL}/en/team`,
+                ar: `${BASE_URL}/ar/team`,
+                "x-default": `${BASE_URL}/en/team`,
             },
         },
 

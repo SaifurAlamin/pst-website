@@ -292,6 +292,107 @@
             "servicesButton": "Explore Our Services"
         }
     },
+    "TeamPage": {
+        "metadata": {
+            "title": "Our Team | MEP Engineers & Technical Professionals in Qatar - PST",
+            "description": "Meet the team at Power Sixers Trading and Contracting W.L.L. in Qatar. Learn about our management, technical expertise and commitment to quality MEP services.",
+            "keywords": [
+                "PST team Qatar",
+                "MEP engineers Qatar",
+                "MEP technical team",
+                "HVAC professionals Qatar",
+                "MEP contracting company Qatar",
+                "Power Sixers Trading and Contracting"
+            ],
+            "imageAlt": "PST team members wearing safety helmets and reflective vests at a construction site"
+        },
+        "hero": {
+            "home": "Home",
+            "breadcrumb": "Our Team",
+            "eyebrow": "THE PEOPLE BEHIND OUR WORK",
+            "title": "Our People, Our Strength",
+            "description": "Our team brings together technical knowledge, practical experience and a shared commitment to delivering reliable MEP solutions.",
+            "button": "Get in Touch",
+            "imageAlt": "PST team members wearing safety helmets and reflective vests at a construction site"
+        },
+        "leadership": {
+            "eyebrow": "OUR LEADERSHIP",
+            "title": "Meet Our Team",
+            "description": "The people behind our work bring dedication, practical knowledge and a shared commitment to quality.",
+            "memberLabel": "PST Team",
+            "member1": {
+                "name": "Team Member 01",
+                "designation": "Management Team",
+                "imageAlt": "First PST team member"
+            },
+            "member2": {
+                "name": "Team Member 02",
+                "designation": "Project Management",
+                "imageAlt": "Second PST team member"
+            },
+            "member3": {
+                "name": "Team Member 03",
+                "designation": "Technical Team",
+                "imageAlt": "Third PST team member"
+            },
+            "member4": {
+                "name": "Team Member 04",
+                "designation": "Engineering Team",
+                "imageAlt": "Fourth PST team member"
+            }
+        },
+        "technical": {
+            "eyebrow": "OUR TECHNICAL EXPERTISE",
+            "title": "Our Technical Team",
+            "description": "Our technical workforce supports a range of MEP activities with practical skills, teamwork and a focus on quality workmanship.",
+            "memberLabel": "Technical Expertise",
+            "hvac": {
+                "title": "HVAC & VRF",
+                "description": "Technical support for air conditioning, HVAC and VRF installation-related activities.",
+                "imageAlt": "HVAC technician working with air conditioning equipment"
+            },
+            "mep": {
+                "title": "MEP Services",
+                "description": "Support for mechanical, electrical and plumbing installation activities.",
+                "imageAlt": "MEP technician working on building services"
+            },
+            "installation": {
+                "title": "Installation Works",
+                "description": "Practical support for ducting, piping and other MEP installation activities.",
+                "imageAlt": "Technician carrying out MEP installation work"
+            },
+            "maintenance": {
+                "title": "Maintenance & Repair",
+                "description": "Technical support for inspection, maintenance and repair-related work.",
+                "imageAlt": "Technician performing equipment maintenance"
+            }
+        },
+        "commitment": {
+            "eyebrow": "WHAT DRIVES US",
+            "title": "Our Commitment to Excellence",
+            "description": "We believe that strong teamwork, practical expertise and a commitment to safety are essential to delivering dependable MEP services.",
+            "cardLabel": "Our Commitment",
+            "teamwork": {
+                "title": "Teamwork",
+                "description": "We value collaboration, communication and shared responsibility to support smooth project coordination and effective teamwork."
+            },
+            "expertise": {
+                "title": "Technical Expertise",
+                "description": "We focus on practical technical knowledge and professional workmanship across our MEP installation and maintenance activities."
+            },
+            "safety": {
+                "title": "Health & Safety",
+                "description": "We emphasize safe working practices, appropriate protective equipment and awareness of safety requirements at work sites."
+            }
+        },
+        "cta": {
+            "title": "Let's Build Something Great Together",
+            "description": "Looking for reliable MEP solutions for your next project? Get in touch with our team to discuss your requirements.",
+            "contactButton": "Contact Our Team",
+            "whatsappButton": "Chat on WhatsApp",
+            "whatsappMessage": "Hello PST, I would like to discuss an MEP project with your team."
+        }
+    },
     "Footer": {
         "description": "Your trusted MEP partner in Qatar. We provide installation, maintenance and technical services to support your project requirements.",
         "quickLinks": "Quick Links",

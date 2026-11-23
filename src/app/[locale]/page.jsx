@@ -11,7 +11,7 @@ import WhyChoosePreview from "@/components/home/WhyChoosePreview";
 import ProjectsPreview from "@/components/home/ProjectsPreview";
 import CTASection from "@/components/home/CTASection";
 import ContactPreview from "@/components/home/ContactPreview";
-import FloatingWhatsApp from "@/components/common/FloatingWhatsApp";
+// import FloatingWhatsApp from "@/components/common/FloatingWhatsApp";
 
 export default async function HomePage({ params }) {
     const { locale } = await params;
@@ -32,7 +32,6 @@ export default async function HomePage({ params }) {
             <ProjectsPreview />
             <CTASection />
             <ContactPreview />
-            <FloatingWhatsApp/>
         </main>
     );
 }

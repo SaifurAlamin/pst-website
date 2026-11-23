@@ -8,6 +8,38 @@ import {
     ArrowUpRight,
 } from "lucide-react";
 
+function FacebookIcon() {
+    return (
+        <svg
+            viewBox="0 0 24 24"
+            fill="currentColor"
+            className="h-5 w-5"
+            aria-hidden="true"
+        >
+            <path d="M24 12.073C24 5.405 18.627 0 12 0S0 5.405 0 12.073C0 18.1 4.388 23.094 10.125 24v-8.437H7.078v-3.49h3.047V9.413c0-3.025 1.792-4.697 4.533-4.697 1.312 0 2.686.236 2.686.236v2.97h-1.513c-1.49 0-1.953.93-1.953 1.885v2.266h3.328l-.532 3.49h-2.796V24C19.612 23.094 24 18.1 24 12.073Z" />
+        </svg>
+    );
+}
+
+function InstagramIcon() {
+    return (
+        <svg
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            strokeWidth="2"
+            strokeLinecap="round"
+            strokeLinejoin="round"
+            className="h-5 w-5"
+            aria-hidden="true"
+        >
+            <rect width="20" height="20" x="2" y="2" rx="5" />
+            <circle cx="12" cy="12" r="4" />
+            <circle cx="18" cy="6" r="0.8" fill="currentColor" />
+        </svg>
+    );
+}
+
 export default function Footer() {
     const t = useTranslations("Footer");
     const nav = useTranslations("Navigation");
@@ -17,11 +49,17 @@ export default function Footer() {
 
     const navItems = [
         { key: "home", href: "/" },
-        // { key: "about", href: "/about" },
+        { key: "about", href: "/about" },
         { key: "services", href: "/services" },
         { key: "projects", href: "/projects" },
-        // { key: "team", href: "/team" },
-        // { key: "contact", href: "/contact" },
+        { key: "team", href: "/team" },
+        { key: "contact", href: "/contact" },
+    ];
+
+    const phoneNumbers = [
+        "+974 7767 6249",
+        "+974 6626 2691",
+        "+974 5092 5474",
     ];
 
     return (
@@ -39,21 +77,15 @@ export default function Footer() {
                         <Link
                             href="/"
                             dir="ltr"
-                            className="inline-flex items-center gap-3"
+                            className="inline-flex items-center"
                         >
-                            <div className="flex h-12 w-12 items-center justify-center rounded-lg bg-pst-blue text-xl font-extrabold">
-                                PST
-                            </div>
-
-                            <div className="text-left">
-                                <p className="text-lg font-extrabold tracking-wide">
-                                    POWER SIXERS
-                                </p>
-
-                                <p className="mt-1 text-[10px] font-semibold tracking-[2px] text-blue-300">
-                                    BUILD · INSTALL · MAINTAIN
-                                </p>
-                            </div>
+                            <img
+                                src="/images/logo/logo.png"
+                                alt="Power Sixers Trading and Contracting W.L.L."
+                                className="h-16 w-auto object-contain sm:h-20 lg:h-24"
+                                width="300"
+                                height="100"
+                            />
                         </Link>
 
                         <p className="mt-6 max-w-md text-sm leading-7 text-slate-400">
@@ -67,6 +99,39 @@ export default function Footer() {
                         >
                             {t("crNumber")}: 169875
                         </p>
+
+                        {/* Social Media */}
+                        <div className="mt-7">
+                            <h3 className="text-sm font-bold text-white">
+                                {isArabic ? "تابعونا" : "Follow Us"}
+                            </h3>
+
+                            <div className="mt-4 flex items-center gap-3">
+
+                                <a
+                                    href="https://www.facebook.com/profile.php?id=61596166545461"
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                    aria-label="Facebook"
+                                    title="Follow us on Facebook"
+                                    className="flex h-10 w-10 items-center justify-center rounded-lg border border-white/10 bg-white/5 text-[#1877F2] transition-all duration-300 hover:-translate-y-1 hover:bg-white/10"
+                                >
+                                    <FacebookIcon />
+                                </a>
+
+                                <a
+                                    href="https://www.instagram.com/powersixers.qa2025"
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                    aria-label="Instagram"
+                                    title="Follow us on Instagram"
+                                    className="flex h-10 w-10 items-center justify-center rounded-lg border border-white/10 bg-white/5 text-[#E4405F] transition-all duration-300 hover:-translate-y-1 hover:bg-white/10"
+                                >
+                                    <InstagramIcon />
+                                </a>
+
+                            </div>
+                        </div>
                     </div>
 
                     {/* Quick Links */}
@@ -126,19 +191,15 @@ export default function Footer() {
                                     dir="ltr"
                                     className="flex flex-col gap-2 text-left text-sm text-slate-400"
                                 >
-                                    <a
-                                        href="tel:+97450925474"
-                                        className="transition hover:text-white"
-                                    >
-                                        +974 5092 5474
-                                    </a>
-
-                                    <a
-                                        href="tel:+97466262691"
-                                        className="transition hover:text-white"
-                                    >
-                                        +974 6626 2691
-                                    </a>
+                                    {phoneNumbers.map((phone) => (
+                                        <a
+                                            key={phone}
+                                            href={`tel:${phone.replace(/\s/g, "")}`}
+                                            className="transition hover:text-white"
+                                        >
+                                            {phone}
+                                        </a>
+                                    ))}
                                 </div>
                             </li>
 

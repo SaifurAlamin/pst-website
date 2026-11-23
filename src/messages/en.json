@@ -138,6 +138,26 @@
             "hours": {
                 "title": "Working Hours",
                 "value": "Contact us for our current business hours and availability."
+            },
+            "management": {
+                "eyebrow": "CONTACT OUR LEADERSHIP",
+                "title": "Speak With Our Management",
+                "description": "Connect directly with our management team for business enquiries, project discussions and service-related assistance.",
+                "memberLabel": "PST MANAGEMENT",
+                "call": "Call",
+                "whatsapp": "WhatsApp",
+                "member1": {
+                    "designation": "Managing Director"
+                },
+                "member2": {
+                    "designation": "Managing Partner"
+                },
+                "member3": {
+                    "designation": "Managing Partner"
+                },
+                "member4": {
+                    "designation": "Managing Partner"
+                }
             }
         },
         "form": {
@@ -316,29 +336,23 @@
             "imageAlt": "PST team members wearing safety helmets and reflective vests at a construction site"
         },
         "leadership": {
-            "eyebrow": "OUR LEADERSHIP",
-            "title": "Meet Our Team",
-            "description": "The people behind our work bring dedication, practical knowledge and a shared commitment to quality.",
-            "memberLabel": "PST Team",
+            "eyebrow": "OUR MANAGEMENT",
+            "title": "Meet Our Leadership",
+            "description": "Meet the people leading Power Sixers Trading and Contracting W.L.L. Our management team is committed to professional service, reliable project delivery and long-term business relationships.",
+            "memberLabel": "PST MANAGEMENT",
+            "call": "Call",
+            "whatsapp": "WhatsApp",
             "member1": {
-                "name": "Team Member 01",
-                "designation": "Management Team",
-                "imageAlt": "First PST team member"
+                "designation": "Managing Director"
             },
             "member2": {
-                "name": "Team Member 02",
-                "designation": "Project Management",
-                "imageAlt": "Second PST team member"
+                "designation": "Managing Partner"
             },
             "member3": {
-                "name": "Team Member 03",
-                "designation": "Technical Team",
-                "imageAlt": "Third PST team member"
+                "designation": "Managing Partner"
             },
             "member4": {
-                "name": "Team Member 04",
-                "designation": "Engineering Team",
-                "imageAlt": "Fourth PST team member"
+                "designation": "Managing Partner"
             }
         },
         "technical": {

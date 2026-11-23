@@ -1,4 +1,3 @@
-
 {
     "Metadata": {
         "title": "PST | Your Trusted MEP Partner in Qatar",
@@ -99,181 +98,200 @@
         "title": "Our Professional Services",
         "description": "Explore our range of MEP and technical services designed to support building and project requirements.",
         "metadata": {
-        "title": "خدماتنا | أنظمة الهندسة والتكييف والصيانة في قطر - PST",
-        "description": "اكتشف خدمات PST في تركيب أنظمة الهندسة والتكييف المركزي وVRF وصيانة المكيفات وأعمال مجاري الهواء وأنابيب المياه المبردة والسباكة ومكافحة الحريق والعمالة الفنية في قطر.",
-        "imageAlt": "خدمات PST المهنية في مجال الهندسة والتكييف في قطر"
-    }
-    },
-   
-"ContactPage": {
-
-"metadata": {
-    "title": "Contact Us | PST - MEP Company in Qatar",
-    "description": "Contact Power Sixers Trading and Contracting W.L.L. in Doha, Qatar for MEP installation, HVAC, AC maintenance, ducting, plumbing, fire fighting and technical manpower services.",
-    "imageAlt": "Contact PST for MEP and technical services in Qatar"
-},
-
-    "hero": {
-        "home": "Home",
-        "breadcrumb": "Contact Us",
-        "eyebrow": "LET'S CONNECT",
-        "title": "Get in Touch With Our Team",
-        "description": "Have a project in mind or need reliable MEP solutions? Get in touch with our team. We are ready to discuss your requirements and help you move forward."
-    },
-    "info": {
-        "eyebrow": "CONTACT INFORMATION",
-        "title": "Let's Start a Conversation",
-        "description": "Reach out to us for MEP solutions, project inquiries, or general information. Our team is ready to assist you.",
-        "location": {
-            "title": "Our Location",
-            "value": "Doha, Qatar",
-            "action": "View Location"
-        },
-        "phone": {
-            "title": "Call Us",
-            "value": "+974 5092 5474\n+974 6626 2691",
-            "action": "Call Now"
-        },
-        "email": {
-            "title": "Email Us",
-            "value": "powersixers.qa@gmail.com",
-            "action": "Send Email"
-        },
-        "hours": {
-            "title": "Working Hours",
-            "value": "Contact us for our current business hours and availability."
+            "title": "خدماتنا | أنظمة الهندسة والتكييف والصيانة في قطر - PST",
+            "description": "اكتشف خدمات PST في تركيب أنظمة الهندسة والتكييف المركزي وVRF وصيانة المكيفات وأعمال مجاري الهواء وأنابيب المياه المبردة والسباكة ومكافحة الحريق والعمالة الفنية في قطر.",
+            "imageAlt": "خدمات PST المهنية في مجال الهندسة والتكييف في قطر"
         }
     },
-    "form": {
-        "eyebrow": "SEND US A MESSAGE",
-        "title": "Tell Us About Your Project",
-        "description": "Share your requirements with us. Whether you need MEP installation, HVAC services or technical support, our team is ready to hear from you.",
-        "noteTitle": "Let's Discuss Your Requirements",
-        "noteDescription": "Provide a few details about your inquiry so we can better understand your project requirements.",
-        "name": "Full Name",
-        "namePlaceholder": "Enter your full name",
-        "email": "Email Address",
-        "emailPlaceholder": "Enter your email address",
-        "phone": "Phone Number",
-        "phonePlaceholder": "Enter your phone number",
-        "subject": "Subject",
-        "subjectPlaceholder": "What is your inquiry about?",
-        "message": "Your Message",
-        "messagePlaceholder": "Tell us more about your project or requirements...",
-        "submit": "Submit Message",
-        "disclaimer": "All fields marked with * are required.",
-        "successTitle": "Form Submitted Successfully!",
-        "successDescription": "Your form passed frontend validation. Actual message delivery will be available after email integration.",
-        "validation": {
-            "name": "Name must contain at least 2 characters.",
-            "email": "Please enter a valid email address.",
-            "phone": "Please enter a valid phone number.",
-            "subject": "Subject must contain at least 3 characters.",
-            "message": "Message must contain at least 10 characters."
-        }
-    }
-},
-
-"AboutPage": {
-
-"metadata": {
-    "title": "About Us | PST - MEP Company in Qatar",
-    "description": "Learn about Power Sixers Trading and Contracting W.L.L. in Doha, Qatar. Explore our MEP installation, HVAC, AC maintenance, plumbing, fire fighting and technical manpower services.",
-    "imageAlt": "PST - MEP services and project work in Qatar"
-},
-
-    "hero": {
-        "home": "Home",
-        "breadcrumb": "About Us",
-        "eyebrow": "GET TO KNOW PST",
-        "title": "Building Reliable MEP Solutions for Qatar",
-        "description": "Learn more about Power Sixers Trading and Contracting W.L.L., our services, our approach and our commitment to supporting project requirements across Qatar."
-    },
-    "introduction": {
-        "eyebrow": "WHO WE ARE",
-        "title": "Your Trusted MEP Partner in Qatar",
-        "description": "Power Sixers Trading and Contracting W.L.L. is based in Doha, Qatar. We provide mechanical, electrical and plumbing related installation and technical services to support a variety of project requirements.",
-        "secondDescription": "Our service areas include MEP installation, HVAC and VRF installation, AC maintenance and repair, ducting and chilled water piping, plumbing, fire fighting and skilled MEP manpower.",
-        "features": {
-            "installation": "MEP installation solutions",
-            "maintenance": "HVAC and AC maintenance services",
-            "technical": "Technical manpower support"
+    "ContactPage": {
+        "metadata": {
+            "title": "Contact Us | PST - MEP Company in Qatar",
+            "description": "Contact Power Sixers Trading and Contracting W.L.L. in Doha, Qatar for MEP installation, HVAC, AC maintenance, ducting, plumbing, fire fighting and technical manpower services.",
+            "imageAlt": "Contact PST for MEP and technical services in Qatar"
         },
-        "card": {
-            "eyebrow": "POWER SIXERS TRADING AND CONTRACTING W.L.L.",
-            "title": "Build. Install. Maintain.",
-            "description": "Supporting project requirements through practical MEP services and technical solutions.",
-            "location": "Doha, Qatar"
-        }
-    },
-    "missionVision": {
-        "eyebrow": "OUR PURPOSE",
-        "title": "What Guides Our Work",
-        "description": "Our approach is shaped by practical service, responsible work and a focus on project requirements.",
-        "mission": {
-            "title": "Our Mission",
-            "description": "To provide practical MEP installation, maintenance and technical services that address our clients' project requirements."
+        "hero": {
+            "home": "Home",
+            "breadcrumb": "Contact Us",
+            "eyebrow": "LET'S CONNECT",
+            "title": "Get in Touch With Our Team",
+            "description": "Have a project in mind or need reliable MEP solutions? Get in touch with our team. We are ready to discuss your requirements and help you move forward."
         },
-        "vision": {
-            "title": "Our Vision",
-            "description": "To build lasting professional relationships through dependable services and a consistent approach to project support."
+        "info": {
+            "eyebrow": "CONTACT INFORMATION",
+            "title": "Let's Start a Conversation",
+            "description": "Reach out to us for MEP solutions, project inquiries, or general information. Our team is ready to assist you.",
+            "location": {
+                "title": "Our Location",
+                "value": "Doha, Qatar",
+                "action": "View Location"
+            },
+            "phone": {
+                "title": "Call Us",
+                "value": "+974 5092 5474\n+974 6626 2691",
+                "action": "Call Now"
+            },
+            "email": {
+                "title": "Email Us",
+                "value": "powersixers.qa@gmail.com",
+                "action": "Send Email"
+            },
+            "hours": {
+                "title": "Working Hours",
+                "value": "Contact us for our current business hours and availability."
+            }
         },
-        "values": {
-            "title": "Our Values",
-            "description": "We value professionalism, clear communication, responsible work practices and attention to project requirements."
+        "form": {
+            "eyebrow": "SEND US A MESSAGE",
+            "title": "Tell Us About Your Project",
+            "description": "Share your requirements with us. Whether you need MEP installation, HVAC services or technical support, our team is ready to hear from you.",
+            "noteTitle": "Let's Discuss Your Requirements",
+            "noteDescription": "Provide a few details about your inquiry so we can better understand your project requirements.",
+            "name": "Full Name",
+            "namePlaceholder": "Enter your full name",
+            "email": "Email Address",
+            "emailPlaceholder": "Enter your email address",
+            "phone": "Phone Number",
+            "phonePlaceholder": "Enter your phone number",
+            "subject": "Subject",
+            "subjectPlaceholder": "What is your inquiry about?",
+            "message": "Your Message",
+            "messagePlaceholder": "Tell us more about your project or requirements...",
+            "submit": "Submit Message",
+            "disclaimer": "All fields marked with * are required.",
+            "successTitle": "Form Submitted Successfully!",
+            "successDescription": "Your form passed frontend validation. Actual message delivery will be available after email integration.",
+            "validation": {
+                "name": "Name must contain at least 2 characters.",
+                "email": "Please enter a valid email address.",
+                "phone": "Please enter a valid phone number.",
+                "subject": "Subject must contain at least 3 characters.",
+                "message": "Message must contain at least 10 characters."
+            }
         }
     },
-    "whyChoose": {
-        "eyebrow": "WHY PST",
-        "title": "A Practical Approach to MEP Services",
-        "description": "We focus on understanding project requirements and providing relevant installation, maintenance and technical support.",
-        "solutions": {
-            "title": "Integrated MEP Services",
-            "description": "A range of mechanical, electrical and plumbing related services for different project needs."
+    "AboutPage": {
+        "metadata": {
+            "title": "About Us | PST - MEP Company in Qatar",
+            "description": "Learn about Power Sixers Trading and Contracting W.L.L. in Doha, Qatar. Explore our MEP installation, HVAC, AC maintenance, plumbing, fire fighting and technical manpower services.",
+            "imageAlt": "PST - MEP services and project work in Qatar"
         },
-        "technical": {
-            "title": "Technical Support",
-            "description": "Installation, maintenance and repair services across our key service areas."
+        "hero": {
+            "home": "Home",
+            "breadcrumb": "About Us",
+            "eyebrow": "GET TO KNOW PST",
+            "title": "Building Reliable MEP Solutions for Qatar",
+            "description": "Learn more about Power Sixers Trading and Contracting W.L.L., our services, our approach and our commitment to supporting project requirements across Qatar."
         },
-        "manpower": {
-            "title": "Skilled Manpower",
-            "description": "Technical manpower support for project-related requirements."
+        "introduction": {
+            "eyebrow": "WHO WE ARE",
+            "title": "Your Trusted MEP Partner in Qatar",
+            "description": "Power Sixers Trading and Contracting W.L.L. is based in Doha, Qatar. We provide mechanical, electrical and plumbing related installation and technical services to support a variety of project requirements.",
+            "secondDescription": "Our service areas include MEP installation, HVAC and VRF installation, AC maintenance and repair, ducting and chilled water piping, plumbing, fire fighting and skilled MEP manpower.",
+            "features": {
+                "installation": "MEP installation solutions",
+                "maintenance": "HVAC and AC maintenance services",
+                "technical": "Technical manpower support"
+            },
+            "card": {
+                "eyebrow": "POWER SIXERS TRADING AND CONTRACTING W.L.L.",
+                "title": "Build. Install. Maintain.",
+                "description": "Supporting project requirements through practical MEP services and technical solutions.",
+                "location": "Doha, Qatar"
+            }
         },
-        "commitment": {
-            "title": "Responsible Approach",
-            "description": "Attention to project requirements, communication and responsible service delivery."
+        "missionVision": {
+            "badge": "OUR PURPOSE",
+            "heading": "Our Mission, Vision & Values",
+            "description": "Our commitment to quality, reliability and professional excellence guides everything we do.",
+            "mission": {
+                "title": "Our Mission",
+                "description": "To deliver reliable MEP solutions through quality workmanship, professional service and a commitment to client satisfaction."
+            },
+            "vision": {
+                "title": "Our Vision",
+                "description": "To become a trusted MEP service provider in Qatar, recognized for dependable solutions and professional excellence."
+            },
+            "values": {
+                "title": "Our Values",
+                "description": "We value integrity, teamwork, safety, accountability and continuous improvement in every project."
+            }
+        },
+        "whyChoose": {
+            "eyebrow": "WHY PST",
+            "title": "A Practical Approach to MEP Services",
+            "description": "We focus on understanding project requirements and providing relevant installation, maintenance and technical support.",
+            "solutions": {
+                "title": "Integrated MEP Services",
+                "description": "A range of mechanical, electrical and plumbing related services for different project needs."
+            },
+            "technical": {
+                "title": "Technical Support",
+                "description": "Installation, maintenance and repair services across our key service areas."
+            },
+            "manpower": {
+                "title": "Skilled Manpower",
+                "description": "Technical manpower support for project-related requirements."
+            },
+            "commitment": {
+                "title": "Responsible Approach",
+                "description": "Attention to project requirements, communication and responsible service delivery."
+            }
+        },
+        "strengths": {
+            "eyebrow": "OUR SERVICE AREAS",
+            "title": "Supporting Different Project Requirements",
+            "description": "Our services cover key MEP and technical areas for installation, maintenance and project support.",
+            "mep": {
+                "title": "MEP Installation",
+                "description": "Mechanical, electrical and plumbing related installation services."
+            },
+            "hvac": {
+                "title": "HVAC & VRF",
+                "description": "HVAC and VRF installation, AC maintenance and repair services."
+            },
+            "execution": {
+                "title": "Ducting & Piping",
+                "description": "Ducting and chilled water piping, plumbing and fire fighting installation."
+            },
+            "manpower": {
+                "title": "Technical Manpower",
+                "description": "Skilled MEP manpower support for project requirements."
+            }
+        },
+        "facilities": {
+            "eyebrow": "OUR FACILITIES",
+            "title": "Facilities & Technical Resources",
+            "description": "Explore the workplace resources, technical equipment and work environments that support engineering and contracting activities.",
+            "cardLabel": "Our Resources",
+            "office": {
+                "title": "Office & Administration",
+                "description": "An administrative workspace supporting communication, coordination, planning and day-to-day business activities.",
+                "imageAlt": "Office and administrative workspace"
+            },
+            "equipment": {
+                "title": "Workshop & Equipment",
+                "description": "Tools and equipment supporting installation, maintenance, repair and technical work across different project requirements.",
+                "imageAlt": "Workshop tools and mechanical equipment"
+            },
+            "technical": {
+                "title": "Technical Resources",
+                "description": "Technical resources and installation equipment supporting HVAC, ducting, piping and MEP-related work.",
+                "imageAlt": "Technical equipment for MEP and HVAC work"
+            },
+            "safety": {
+                "title": "Health & Safety",
+                "description": "Safety equipment and responsible work practices help support safer working environments across project activities.",
+                "imageAlt": "Construction safety equipment and protective gear"
+            }
+        },
+        "cta": {
+            "eyebrow": "LET'S WORK TOGETHER",
+            "title": "Have an MEP Project in Mind?",
+            "description": "Talk to our team about your project requirements and explore how our MEP services can support your work.",
+            "contactButton": "Contact Our Team",
+            "servicesButton": "Explore Our Services"
         }
     },
-    "strengths": {
-        "eyebrow": "OUR SERVICE AREAS",
-        "title": "Supporting Different Project Requirements",
-        "description": "Our services cover key MEP and technical areas for installation, maintenance and project support.",
-        "mep": {
-            "title": "MEP Installation",
-            "description": "Mechanical, electrical and plumbing related installation services."
-        },
-        "hvac": {
-            "title": "HVAC & VRF",
-            "description": "HVAC and VRF installation, AC maintenance and repair services."
-        },
-        "execution": {
-            "title": "Ducting & Piping",
-            "description": "Ducting and chilled water piping, plumbing and fire fighting installation."
-        },
-        "manpower": {
-            "title": "Technical Manpower",
-            "description": "Skilled MEP manpower support for project requirements."
-        }
-    },
-    "cta": {
-        "eyebrow": "LET'S WORK TOGETHER",
-        "title": "Have an MEP Project in Mind?",
-        "description": "Talk to our team about your project requirements and explore how our MEP services can support your work.",
-        "contactButton": "Contact Our Team",
-        "servicesButton": "Explore Our Services"
-    }
-},
-
     "Footer": {
         "description": "Your trusted MEP partner in Qatar. We provide installation, maintenance and technical services to support your project requirements.",
         "quickLinks": "Quick Links",

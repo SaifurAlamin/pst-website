@@ -14,6 +14,7 @@ import MissionVision from "@/components/about/MissionVision";
 import WhyChooseUs from "@/components/about/WhyChooseUs";
 import CompanyStrengths from "@/components/about/CompanyStrengths";
 import AboutCTA from "@/components/about/AboutCTA";
+import OurFacilities from "@/components/about/OurFacilities";
 
 export async function generateMetadata({ params }) {
     const { locale } = await params;
@@ -85,6 +86,7 @@ export default async function AboutPage({ params }) {
             <MissionVision />
             <WhyChooseUs />
             <CompanyStrengths />
+            <OurFacilities />
             <AboutCTA />
         </main>
     );

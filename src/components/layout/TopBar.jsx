@@ -54,7 +54,7 @@ export default function TopBar() {
                 {/* Left Side - Logo & Phone Numbers */}
                 <div className="flex flex-wrap items-center gap-x-5 gap-y-2">
 
-                    <Link
+                    {/* <Link
                         href="/"
                         dir="ltr"
                         className="flex shrink-0 items-center"
@@ -66,7 +66,7 @@ export default function TopBar() {
                             width="200"
                             height="80"
                         />
-                    </Link>
+                    </Link> */}
 
                     {/* Phone Contacts */}
                     <div className="flex min-w-0 items-center gap-2">

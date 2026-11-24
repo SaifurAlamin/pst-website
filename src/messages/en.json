@@ -46,13 +46,13 @@
         "servicesEyebrow": "WHAT WE DO",
         "servicesTitle": "Our Professional MEP Services",
         "servicesDescription": "We provide reliable MEP installation, maintenance and technical services to support different project requirements.",
-        "serviceOneTitle": "MEP Installation",
+        "serviceOneTitle": "HVAC Ducting Installation",
         "serviceOneDescription": "Professional mechanical, electrical and plumbing installation solutions for project requirements.",
-        "serviceTwoTitle": "HVAC & VRF Installation",
+        "serviceTwoTitle": "VRF Installation",
         "serviceTwoDescription": "Installation solutions for HVAC and VRF systems to support comfortable and efficient indoor environments.",
         "serviceThreeTitle": "AC Maintenance & Repair",
         "serviceThreeDescription": "Air conditioning maintenance and repair services to support reliable system performance.",
-        "serviceFourTitle": "Ducting & Chilled Water Piping",
+        "serviceFourTitle": "Chilled Water Piping",
         "serviceFourDescription": "Ducting and chilled water piping installation services for HVAC system requirements.",
         "serviceFiveTitle": "Plumbing & Fire Fighting",
         "serviceFiveDescription": "Plumbing installation and fire fighting system services for building project requirements.",
@@ -340,20 +340,21 @@
             "title": "Meet Our Leadership",
             "description": "Meet the people leading Power Sixers Trading and Contracting W.L.L. Our management team is committed to professional service, reliable project delivery and long-term business relationships.",
             "memberLabel": "PST MANAGEMENT",
-            "call": "Call",
-            "whatsapp": "WhatsApp",
+            "experienceLabel": "Years Experience",
             "member1": {
-                "designation": "Managing Director"
+                "experience": "5+ Years"
             },
             "member2": {
-                "designation": "Managing Partner"
+                "experience": "5+ Years"
             },
             "member3": {
-                "designation": "Managing Partner"
+                "experience": "5+ Years"
             },
             "member4": {
-                "designation": "Managing Partner"
-            }
+                "experience": "3+ Years"
+            },
+            "call": "Call",
+            "whatsapp": "WhatsApp"
         },
         "technical": {
             "eyebrow": "OUR TECHNICAL EXPERTISE",

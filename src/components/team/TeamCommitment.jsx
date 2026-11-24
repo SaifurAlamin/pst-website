@@ -81,10 +81,6 @@ export default function TeamCommitment() {
                                 }}
                                 className="group relative overflow-hidden rounded-2xl border border-slate-200 bg-white p-8 shadow-sm transition-all duration-500 hover:-translate-y-2 hover:border-pst-blue/30 hover:shadow-xl md:p-10"
                             >
-                                {/* Background Number */}
-                                <span className={`absolute top-5 ${isArabic ? "left-7" : "right-7"} text-6xl font-black text-slate-100 transition-colors duration-500 group-hover:text-blue-50`}>
-                                    {item.number}
-                                </span>
 
                                 {/* Icon */}
                                 <div className={`relative mb-8 flex h-16 w-16 items-center justify-center rounded-2xl ${item.color} transition-transform duration-500 group-hover:scale-110 group-hover:rotate-3`}>

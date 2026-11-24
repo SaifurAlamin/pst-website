@@ -1,77 +1,77 @@
 
 export const services = [
     {
-        slug: "mep-installation",
-        image: "/images/services/mep-installation.webp",
+        slug: "hvac-ducting-installation",
+        image: "/images/services/hvac-ducting.webp",
         icon: "Building2",
         en: {
-            title: "MEP Installation",
+            title: "HVAC Ducting Installation",
             shortDescription:
-                "Integrated mechanical, electrical and plumbing installation solutions for building projects.",
+                "Professional HVAC ductwork installation solutions for commercial buildings and project requirements.",
             description:
-                "Power Sixers Trading and Contracting W.L.L. provides mechanical, electrical and plumbing installation services to support building and project requirements.",
+                "Power Sixers Trading and Contracting W.L.L. provides HVAC ducting installation services to support air distribution and ventilation requirements in building projects.",
             overview:
-                "MEP systems play an important role in the functionality and comfort of modern buildings. Our service scope covers installation-related requirements for mechanical, electrical and plumbing systems.",
+                "HVAC ductwork plays an important role in distributing conditioned air throughout buildings. Our service scope covers ductwork installation and related work according to project requirements.",
             features: [
-                "Mechanical system installation",
-                "Electrical installation support",
-                "Plumbing system installation",
-                "Coordination with project requirements"
+                "HVAC ductwork installation",
+                "Air distribution duct installation",
+                "Duct fitting and assembly",
+                "Installation coordination for project requirements"
             ],
-            imageAlt: "Mechanical electrical and plumbing installation work"
+            imageAlt: "HVAC ductwork installation in a commercial building"
         },
         ar: {
-            title: "تركيب الأنظمة الميكانيكية والكهربائية والسباكة",
+            title: "تركيب مجاري الهواء لأنظمة التكييف",
             shortDescription:
-                "حلول متكاملة لتركيب الأنظمة الميكانيكية والكهربائية والسباكة لمشاريع المباني.",
+                "حلول احترافية لتركيب مجاري الهواء لأنظمة التكييف في المباني التجارية والمشاريع.",
             description:
-                "تقدم شركة باور سيكسرز للتجارة والمقاولات خدمات تركيب الأنظمة الميكانيكية والكهربائية والسباكة لدعم متطلبات المباني والمشاريع.",
+                "تقدم شركة باور سيكسرز للتجارة والمقاولات خدمات تركيب مجاري الهواء لأنظمة التكييف لتلبية متطلبات توزيع الهواء والتهوية في مشاريع المباني.",
             overview:
-                "تؤدي أنظمة الهندسة الميكانيكية والكهربائية والسباكة دوراً مهماً في كفاءة المباني الحديثة وراحتها. تشمل خدماتنا متطلبات تركيب هذه الأنظمة وفقاً لاحتياجات المشاريع.",
+                "تؤدي مجاري الهواء دوراً مهماً في توزيع الهواء المكيّف داخل المباني. تشمل خدماتنا تركيب مجاري الهواء والأعمال المرتبطة بها وفقاً لمتطلبات المشاريع.",
             features: [
-                "تركيب الأنظمة الميكانيكية",
-                "دعم أعمال التركيبات الكهربائية",
-                "تركيب أنظمة السباكة",
-                "التنسيق وفقاً لمتطلبات المشاريع"
+                "تركيب مجاري الهواء لأنظمة التكييف",
+                "تركيب مجاري توزيع الهواء",
+                "تجميع وتركيب وصلات مجاري الهواء",
+                "تنسيق أعمال التركيب وفقاً لمتطلبات المشاريع"
             ],
-            imageAlt: "أعمال تركيب الأنظمة الميكانيكية والكهربائية والسباكة"
+            imageAlt: "أعمال تركيب مجاري الهواء لأنظمة التكييف في مبنى تجاري"
         }
     },
     {
-        slug: "hvac-vrf-installation",
-        image: "/images/services/hvac-vrf.webp",
+        slug: "vrf-installation",
+        image: "/images/services/vrf-installation.webp",
         icon: "Wind",
         en: {
-            title: "HVAC & VRF Installation",
+            title: "VRF Installation",
             shortDescription:
-                "Air conditioning and VRF installation solutions for commercial and building environments.",
+                "Professional VRF system installation solutions for commercial buildings and indoor environments.",
             description:
-                "We provide HVAC and VRF installation services to support air conditioning requirements in commercial and building projects.",
+                "We provide VRF installation services to support efficient air conditioning requirements in commercial and building projects.",
             overview:
-                "Heating, ventilation and air conditioning systems contribute to indoor comfort and air circulation. Our service scope includes installation requirements for HVAC and VRF systems.",
+                "Variable Refrigerant Flow (VRF) systems provide flexible air conditioning solutions for different building environments. Our service scope includes installation and setup of VRF systems according to project requirements.",
             features: [
-                "HVAC system installation",
                 "VRF system installation",
-                "Air conditioning equipment setup",
-                "Installation support for project requirements"
+                "Indoor and outdoor unit installation",
+                "Refrigerant piping installation",
+                "VRF system setup and installation support"
             ],
-            imageAlt: "Commercial HVAC and VRF air conditioning installation"
+            imageAlt: "VRF air conditioning system installation"
         },
         ar: {
-            title: "تركيب أنظمة التكييف وVRF",
+            title: "تركيب أنظمة VRF",
             shortDescription:
-                "حلول تركيب أنظمة التكييف وVRF للمباني والمنشآت التجارية.",
+                "حلول احترافية لتركيب أنظمة VRF في المباني التجارية والبيئات الداخلية.",
             description:
-                "نقدم خدمات تركيب أنظمة التكييف والتهوية وأنظمة VRF لتلبية متطلبات مشاريع المباني والمنشآت التجارية.",
+                "نقدم خدمات تركيب أنظمة VRF لتلبية متطلبات تكييف الهواء بكفاءة في المشاريع التجارية ومشاريع المباني.",
             overview:
-                "تساهم أنظمة التدفئة والتهوية وتكييف الهواء في توفير الراحة الداخلية وتحسين حركة الهواء. تشمل خدماتنا متطلبات تركيب أنظمة HVAC وVRF.",
+                "توفر أنظمة تدفق غاز التبريد المتغير (VRF) حلولاً مرنة لتكييف الهواء في مختلف أنواع المباني. تشمل خدماتنا تركيب وتجهيز أنظمة VRF وفقاً لمتطلبات المشاريع.",
             features: [
-                "تركيب أنظمة التكييف والتهوية",
                 "تركيب أنظمة VRF",
-                "تجهيز معدات التكييف",
-                "دعم أعمال التركيب وفقاً لمتطلبات المشاريع"
+                "تركيب الوحدات الداخلية والخارجية",
+                "تركيب أنابيب غاز التبريد",
+                "تجهيز أنظمة VRF ودعم أعمال التركيب"
             ],
-            imageAlt: "تركيب أنظمة التكييف وVRF التجارية"
+            imageAlt: "أعمال تركيب أنظمة تكييف الهواء VRF"
         }
     },
     {
@@ -112,40 +112,40 @@ export const services = [
         }
     },
     {
-        slug: "ducting-chilled-water-piping",
-        image: "/images/services/ducting.webp",
+        slug: "chilled-water-piping",
+        image: "/images/services/chilled-water-piping.webp",
         icon: "GitBranch",
         en: {
-            title: "Ducting & Chilled Water Piping",
+            title: "Chilled Water Piping",
             shortDescription:
-                "Ductwork and chilled water piping installation for HVAC system requirements.",
+                "Chilled water piping installation solutions for HVAC systems in commercial buildings and projects.",
             description:
-                "We provide ducting and chilled water piping installation services to support HVAC system requirements in building projects.",
+                "We provide chilled water piping installation services to support HVAC system requirements in building and commercial projects.",
             overview:
-                "Ductwork and chilled water piping are important components of many HVAC systems. Our service scope covers installation-related work for these systems.",
+                "Chilled water piping is an important component of central air conditioning systems. Our service scope covers piping installation and related work according to project requirements.",
             features: [
-                "HVAC ductwork installation",
                 "Chilled water piping installation",
-                "Piping and ducting support",
-                "Installation coordination"
+                "Chilled water supply and return piping",
+                "Pipe fitting and connection",
+                "Piping installation coordination"
             ],
-            imageAlt: "HVAC ductwork and chilled water piping installation"
+            imageAlt: "Chilled water piping installation for HVAC systems"
         },
         ar: {
-            title: "مجاري الهواء وأنابيب المياه المبردة",
+            title: "تركيب أنابيب المياه المبردة",
             shortDescription:
-                "خدمات تركيب مجاري الهواء وأنابيب المياه المبردة لأنظمة التكييف.",
+                "حلول تركيب أنابيب المياه المبردة لأنظمة التكييف في المباني التجارية والمشاريع.",
             description:
-                "نقدم خدمات تركيب مجاري الهواء وأنابيب المياه المبردة لدعم متطلبات أنظمة التكييف في مشاريع المباني.",
+                "نقدم خدمات تركيب أنابيب المياه المبردة لتلبية متطلبات أنظمة التكييف في مشاريع المباني والمنشآت التجارية.",
             overview:
-                "تُعد مجاري الهواء وأنابيب المياه المبردة من المكونات المهمة في العديد من أنظمة التكييف. تشمل خدماتنا أعمال التركيب المتعلقة بهذه الأنظمة.",
+                "تُعد أنابيب المياه المبردة من المكونات المهمة في أنظمة التكييف المركزي. تشمل خدماتنا تركيب الأنابيب والأعمال المرتبطة بها وفقاً لمتطلبات المشاريع.",
             features: [
-                "تركيب مجاري الهواء",
                 "تركيب أنابيب المياه المبردة",
-                "دعم أعمال الأنابيب ومجاري الهواء",
-                "تنسيق أعمال التركيب"
+                "تركيب أنابيب إمداد وعودة المياه المبردة",
+                "تركيب وصلات الأنابيب وتوصيلها",
+                "تنسيق أعمال تركيب الأنابيب"
             ],
-            imageAlt: "تركيب مجاري الهواء وأنابيب المياه المبردة"
+            imageAlt: "أعمال تركيب أنابيب المياه المبردة لأنظمة التكييف"
         }
     },
     {

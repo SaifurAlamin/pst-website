@@ -1,6 +1,8 @@
 
 "use client";
 
+import { useEffect, useState } from "react";
+import Image from "next/image";
 import { motion, useReducedMotion } from "framer-motion";
 import {
     ArrowUpRight,
@@ -15,9 +17,27 @@ import { useTranslations } from "next-intl";
 import { Link } from "@/i18n/navigation";
 import Container from "@/components/common/Container";
 
+const heroImages = [
+    "/images/hero/hero-main.webp",
+    "/images/hero/hero-second.webp",
+    "/images/hero/hero-third.webp",
+];
+
 export default function Hero() {
     const t = useTranslations("HomePage");
     const reduceMotion = useReducedMotion();
+
+    const [activeImage, setActiveImage] = useState(0);
+
+    useEffect(() => {
+        if (reduceMotion) return;
+
+        const interval = setInterval(() => {
+            setActiveImage((prev) => (prev + 1) % heroImages.length);
+        }, 5000);
+
+        return () => clearInterval(interval);
+    }, [reduceMotion]);
 
     const fadeUp = {
         hidden: { opacity: 0, y: reduceMotion ? 0 : 28 },
@@ -27,25 +47,28 @@ export default function Hero() {
     return (
         <section className="relative isolate min-h-[680px] overflow-hidden bg-pst-navy lg:min-h-[740px]">
 
-            {/* Background Image */}
-            <motion.div
-                initial={reduceMotion ? false : { scale: 1.08 }}
-                animate={{ scale: 1 }}
-                transition={{ duration: 1.8, ease: "easeOut" }}
-                className="absolute inset-0 -z-20"
-            >
-                <div
-                    className="absolute inset-0 bg-cover bg-center"
-                    style={{
-                        backgroundImage: "url('/images/hero/hero-main.webp')",
-                    }}
-                />
-            </motion.div>
+            {/* Animated Background Images */}
+            <div className="absolute inset-0 -z-20">
+                {heroImages.map((image, index) => (
+                    <Image
+                        key={image}
+                        src={image}
+                        alt="Power Sixers MEP and HVAC services"
+                        fill
+                        priority={index === 0}
+                        sizes="100vw"
+                        className={`object-cover transition-opacity duration-[1500ms] ease-in-out ${activeImage === index
+                            ? "opacity-100"
+                            : "opacity-0"
+                            }`}
+                    />
+                ))}
+            </div>
 
-            {/* Dark Overlay */}
-            <div className="absolute inset-0 -z-10 bg-gradient-to-r from-[#101D3A] via-[#101D3A]/90 to-[#101D3A]/45" />
+            {/* Balanced Dark Overlay */}
+            <div className="absolute inset-0 -z-10 bg-gradient-to-r from-[#101D3A]/85 via-[#101D3A]/55 to-[#101D3A]/20" />
 
-            <div className="absolute inset-0 -z-10 bg-gradient-to-t from-[#101D3A]/80 via-transparent to-[#101D3A]/20" />
+            <div className="absolute inset-0 -z-10 bg-gradient-to-t from-[#101D3A]/70 via-transparent to-[#101D3A]/20" />
 
             <Container>
                 <div className="grid min-h-[680px] items-center gap-14 py-20 lg:min-h-[740px] lg:grid-cols-[1.1fr_0.9fr] lg:py-24">
@@ -229,6 +252,22 @@ export default function Hero() {
                     </motion.div>
                 </div>
             </Container>
+
+            {/* Slide Indicators */}
+            <div className="absolute bottom-8 end-8 z-10 flex items-center gap-2">
+                {heroImages.map((image, index) => (
+                    <button
+                        key={image}
+                        type="button"
+                        onClick={() => setActiveImage(index)}
+                        aria-label={`Show background image ${index + 1}`}
+                        className={`h-2 rounded-full transition-all duration-500 ${activeImage === index
+                            ? "w-8 bg-white"
+                            : "w-2 bg-white/50 hover:bg-white/80"
+                            }`}
+                    />
+                ))}
+            </div>
 
             {/* Bottom Accent */}
             <div className="absolute bottom-0 left-0 h-1 w-full bg-gradient-to-r from-pst-blue via-blue-400 to-pst-red" />

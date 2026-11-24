@@ -17,11 +17,11 @@ export const projects = [
             ar: "قيد التنفيذ",
         },
 
-        image: "/images/projects/qafco-duct-replacement.webp",
+        image: "/images/projects/qafco-duct-replacement-2.webp",
 
         gallery: [
             "/images/projects/qafco-duct-replacement-1.webp",
-            "/images/projects/qafco-duct-replacement-2.webp",
+            "/images/projects/qafco-duct-replacement.webp",
         ],
 
         en: {
@@ -58,65 +58,6 @@ export const projects = [
             ],
             imageAlt:
                 "أعمال استبدال مجاري الهواء ووحدات التكييف في قافكو، مسيعيد، قطر",
-        },
-    },
-
-    {
-        slug: "al-mana-tower-hvac-ceiling-works",
-
-        category: "hvac-ceiling",
-
-        categoryLabels: {
-            en: "HVAC & Ceiling",
-            ar: "التكييف والأسقف",
-        },
-
-        status: "completed",
-
-        statusLabels: {
-            en: "Completed",
-            ar: "مكتمل",
-        },
-
-        image: "/images/projects/al-mana-tower-hvac-ceiling.webp",
-
-        gallery: [
-            "/images/projects/al-mana-tower-hvac-ceiling-1.webp",
-            "/images/projects/al-mana-tower-hvac-ceiling-1.webp",
-        ],
-
-        en: {
-            title: "Al Mana Tower – 8th Floor Office Area",
-            location: "Doha, Qatar",
-            shortDescription:
-                "Completed HVAC duct installation and false ceiling works for the 8th floor office area.",
-            description:
-                "HVAC duct installation and false ceiling works at the 8th floor office area of Al Mana Tower, Doha, Qatar. The work included ductwork, air diffusers, ceiling installation and coordination of MEP services.",
-            scope: [
-                "HVAC duct installation",
-                "Air diffuser installation",
-                "False ceiling installation",
-                "MEP services coordination",
-            ],
-            imageAlt:
-                "HVAC duct and false ceiling works at Al Mana Tower, Doha",
-        },
-
-        ar: {
-            title: "برج المانع – أعمال الطابق الثامن",
-            location: "الدوحة، قطر",
-            shortDescription:
-                "أعمال تركيب مجاري الهواء والتشطيبات للأسقف المستعارة في منطقة المكاتب بالطابق الثامن.",
-            description:
-                "أعمال تركيب مجاري الهواء وأنظمة الأسقف المستعارة في منطقة المكاتب بالطابق الثامن من برج المانع في الدوحة، قطر. شملت الأعمال مجاري الهواء ومخارج توزيع الهواء وتركيب الأسقف والتنسيق بين خدمات MEP.",
-            scope: [
-                "تركيب مجاري الهواء",
-                "تركيب مخارج توزيع الهواء",
-                "تركيب الأسقف المستعارة",
-                "التنسيق بين خدمات MEP",
-            ],
-            imageAlt:
-                "أعمال مجاري الهواء والأسقف المستعارة في برج المانع، الدوحة",
         },
     },
 
@@ -176,6 +117,64 @@ export const projects = [
             ],
             imageAlt:
                 "أعمال تركيب أنظمة مكافحة الحريق في مدينة الوعب، قطر",
+        },
+    },
+    {
+        slug: "al-mana-tower-hvac-ceiling-works",
+
+        category: "hvac-ceiling",
+
+        categoryLabels: {
+            en: "HVAC & Ceiling",
+            ar: "التكييف والأسقف",
+        },
+
+        status: "completed",
+
+        statusLabels: {
+            en: "Completed",
+            ar: "مكتمل",
+        },
+
+        image: "/images/projects/al-mana-tower-hvac-ceiling.webp",
+
+        gallery: [
+            "/images/projects/al-mana-tower-hvac-ceiling-1.webp",
+            "/images/projects/al-mana-tower-hvac-ceiling-1.webp",
+        ],
+
+        en: {
+            title: "Al Mana Tower – 8th Floor Office Area",
+            location: "Doha, Qatar",
+            shortDescription:
+                "Completed HVAC duct installation and false ceiling works for the 8th floor office area.",
+            description:
+                "HVAC duct installation and false ceiling works at the 8th floor office area of Al Mana Tower, Doha, Qatar. The work included ductwork, air diffusers, ceiling installation and coordination of MEP services.",
+            scope: [
+                "HVAC duct installation",
+                "Air diffuser installation",
+                "False ceiling installation",
+                "MEP services coordination",
+            ],
+            imageAlt:
+                "HVAC duct and false ceiling works at Al Mana Tower, Doha",
+        },
+
+        ar: {
+            title: "برج المانع – أعمال الطابق الثامن",
+            location: "الدوحة، قطر",
+            shortDescription:
+                "أعمال تركيب مجاري الهواء والتشطيبات للأسقف المستعارة في منطقة المكاتب بالطابق الثامن.",
+            description:
+                "أعمال تركيب مجاري الهواء وأنظمة الأسقف المستعارة في منطقة المكاتب بالطابق الثامن من برج المانع في الدوحة، قطر. شملت الأعمال مجاري الهواء ومخارج توزيع الهواء وتركيب الأسقف والتنسيق بين خدمات MEP.",
+            scope: [
+                "تركيب مجاري الهواء",
+                "تركيب مخارج توزيع الهواء",
+                "تركيب الأسقف المستعارة",
+                "التنسيق بين خدمات MEP",
+            ],
+            imageAlt:
+                "أعمال مجاري الهواء والأسقف المستعارة في برج المانع، الدوحة",
         },
     },
 ];

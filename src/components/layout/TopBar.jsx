@@ -7,9 +7,9 @@ import { useLocale } from "next-intl";
 import { Link } from "@/i18n/navigation";
 
 const phoneNumbers = [
-    { name: "Alamgir", phone: "+974 7767 6249" },
-    { name: "Masum", phone: "+974 6626 2691" },
     { name: "Saju", phone: "+974 5092 5474" },
+    { name: "Masum", phone: "+974 6626 2691" },
+    { name: "Alamgir", phone: "+974 7767 6249" },
 ];
 
 function WhatsAppIcon({ size = 14 }) {

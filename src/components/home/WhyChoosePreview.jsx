@@ -55,15 +55,15 @@ export default async function WhyChoosePreview() {
 
                             {/* Section Label */}
                             <div className="mb-5 flex items-center gap-3">
-                                <span className="h-[2px] w-9 bg-pst-red" />
+                                <span className="h-[2px] w-9 bg-pstc-red" />
 
-                                <span className="text-xs font-bold uppercase tracking-[0.2em] text-pst-blue">
+                                <span className="text-xs font-bold uppercase tracking-[0.2em] text-pstc-blue">
                                     {t("whyChooseEyebrow")}
                                 </span>
                             </div>
 
                             {/* Heading */}
-                            <h2 className="max-w-xl text-3xl font-extrabold leading-tight text-pst-navy sm:text-4xl lg:text-5xl">
+                            <h2 className="max-w-xl text-3xl font-extrabold leading-tight text-pstc-navy sm:text-4xl lg:text-5xl">
                                 {t("whyChooseTitle")}
                             </h2>
 
@@ -100,7 +100,7 @@ export default async function WhyChoosePreview() {
                             {/* Button */}
                             <Link
                                 href="/about"
-                                className="mt-8 inline-flex items-center gap-3 rounded-lg bg-pst-blue px-7 py-3.5 text-sm font-semibold text-white transition-all duration-300 hover:bg-pst-navy"
+                                className="mt-8 inline-flex items-center gap-3 rounded-lg bg-pstc-blue px-7 py-3.5 text-sm font-semibold text-white transition-all duration-300 hover:bg-pstc-navy"
                             >
                                 {t("whyChooseButton")}
                                 <ArrowUpRight size={18} />
@@ -179,7 +179,7 @@ export default async function WhyChoosePreview() {
 
                                         {/* Title */}
                                         <h3
-                                            className={`mt-7 text-lg font-bold text-pst-navy transition-colors duration-300 ${color.title}`}
+                                            className={`mt-7 text-lg font-bold text-pstc-navy transition-colors duration-300 ${color.title}`}
                                         >
                                             {t(`${feature.key}Title`)}
                                         </h3>

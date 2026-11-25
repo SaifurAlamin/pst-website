@@ -49,8 +49,8 @@ export default function MobileMenu() {
                 id="mobile-navigation"
                 dir={isArabic ? "rtl" : "ltr"}
                 className={`fixed left-4 right-4 top-[5.75rem] z-[60] overflow-hidden rounded-2xl border border-white/10 bg-[#101D3A]/[0.98] shadow-2xl shadow-slate-950/30 backdrop-blur-xl transition-all duration-300 sm:left-auto sm:right-6 sm:w-[360px] ${isOpen
-                        ? "visible translate-y-0 opacity-100"
-                        : "invisible pointer-events-none -translate-y-3 opacity-0"
+                    ? "visible translate-y-0 opacity-100"
+                    : "invisible pointer-events-none -translate-y-3 opacity-0"
                     }`}
             >
                 <nav className="flex max-h-[calc(100vh-8rem)] flex-col gap-1 overflow-y-auto p-4">
@@ -71,8 +71,8 @@ export default function MobileMenu() {
                             <ChevronRight
                                 size={17}
                                 className={`shrink-0 text-blue-300 transition-transform duration-300 ${isArabic
-                                        ? "rotate-180 group-hover:-translate-x-1"
-                                        : "group-hover:translate-x-1"
+                                    ? "rotate-180 group-hover:-translate-x-1"
+                                    : "group-hover:translate-x-1"
                                     }`}
                             />
                         </Link>
@@ -85,7 +85,7 @@ export default function MobileMenu() {
                 </nav>
 
                 {/* Bottom Accent */}
-                <div className="h-1 w-full bg-gradient-to-r from-pst-blue via-blue-400 to-pst-red" />
+                <div className="h-1 w-full bg-gradient-to-r from-pstc-blue via-blue-400 to-pstc-red" />
             </div>
         </div>
     );

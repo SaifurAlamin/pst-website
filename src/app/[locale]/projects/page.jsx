@@ -9,14 +9,14 @@ import ProjectsGrid from "@/components/projects/ProjectsGrid";
 
 const seoContent = {
     en: {
-        title: "Our Projects | MEP & HVAC Works in Qatar | PST",
+        title: "Our Projects | MEP & HVAC Works in Qatar | PSTC",
         description:
-            "Explore PST's project work in Qatar, including HVAC duct installation, ceiling works, MEP solutions and fire fighting system installation.",
+            "Explore PSTC's project work in Qatar, including HVAC duct installation, ceiling works, MEP solutions and fire fighting system installation.",
     },
     ar: {
-        title: "مشاريعنا | أعمال التكييف والأنظمة الكهروميكانيكية في قطر | PST",
+        title: "مشاريعنا | أعمال التكييف والأنظمة الكهروميكانيكية في قطر | PSTC",
         description:
-            "اكتشف أعمال شركة PST في قطر في مجالات تركيب مجاري الهواء والتكييف والأسقف وأنظمة مكافحة الحريق وحلول الهندسة الكهروميكانيكية.",
+            "اكتشف أعمال شركة PSTC في قطر في مجالات تركيب مجاري الهواء والتكييف والأسقف وأنظمة مكافحة الحريق وحلول الهندسة الكهروميكانيكية.",
     },
 };
 
@@ -45,7 +45,7 @@ export async function generateMetadata({ params }) {
             images: [
                 {
                     url: "/images/projects/projects-hero.webp",
-                    alt: "PST Projects in Qatar",
+                    alt: "PSTC Projects in Qatar",
                 },
             ],
             type: "website",

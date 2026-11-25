@@ -10,11 +10,11 @@ export default async function CTASection() {
     const t = await getTranslations("HomePage");
 
     return (
-        <section className="relative isolate overflow-hidden bg-pst-navy py-20 md:py-28">
+        <section className="relative isolate overflow-hidden bg-pstc-navy py-20 md:py-28">
             {/* Background Decorations */}
             <div className="pointer-events-none absolute -right-24 -top-32 -z-10 h-96 w-96 rounded-full border border-white/10" />
             <div className="pointer-events-none absolute -right-10 -top-16 -z-10 h-64 w-64 rounded-full border border-white/10" />
-            <div className="pointer-events-none absolute -bottom-40 -left-20 -z-10 h-96 w-96 rounded-full bg-pst-blue/30 blur-3xl" />
+            <div className="pointer-events-none absolute -bottom-40 -left-20 -z-10 h-96 w-96 rounded-full bg-pstc-blue/30 blur-3xl" />
 
             <Container>
                 <Reveal>
@@ -35,7 +35,7 @@ export default async function CTASection() {
                         <div className="mt-10 flex flex-col items-center justify-center gap-4 sm:flex-row">
                             <Link
                                 href="/contact"
-                                className="group inline-flex w-full items-center justify-center gap-3 rounded-lg bg-white px-7 py-4 text-sm font-bold text-pst-navy transition-all duration-300 hover:-translate-y-1 hover:bg-blue-50 sm:w-auto"
+                                className="group inline-flex w-full items-center justify-center gap-3 rounded-lg bg-white px-7 py-4 text-sm font-bold text-pstc-navy transition-all duration-300 hover:-translate-y-1 hover:bg-blue-50 sm:w-auto"
                             >
                                 <MessageCircle size={19} />
                                 {t("ctaButton")}

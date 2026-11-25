@@ -45,7 +45,7 @@ export default function Hero() {
     };
 
     return (
-        <section className="relative isolate min-h-[680px] overflow-hidden bg-pst-navy lg:min-h-[740px]">
+        <section className="relative isolate min-h-[680px] overflow-hidden bg-pstc-navy lg:min-h-[740px]">
 
             {/* Animated Background Images */}
             <div className="absolute inset-0 -z-20">
@@ -116,7 +116,7 @@ export default function Hero() {
                         >
                             <Link
                                 href="/services"
-                                className="group inline-flex items-center gap-3 rounded-lg bg-pst-blue px-7 py-4 text-sm font-bold text-white shadow-xl shadow-blue-950/30 transition-all duration-300 hover:-translate-y-1 hover:bg-blue-500"
+                                className="group inline-flex items-center gap-3 rounded-lg bg-pstc-blue px-7 py-4 text-sm font-bold text-white shadow-xl shadow-blue-950/30 transition-all duration-300 hover:-translate-y-1 hover:bg-blue-500"
                             >
                                 {t("exploreServices")}
                                 <ArrowUpRight
@@ -127,7 +127,7 @@ export default function Hero() {
 
                             <Link
                                 href="/contact"
-                                className="inline-flex items-center gap-3 rounded-lg border border-white/30 bg-white/10 px-7 py-4 text-sm font-bold text-white backdrop-blur-sm transition-all duration-300 hover:bg-white hover:text-pst-navy"
+                                className="inline-flex items-center gap-3 rounded-lg border border-white/30 bg-white/10 px-7 py-4 text-sm font-bold text-white backdrop-blur-sm transition-all duration-300 hover:bg-white hover:text-pstc-navy"
                             >
                                 {t("contactUs")}
                             </Link>
@@ -170,7 +170,7 @@ export default function Hero() {
                             <div className="flex items-center justify-between">
                                 <div>
                                     <p className="text-xs font-semibold tracking-[3px] text-blue-300">
-                                        PST ENGINEERING
+                                        PSTC ENGINEERING
                                     </p>
                                     <h2 className="mt-3 text-2xl font-bold text-white">
                                         {t("visualTitle")}
@@ -236,11 +236,11 @@ export default function Hero() {
                             className="absolute -right-8 top-20 rounded-2xl border border-white/20 bg-white p-4 shadow-xl"
                         >
                             <div className="flex items-center gap-3">
-                                <div className="flex h-11 w-11 items-center justify-center rounded-xl bg-blue-50 text-pst-blue">
+                                <div className="flex h-11 w-11 items-center justify-center rounded-xl bg-blue-50 text-pstc-blue">
                                     <Wind size={24} />
                                 </div>
                                 <div>
-                                    <p className="text-xs font-bold text-pst-navy">
+                                    <p className="text-xs font-bold text-pstc-navy">
                                         HVAC SOLUTIONS
                                     </p>
                                     <p className="mt-1 text-[11px] text-slate-500">
@@ -270,7 +270,7 @@ export default function Hero() {
             </div>
 
             {/* Bottom Accent */}
-            <div className="absolute bottom-0 left-0 h-1 w-full bg-gradient-to-r from-pst-blue via-blue-400 to-pst-red" />
+            <div className="absolute bottom-0 left-0 h-1 w-full bg-gradient-to-r from-pstc-blue via-blue-400 to-pstc-red" />
         </section>
     );
 }

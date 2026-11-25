@@ -1,6 +1,6 @@
 import { routing } from "@/i18n/routing";
 
-const BASE_URL = "https://pst-project-qatar.netlify.app";
+const BASE_URL = "https://pstc-project-qatar.netlify.app";
 
 const pages = [
     "",

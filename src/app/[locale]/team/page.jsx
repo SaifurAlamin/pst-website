@@ -14,7 +14,7 @@ import TechnicalTeam from "@/components/team/TechnicalTeam";
 import TeamCommitment from "@/components/team/TeamCommitment";
 import TeamCTA from "@/components/team/TeamCTA";
 
-const BASE_URL = "https://pst-project-qatar.netlify.app";
+const BASE_URL = "https://pstc-project-qatar.netlify.app";
 
 export async function generateMetadata({ params }) {
     const { locale } = await params;
@@ -52,7 +52,7 @@ export async function generateMetadata({ params }) {
             title: t("title"),
             description: t("description"),
             url: pageUrl,
-            siteName: "PST - Power Sixers Trading and Contracting W.L.L.",
+            siteName: "PSTC - Power Sixers Trading and Contracting W.L.L.",
             locale: locale === "ar" ? "ar_QA" : "en_QA",
             type: "website",
             images: [

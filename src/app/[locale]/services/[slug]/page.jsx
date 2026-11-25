@@ -33,7 +33,7 @@ export async function generateMetadata({ params }) {
     const content = service[locale];
 
     return {
-        title: `${content.title} | PST`,
+        title: `${content.title} | PSTC`,
         description: content.description,
         alternates: {
             canonical: `/${locale}/services/${slug}`,
@@ -44,7 +44,7 @@ export async function generateMetadata({ params }) {
             },
         },
         openGraph: {
-            title: `${content.title} | PST`,
+            title: `${content.title} | PSTC`,
             description: content.description,
             images: [
                 {

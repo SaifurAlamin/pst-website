@@ -48,7 +48,7 @@ export async function generateMetadata({ params }) {
             title: t("title"),
             description: t("description"),
             url: pageUrl,
-            siteName: "PST - Power Sixers Trading and Contracting W.L.L.",
+            siteName: "PSTC - Power Sixers Trading and Contracting W.L.L.",
             locale: locale === "ar" ? "ar_QA" : "en_QA",
             type: "website",
             images: [

@@ -23,8 +23,8 @@ export default function ProjectDetails({ project, locale }) {
         <main dir={isArabic ? "rtl" : "ltr"}>
 
             {/* Project Hero */}
-            <section className="relative overflow-hidden bg-pst-navy py-20 sm:py-28">
-                <div className="absolute inset-0 bg-gradient-to-r from-[#101D3A] via-[#101D3A]/95 to-pst-blue/70" />
+            <section className="relative overflow-hidden bg-pstc-navy py-20 sm:py-28">
+                <div className="absolute inset-0 bg-gradient-to-r from-[#101D3A] via-[#101D3A]/95 to-pstc-blue/70" />
 
                 <div className="relative z-10 mx-auto max-w-7xl px-5 sm:px-8 lg:px-12">
 
@@ -47,7 +47,7 @@ export default function ProjectDetails({ project, locale }) {
 
                     {/* Category */}
                     <div className="mb-5 flex items-center gap-3">
-                        <span className="h-[2px] w-9 bg-pst-red" />
+                        <span className="h-[2px] w-9 bg-pstc-red" />
                         <span className="text-xs font-bold uppercase tracking-[0.2em] text-red-400">
                             {category}
                         </span>
@@ -106,13 +106,13 @@ export default function ProjectDetails({ project, locale }) {
                     {/* Content */}
                     <div className="flex flex-col justify-center">
                         <div className="mb-5 flex items-center gap-3">
-                            <span className="h-[2px] w-9 bg-pst-red" />
-                            <span className="text-xs font-bold uppercase tracking-[0.2em] text-pst-blue">
+                            <span className="h-[2px] w-9 bg-pstc-red" />
+                            <span className="text-xs font-bold uppercase tracking-[0.2em] text-pstc-blue">
                                 {isArabic ? "نظرة عامة" : "PROJECT OVERVIEW"}
                             </span>
                         </div>
 
-                        <h2 className="text-3xl font-extrabold leading-tight text-pst-navy sm:text-4xl">
+                        <h2 className="text-3xl font-extrabold leading-tight text-pstc-navy sm:text-4xl">
                             {isArabic
                                 ? "تفاصيل المشروع"
                                 : "About This Project"}
@@ -131,9 +131,9 @@ export default function ProjectDetails({ project, locale }) {
                         <div className="mt-8 space-y-4 border-t border-slate-200 pt-6">
                             {content.location && (
                                 <div className="flex items-start gap-3">
-                                    <MapPin className="mt-1 shrink-0 text-pst-red" size={19} />
+                                    <MapPin className="mt-1 shrink-0 text-pstc-red" size={19} />
                                     <div>
-                                        <p className="text-sm font-bold text-pst-navy">
+                                        <p className="text-sm font-bold text-pstc-navy">
                                             {isArabic ? "الموقع" : "Location"}
                                         </p>
                                         <p className="mt-1 text-sm text-slate-600">
@@ -145,9 +145,9 @@ export default function ProjectDetails({ project, locale }) {
 
                             {project.client && (
                                 <div className="flex items-start gap-3">
-                                    <Building2 className="mt-1 shrink-0 text-pst-red" size={19} />
+                                    <Building2 className="mt-1 shrink-0 text-pstc-red" size={19} />
                                     <div>
-                                        <p className="text-sm font-bold text-pst-navy">
+                                        <p className="text-sm font-bold text-pstc-navy">
                                             {isArabic ? "العميل" : "Associated Company"}
                                         </p>
                                         <p className="mt-1 text-sm text-slate-600">
@@ -168,13 +168,13 @@ export default function ProjectDetails({ project, locale }) {
 
                         <div className="mb-12">
                             <div className="mb-4 flex items-center gap-3">
-                                <span className="h-[2px] w-9 bg-pst-red" />
-                                <span className="text-xs font-bold uppercase tracking-[0.2em] text-pst-blue">
+                                <span className="h-[2px] w-9 bg-pstc-red" />
+                                <span className="text-xs font-bold uppercase tracking-[0.2em] text-pstc-blue">
                                     {isArabic ? "معرض الصور" : "PROJECT GALLERY"}
                                 </span>
                             </div>
 
-                            <h2 className="text-3xl font-extrabold text-pst-navy sm:text-4xl">
+                            <h2 className="text-3xl font-extrabold text-pstc-navy sm:text-4xl">
                                 {isArabic ? "صور المشروع" : "Project Images"}
                             </h2>
                         </div>
@@ -204,7 +204,7 @@ export default function ProjectDetails({ project, locale }) {
                 locale={locale}
             />
             {/* Contact CTA */}
-            <section className="bg-pst-navy py-16 sm:py-20">
+            <section className="bg-pstc-navy py-16 sm:py-20">
                 <div className="mx-auto flex max-w-7xl flex-col items-center justify-between gap-8 px-5 text-center sm:px-8 lg:flex-row lg:text-start lg:px-12">
                     <div>
                         <h2 className="text-2xl font-extrabold text-white sm:text-3xl">
@@ -222,7 +222,7 @@ export default function ProjectDetails({ project, locale }) {
 
                     <Link
                         href="/contact"
-                        className="inline-flex shrink-0 items-center gap-3 rounded-md bg-pst-blue px-7 py-4 text-sm font-bold text-white transition-colors hover:bg-blue-700"
+                        className="inline-flex shrink-0 items-center gap-3 rounded-md bg-pstc-blue px-7 py-4 text-sm font-bold text-white transition-colors hover:bg-blue-700"
                     >
                         {isArabic ? "تواصل معنا" : "Contact Us"}
 
@@ -240,7 +240,7 @@ export default function ProjectDetails({ project, locale }) {
                 <div className="mx-auto max-w-7xl px-5 sm:px-8 lg:px-12">
                     <Link
                         href="/projects"
-                        className="inline-flex items-center gap-2 text-sm font-bold text-pst-blue transition-colors hover:text-pst-red"
+                        className="inline-flex items-center gap-2 text-sm font-bold text-pstc-blue transition-colors hover:text-pstc-red"
                     >
                         {isArabic ? (
                             <>

@@ -12,14 +12,14 @@ export async function generateMetadata({ params }) {
 
     const content = {
         en: {
-            title: "Project Gallery | PST Qatar",
+            title: "Project Gallery | PSTC Qatar",
             description:
-                "Explore PST's project gallery featuring HVAC, MEP installation, fire fighting, ducting and technical works in Qatar.",
+                "Explore PSTC's project gallery featuring HVAC, MEP installation, fire fighting, ducting and technical works in Qatar.",
         },
         ar: {
-            title: "معرض المشاريع | PST قطر",
+            title: "معرض المشاريع | PSTC قطر",
             description:
-                "استكشف معرض مشاريع شركة PST في قطر، بما يشمل أعمال التكييف والتركيب الميكانيكي والكهربائي ومكافحة الحريق والخدمات الفنية.",
+                "استكشف معرض مشاريع شركة PSTC في قطر، بما يشمل أعمال التكييف والتركيب الميكانيكي والكهربائي ومكافحة الحريق والخدمات الفنية.",
         },
     };
 
@@ -47,7 +47,7 @@ export async function generateMetadata({ params }) {
                     url: "/images/projects/projects-hero.webp",
                     width: 1200,
                     height: 630,
-                    alt: "PST Project Gallery",
+                    alt: "PSTC Project Gallery",
                 },
             ],
         },

@@ -34,7 +34,7 @@ export default function GalleryHero({ locale }) {
     return (
         <section
             dir={isArabic ? "rtl" : "ltr"}
-            className="relative isolate overflow-hidden bg-pst-navy"
+            className="relative isolate overflow-hidden bg-pstc-navy"
         >
             {/* Background */}
             <div className="absolute inset-0 -z-10">
@@ -46,9 +46,9 @@ export default function GalleryHero({ locale }) {
                     className="object-cover"
                 />
 
-                <div className="absolute inset-0 bg-pst-navy/85" />
+                <div className="absolute inset-0 bg-pstc-navy/85" />
 
-                <div className="absolute inset-0 bg-gradient-to-r from-pst-navy via-pst-navy/80 to-transparent" />
+                <div className="absolute inset-0 bg-gradient-to-r from-pstc-navy via-pstc-navy/80 to-transparent" />
             </div>
 
             {/* Decorative elements */}
@@ -71,7 +71,7 @@ export default function GalleryHero({ locale }) {
                             {t.home}
                         </Link>
 
-                        <span className="text-pst-red">/</span>
+                        <span className="text-pstc-red">/</span>
 
                         <span className="text-white">
                             {t.gallery}
@@ -112,7 +112,7 @@ export default function GalleryHero({ locale }) {
                     >
                         <a
                             href="#gallery-grid"
-                            className="inline-flex items-center gap-3 rounded-lg bg-white px-7 py-4 font-semibold text-pst-navy transition duration-300 hover:bg-red-600 hover:text-white"
+                            className="inline-flex items-center gap-3 rounded-lg bg-white px-7 py-4 font-semibold text-pstc-navy transition duration-300 hover:bg-red-600 hover:text-white"
                         >
                             {t.button}
 
@@ -123,7 +123,7 @@ export default function GalleryHero({ locale }) {
             </div>
 
             {/* Bottom accent */}
-            <div className="absolute bottom-0 left-0 h-1 w-1/3 bg-pst-red" />
+            <div className="absolute bottom-0 left-0 h-1 w-1/3 bg-pstc-red" />
         </section>
     );
 }

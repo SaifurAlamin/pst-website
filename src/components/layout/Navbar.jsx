@@ -22,7 +22,7 @@ export default function Navbar() {
     return (
         <header
             dir={isArabic ? "rtl" : "ltr"}
-            className="sticky top-0 z-50 w-full border-b border-white/10 bg-pst-navy/95 shadow-lg shadow-slate-950/10 backdrop-blur-xl"
+            className="sticky top-0 z-50 w-full border-b border-white/10 bg-pstc-navy/95 shadow-lg shadow-slate-950/10 backdrop-blur-xl"
         >
             <div className="mx-auto flex h-20 max-w-7xl items-center justify-between px-3 sm:px-4 lg:px-6">
 
@@ -60,7 +60,7 @@ export default function Navbar() {
                         <Link
                             key={item.key}
                             href={item.href}
-                            className="relative py-2 text-sm font-medium text-slate-200 transition-colors duration-300 hover:text-white after:absolute after:bottom-0 after:start-0 after:h-0.5 after:w-0 after:rounded-full after:bg-blue-400 after:transition-all after:duration-300 hover:after:w-full"
+                            className="relative py-2 text-sm font-semibold text-slate-200 transition-colors duration-300 hover:text-white after:absolute after:bottom-0 after:start-0 after:h-0.5 after:w-0 after:rounded-full after:bg-blue-400 after:transition-all after:duration-300 hover:after:w-full"
                         >
                             {t(item.key)}
                         </Link>
@@ -75,7 +75,7 @@ export default function Navbar() {
 
                     <Link
                         href="/contact"
-                        className="rounded-lg bg-pst-blue px-5 py-3 text-sm font-semibold text-white shadow-lg shadow-blue-950/20 transition-all duration-300 hover:-translate-y-0.5 hover:bg-blue-500 hover:shadow-blue-500/20"
+                        className="rounded-lg bg-pstc-blue px-5 py-3 text-sm font-semibold text-white shadow-lg shadow-blue-950/20 transition-all duration-300 hover:-translate-y-0.5 hover:bg-blue-500 hover:shadow-blue-500/20"
                     >
                         {t("contact")}
                     </Link>

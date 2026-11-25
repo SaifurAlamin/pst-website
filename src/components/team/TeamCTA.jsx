@@ -14,11 +14,11 @@ export default function TeamCTA() {
     return (
         <section
             dir={isArabic ? "rtl" : "ltr"}
-            className="relative overflow-hidden bg-pst-navy py-20 md:py-24"
+            className="relative overflow-hidden bg-pstc-navy py-20 md:py-24"
         >
             {/* Background Decorations */}
-            <div className="absolute -right-20 -top-32 h-80 w-80 rounded-full bg-pst-blue/30 blur-3xl" />
-            <div className="absolute -bottom-32 -left-20 h-80 w-80 rounded-full bg-pst-red/20 blur-3xl" />
+            <div className="absolute -right-20 -top-32 h-80 w-80 rounded-full bg-pstc-blue/30 blur-3xl" />
+            <div className="absolute -bottom-32 -left-20 h-80 w-80 rounded-full bg-pstc-red/20 blur-3xl" />
 
             <div className="relative z-10 mx-auto max-w-7xl px-5 sm:px-8 lg:px-10">
                 <motion.div
@@ -47,7 +47,7 @@ export default function TeamCTA() {
                     <div className="mt-10 flex flex-col items-center justify-center gap-4 sm:flex-row">
                         <Link
                             href="/contact"
-                            className="inline-flex w-full items-center justify-center gap-3 rounded-lg bg-white px-8 py-4 text-sm font-bold text-pst-navy shadow-lg transition-all duration-300 hover:-translate-y-1 hover:bg-slate-100 sm:w-auto"
+                            className="inline-flex w-full items-center justify-center gap-3 rounded-lg bg-white px-8 py-4 text-sm font-bold text-pstc-navy shadow-lg transition-all duration-300 hover:-translate-y-1 hover:bg-slate-100 sm:w-auto"
                         >
                             {t("contactButton")}
                             <ArrowUpRight

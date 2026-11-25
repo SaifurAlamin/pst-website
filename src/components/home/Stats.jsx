@@ -38,11 +38,11 @@ export default async function Stats() {
                         return (
                             <Reveal key={item.label} delay={index * 0.12}>
                                 <div className="group h-full rounded-2xl border border-slate-200/80 bg-white p-7 shadow-sm transition-all duration-300 hover:-translate-y-1 hover:border-blue-200 hover:shadow-xl">
-                                    <div className="flex h-12 w-12 items-center justify-center rounded-xl bg-blue-50 text-pst-blue transition-colors duration-300 group-hover:bg-pst-blue group-hover:text-white">
+                                    <div className="flex h-12 w-12 items-center justify-center rounded-xl bg-blue-50 text-pstc-blue transition-colors duration-300 group-hover:bg-pstc-blue group-hover:text-white">
                                         <Icon size={23} />
                                     </div>
 
-                                    <p className="mt-6 text-3xl font-extrabold tracking-tight text-pst-navy">
+                                    <p className="mt-6 text-3xl font-extrabold tracking-tight text-pstc-navy">
                                         {item.value}
                                     </p>
 

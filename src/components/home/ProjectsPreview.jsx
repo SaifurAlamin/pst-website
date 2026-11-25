@@ -39,7 +39,7 @@ export default async function ProjectsPreview() {
                     <div className="mt-12 text-center">
                         <Link
                             href="/projects"
-                            className="inline-flex items-center gap-3 rounded-lg bg-pst-blue px-7 py-3.5 text-sm font-semibold text-white transition-all duration-300 hover:bg-pst-navy"
+                            className="inline-flex items-center gap-3 rounded-lg bg-pstc-blue px-7 py-3.5 text-sm font-semibold text-white transition-all duration-300 hover:bg-pstc-navy"
                         >
                             {t("projectsButton")}
                             <ArrowUpRight size={18} />

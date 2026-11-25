@@ -32,13 +32,13 @@ export default function GalleryCTA({ locale }) {
     return (
         <section
             dir={isArabic ? "rtl" : "ltr"}
-            className="relative overflow-hidden bg-pst-navy py-20 md:py-28"
+            className="relative overflow-hidden bg-pstc-navy py-20 md:py-28"
         >
             {/* Decorative background */}
             <div className="absolute -left-24 -top-24 h-80 w-80 rounded-full border border-white/10" />
             <div className="absolute -left-16 -top-16 h-64 w-64 rounded-full border border-white/10" />
 
-            <div className="absolute -bottom-32 -right-20 h-80 w-80 rounded-full bg-pst-blue/30 blur-3xl" />
+            <div className="absolute -bottom-32 -right-20 h-80 w-80 rounded-full bg-pstc-blue/30 blur-3xl" />
 
             <div className="relative mx-auto max-w-7xl px-5">
                 <motion.div
@@ -67,7 +67,7 @@ export default function GalleryCTA({ locale }) {
                     <div className="mt-10 flex flex-col items-center justify-center gap-4 sm:flex-row">
                         <Link
                             href="/contact"
-                            className="inline-flex w-full items-center justify-center gap-3 rounded-lg bg-white px-8 py-4 font-semibold text-pst-navy transition duration-300 hover:bg-pst-red hover:text-white sm:w-auto"
+                            className="inline-flex w-full items-center justify-center gap-3 rounded-lg bg-white px-8 py-4 font-semibold text-pstc-navy transition duration-300 hover:bg-pstc-red hover:text-white sm:w-auto"
                         >
                             <MessageCircle size={19} />
                             {t.contact}

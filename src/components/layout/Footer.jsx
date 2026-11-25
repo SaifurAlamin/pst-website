@@ -57,9 +57,9 @@ export default function Footer() {
     ];
 
     const phoneNumbers = [
+        "+974 5092 5474",
         "+974 7767 6249",
         "+974 6626 2691",
-        "+974 5092 5474",
     ];
 
     return (
@@ -77,15 +77,27 @@ export default function Footer() {
                         <Link
                             href="/"
                             dir="ltr"
-                            className="inline-flex items-center"
+                            className="group inline-flex items-center gap-2 sm:gap-3"
                         >
+                            {/* Logo */}
                             <img
-                                src="/images/logo/logo.png"
+                                src="/images/logo/logo3.png"
                                 alt="Power Sixers Trading and Contracting W.L.L."
-                                className="h-16 w-auto object-contain sm:h-20 lg:h-24"
+                                className="h-16 w-auto object-contain sm:h-20 lg:h-18"
                                 width="300"
-                                height="100"
+                                height="150"
                             />
+
+                            {/* Brand Text */}
+                            <div className="flex flex-col justify-center text-left leading-tight">
+                                <p className="text-lg font-extrabold tracking-wide text-white transition-colors duration-300 group-hover:text-blue-200 sm:text-xl">
+                                    POWER SIXERS
+                                </p>
+
+                                <p className="mt-0.5 text-[7px] font-semibold tracking-[1px] text-blue-300 sm:text-[8px] sm:tracking-[1.3px]">
+                                    TRADING AND CONTRACTING W.L.L.
+                                </p>
+                            </div>
                         </Link>
 
                         <p className="mt-6 max-w-md text-sm leading-7 text-slate-400">
@@ -97,7 +109,7 @@ export default function Footer() {
                             className={`mt-5 text-xs font-semibold tracking-wider text-slate-500 ${isArabic ? "text-right" : "text-left"
                                 }`}
                         >
-                            {t("crNumber")}: 169875
+                            {t("crNumber")}
                         </p>
 
                         {/* Social Media */}

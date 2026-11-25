@@ -32,7 +32,7 @@ export async function generateMetadata({ params }) {
     const content = project[locale] || project.en;
 
     return {
-        title: `${content.title} | PST`,
+        title: `${content.title} | PSTC`,
         description: content.description,
         alternates: {
             canonical: `/${locale}/projects/${project.slug}`,

@@ -10,7 +10,7 @@ const items = [
         key: "mission",
         icon: Target,
         image: "/images/about/mission.webp",
-        color: "bg-blue-50 text-pst-blue",
+        color: "bg-blue-50 text-pstc-blue",
     },
     {
         key: "vision",
@@ -22,7 +22,7 @@ const items = [
         key: "values",
         icon: Heart,
         image: "/images/about/values.webp",
-        color: "bg-slate-100 text-pst-navy",
+        color: "bg-slate-100 text-pstc-navy",
     },
 ];
 
@@ -46,11 +46,11 @@ export default function MissionVision() {
                     transition={{ duration: 0.7 }}
                     className="mx-auto mb-14 max-w-3xl text-center"
                 >
-                    <span className="mb-4 inline-block rounded-full bg-blue-50 px-5 py-2 text-sm font-semibold text-pst-blue">
+                    <span className="mb-4 inline-block rounded-full bg-blue-50 px-5 py-2 text-sm font-semibold text-pstc-blue">
                         {t("badge")}
                     </span>
 
-                    <h2 className="text-3xl font-bold leading-tight text-pst-navy md:text-5xl">
+                    <h2 className="text-3xl font-bold leading-tight text-pstc-navy md:text-5xl">
                         {t("heading")}
                     </h2>
 
@@ -87,7 +87,7 @@ export default function MissionVision() {
                                     />
 
                                     {/* Image Overlay */}
-                                    <div className="absolute inset-0 bg-gradient-to-t from-pst-navy/70 via-transparent to-transparent" />
+                                    <div className="absolute inset-0 bg-gradient-to-t from-pstc-navy/70 via-transparent to-transparent" />
 
                                     {/* Icon */}
                                     <div
@@ -99,7 +99,7 @@ export default function MissionVision() {
 
                                 {/* Content */}
                                 <div className="p-7 md:p-8">
-                                    <h3 className="mb-4 text-2xl font-bold text-pst-navy transition-colors duration-300 group-hover:text-pst-blue">
+                                    <h3 className="mb-4 text-2xl font-bold text-pstc-navy transition-colors duration-300 group-hover:text-pstc-blue">
                                         {t(`${item.key}.title`)}
                                     </h3>
 
@@ -108,7 +108,7 @@ export default function MissionVision() {
                                     </p>
 
                                     {/* Bottom Accent */}
-                                    <div className="mt-6 h-1 w-16 rounded-full bg-pst-blue transition-all duration-500 group-hover:w-28" />
+                                    <div className="mt-6 h-1 w-16 rounded-full bg-pstc-blue transition-all duration-500 group-hover:w-28" />
                                 </div>
                             </motion.div>
                         );

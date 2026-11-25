@@ -1,5 +1,5 @@
 
-const BASE_URL = "https://pst-project-qatar.netlify.app";
+const BASE_URL = "https://pstc-project-qatar.netlify.app";
 
 export default function robots() {
     return {

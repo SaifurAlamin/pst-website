@@ -36,12 +36,12 @@ export default function RelatedServices({ currentSlug, locale }) {
                     transition={{ duration: 0.6 }}
                     className="mb-12 text-center"
                 >
-                    <span className="mb-4 inline-flex items-center gap-2 rounded-full border border-blue-100 bg-blue-50 px-4 py-2 text-xs font-bold uppercase tracking-[2px] text-pst-blue">
-                        <span className="h-2 w-2 rounded-full bg-pst-red" />
+                    <span className="mb-4 inline-flex items-center gap-2 rounded-full border border-blue-100 bg-blue-50 px-4 py-2 text-xs font-bold uppercase tracking-[2px] text-pstc-blue">
+                        <span className="h-2 w-2 rounded-full bg-pstc-red" />
                         {isArabic ? "اكتشف المزيد" : "EXPLORE MORE"}
                     </span>
 
-                    <h2 className="mb-4 text-3xl font-extrabold text-pst-navy sm:text-4xl">
+                    <h2 className="mb-4 text-3xl font-extrabold text-pstc-navy sm:text-4xl">
                         {isArabic
                             ? "خدمات أخرى قد تهمكم"
                             : "Explore Our Other Services"}
@@ -53,7 +53,7 @@ export default function RelatedServices({ currentSlug, locale }) {
                             : "Discover more of our technical and engineering services to support your project requirements."}
                     </p>
 
-                    <div className="mx-auto mt-6 h-1 w-20 rounded-full bg-pst-blue" />
+                    <div className="mx-auto mt-6 h-1 w-20 rounded-full bg-pstc-blue" />
                 </motion.div>
 
                 {/* Related service cards */}
@@ -95,7 +95,7 @@ export default function RelatedServices({ currentSlug, locale }) {
                                         className="object-cover transition-transform duration-700 group-hover:scale-110"
                                     />
 
-                                    <div className="absolute inset-0 bg-gradient-to-t from-pst-navy/70 via-transparent to-transparent" />
+                                    <div className="absolute inset-0 bg-gradient-to-t from-pstc-navy/70 via-transparent to-transparent" />
 
                                     <span className="absolute bottom-4 start-5 text-4xl font-black text-white/40">
                                         {String(index + 1).padStart(2, "0")}
@@ -104,7 +104,7 @@ export default function RelatedServices({ currentSlug, locale }) {
 
                                 {/* Content */}
                                 <div className="p-6">
-                                    <h3 className="mb-3 text-xl font-bold leading-snug text-pst-navy transition-colors duration-300 group-hover:text-pst-blue">
+                                    <h3 className="mb-3 text-xl font-bold leading-snug text-pstc-navy transition-colors duration-300 group-hover:text-pstc-blue">
                                         {content.title}
                                     </h3>
 
@@ -114,7 +114,7 @@ export default function RelatedServices({ currentSlug, locale }) {
 
                                     <Link
                                         href={`/services/${service.slug}`}
-                                        className="flex items-center justify-between border-t border-slate-100 pt-5 text-sm font-bold text-pst-blue transition-colors hover:text-pst-red"
+                                        className="flex items-center justify-between border-t border-slate-100 pt-5 text-sm font-bold text-pstc-blue transition-colors hover:text-pstc-red"
                                     >
                                         <span>
                                             {isArabic
@@ -136,7 +136,7 @@ export default function RelatedServices({ currentSlug, locale }) {
                                     </Link>
                                 </div>
 
-                                <div className="h-1 w-0 bg-pst-blue transition-all duration-500 group-hover:w-full" />
+                                <div className="h-1 w-0 bg-pstc-blue transition-all duration-500 group-hover:w-full" />
                             </motion.article>
                         );
                     })}
@@ -146,7 +146,7 @@ export default function RelatedServices({ currentSlug, locale }) {
                 <div className="mt-12 text-center">
                     <Link
                         href="/services"
-                        className="inline-flex items-center gap-3 rounded-lg bg-pst-navy px-7 py-3.5 text-sm font-bold text-white shadow-lg shadow-slate-900/10 transition-all duration-300 hover:-translate-y-1 hover:bg-pst-blue"
+                        className="inline-flex items-center gap-3 rounded-lg bg-pstc-navy px-7 py-3.5 text-sm font-bold text-white shadow-lg shadow-slate-900/10 transition-all duration-300 hover:-translate-y-1 hover:bg-pstc-blue"
                     >
                         {isArabic ? "عرض جميع الخدمات" : "View All Services"}
 

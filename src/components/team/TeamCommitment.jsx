@@ -14,7 +14,7 @@ const commitments = [
     {
         key: "teamwork",
         icon: Users,
-        color: "bg-blue-50 text-pst-blue",
+        color: "bg-blue-50 text-pstc-blue",
         number: "01",
     },
     {
@@ -26,7 +26,7 @@ const commitments = [
     {
         key: "safety",
         icon: ShieldCheck,
-        color: "bg-slate-100 text-pst-navy",
+        color: "bg-slate-100 text-pstc-navy",
         number: "03",
     },
 ];
@@ -51,11 +51,11 @@ export default function TeamCommitment() {
                     transition={{ duration: 0.6 }}
                     className="mx-auto mb-16 max-w-3xl text-center"
                 >
-                    <span className="mb-4 inline-block rounded-full bg-blue-50 px-5 py-2 text-sm font-bold uppercase tracking-wider text-pst-blue">
+                    <span className="mb-4 inline-block rounded-full bg-blue-50 px-5 py-2 text-sm font-bold uppercase tracking-wider text-pstc-blue">
                         {t("eyebrow")}
                     </span>
 
-                    <h2 className="text-3xl font-bold leading-tight text-pst-navy sm:text-4xl lg:text-5xl">
+                    <h2 className="text-3xl font-bold leading-tight text-pstc-navy sm:text-4xl lg:text-5xl">
                         {t("title")}
                     </h2>
 
@@ -79,7 +79,7 @@ export default function TeamCommitment() {
                                     duration: 0.6,
                                     delay: index * 0.15,
                                 }}
-                                className="group relative overflow-hidden rounded-2xl border border-slate-200 bg-white p-8 shadow-sm transition-all duration-500 hover:-translate-y-2 hover:border-pst-blue/30 hover:shadow-xl md:p-10"
+                                className="group relative overflow-hidden rounded-2xl border border-slate-200 bg-white p-8 shadow-sm transition-all duration-500 hover:-translate-y-2 hover:border-pstc-blue/30 hover:shadow-xl md:p-10"
                             >
 
                                 {/* Icon */}
@@ -88,7 +88,7 @@ export default function TeamCommitment() {
                                 </div>
 
                                 {/* Content */}
-                                <h3 className="relative mb-4 text-2xl font-bold text-pst-navy transition-colors duration-300 group-hover:text-pst-blue">
+                                <h3 className="relative mb-4 text-2xl font-bold text-pstc-navy transition-colors duration-300 group-hover:text-pstc-blue">
                                     {t(`${item.key}.title`)}
                                 </h3>
 
@@ -98,13 +98,13 @@ export default function TeamCommitment() {
 
                                 {/* Bottom Accent */}
                                 <div className="mt-8 flex items-center justify-between border-t border-slate-100 pt-5">
-                                    <span className="text-xs font-bold uppercase tracking-widest text-pst-blue">
+                                    <span className="text-xs font-bold uppercase tracking-widest text-pstc-blue">
                                         {t("cardLabel")}
                                     </span>
 
                                     <ArrowUpRight
                                         size={20}
-                                        className={`text-pst-blue transition-transform duration-300 group-hover:translate-x-1 group-hover:-translate-y-1 ${isArabic ? "rotate-180" : ""
+                                        className={`text-pstc-blue transition-transform duration-300 group-hover:translate-x-1 group-hover:-translate-y-1 ${isArabic ? "rotate-180" : ""
                                             }`}
                                     />
                                 </div>

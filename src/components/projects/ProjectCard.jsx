@@ -57,7 +57,7 @@ export default function ProjectCard({ project, locale, index = 0 }) {
                 {category && (
                     <span
                         className={`absolute bottom-4 ${isArabic ? "right-4" : "left-4"
-                            } rounded-md bg-white/95 px-3 py-1.5 text-xs font-bold text-pst-navy`}
+                            } rounded-md bg-white/95 px-3 py-1.5 text-xs font-bold text-pstc-navy`}
                     >
                         {category}
                     </span>
@@ -66,12 +66,12 @@ export default function ProjectCard({ project, locale, index = 0 }) {
 
             {/* Content */}
             <div className="p-6 sm:p-7">
-                <div className="mb-4 flex items-center gap-2 text-xs font-semibold uppercase tracking-wider text-pst-blue">
-                    <span className="h-1.5 w-1.5 rounded-full bg-pst-red" />
+                <div className="mb-4 flex items-center gap-2 text-xs font-semibold uppercase tracking-wider text-pstc-blue">
+                    <span className="h-1.5 w-1.5 rounded-full bg-pstc-red" />
                     {category}
                 </div>
 
-                <h3 className="text-xl font-bold leading-snug text-pst-navy transition-colors duration-300 group-hover:text-pst-blue sm:text-2xl">
+                <h3 className="text-xl font-bold leading-snug text-pstc-navy transition-colors duration-300 group-hover:text-pstc-blue sm:text-2xl">
                     {content.title}
                 </h3>
 
@@ -81,7 +81,7 @@ export default function ProjectCard({ project, locale, index = 0 }) {
 
                 {content.location && (
                     <div className="mt-5 flex items-center gap-2 text-sm text-slate-500">
-                        <MapPin size={16} className="shrink-0 text-pst-red" />
+                        <MapPin size={16} className="shrink-0 text-pstc-red" />
                         <span>{content.location}</span>
                     </div>
                 )}
@@ -89,7 +89,7 @@ export default function ProjectCard({ project, locale, index = 0 }) {
                 <div className="mt-6 border-t border-slate-100 pt-5">
                     <Link
                         href={`/projects/${project.slug}`}
-                        className="inline-flex items-center gap-2 text-sm font-bold text-pst-blue transition-colors hover:text-pst-red"
+                        className="inline-flex items-center gap-2 text-sm font-bold text-pstc-blue transition-colors hover:text-pstc-red"
                     >
                         {isArabic ? "عرض تفاصيل المشروع" : "View Project Details"}
 

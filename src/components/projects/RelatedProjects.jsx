@@ -35,13 +35,13 @@ export default function RelatedProjects({ currentSlug, locale }) {
                 >
                     <div>
                         <div className="mb-4 flex items-center gap-3">
-                            <span className="h-[2px] w-9 bg-pst-red" />
-                            <span className="text-xs font-bold uppercase tracking-[0.2em] text-pst-blue">
+                            <span className="h-[2px] w-9 bg-pstc-red" />
+                            <span className="text-xs font-bold uppercase tracking-[0.2em] text-pstc-blue">
                                 {isArabic ? "اكتشف المزيد" : "EXPLORE MORE"}
                             </span>
                         </div>
 
-                        <h2 className="text-3xl font-extrabold text-pst-navy sm:text-4xl">
+                        <h2 className="text-3xl font-extrabold text-pstc-navy sm:text-4xl">
                             {isArabic
                                 ? "مشاريع ذات صلة"
                                 : "Related Projects"}
@@ -56,7 +56,7 @@ export default function RelatedProjects({ currentSlug, locale }) {
 
                     <Link
                         href="/projects"
-                        className="inline-flex shrink-0 items-center gap-2 text-sm font-bold text-pst-blue transition-colors hover:text-pst-red"
+                        className="inline-flex shrink-0 items-center gap-2 text-sm font-bold text-pstc-blue transition-colors hover:text-pstc-red"
                     >
                         {isArabic ? "جميع المشاريع" : "View All Projects"}
 

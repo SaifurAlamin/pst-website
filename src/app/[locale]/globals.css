@@ -1,18 +1,18 @@
 @import "tailwindcss";
 
 :root {
-    --pst-navy: #101D3A;
-    --pst-blue: #174A8B;
-    --pst-red: #991B1B;
+    --pstc-navy: #101D3A;
+    --pstc-blue: #174A8B;
+    --pstc-red: #991B1B;
 
     --background: #ffffff;
     --foreground: #172033;
 }
 
 @theme inline {
-    --color-pst-navy: var(--pst-navy);
-    --color-pst-blue: var(--pst-blue);
-    --color-pst-red: var(--pst-red);
+    --color-pstc-navy: var(--pstc-navy);
+    --color-pstc-blue: var(--pstc-blue);
+    --color-pstc-red: var(--pstc-red);
 
     --color-background: var(--background);
     --color-foreground: var(--foreground);
@@ -40,6 +40,28 @@ a {
 }
 
 ::selection {
-    background: var(--pst-blue);
+    background: var(--pstc-blue);
     color: #ffffff;
+}
+
+@keyframes topbarFadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(-8px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.animate-topbar {
+    animation: topbarFadeIn 0.7s ease-out both;
+}
+
+@media (prefers-reduced-motion: reduce) {
+    .animate-topbar {
+        animation: none;
+    }
 }

@@ -48,7 +48,7 @@ export default function OurFacilities() {
                         whileInView={{ opacity: 1, y: 0 }}
                         viewport={{ once: true }}
                         transition={{ duration: 0.5 }}
-                        className="mb-4 inline-block text-sm font-bold uppercase tracking-[0.2em] text-pst-blue"
+                        className="mb-4 inline-block text-sm font-bold uppercase tracking-[0.2em] text-pstc-blue"
                     >
                         {t("eyebrow")}
                     </motion.span>
@@ -58,7 +58,7 @@ export default function OurFacilities() {
                         whileInView={{ opacity: 1, y: 0 }}
                         viewport={{ once: true }}
                         transition={{ duration: 0.6 }}
-                        className="text-3xl font-bold leading-tight text-pst-navy sm:text-4xl lg:text-5xl"
+                        className="text-3xl font-bold leading-tight text-pstc-navy sm:text-4xl lg:text-5xl"
                     >
                         {t("title")}
                     </motion.h2>
@@ -101,16 +101,16 @@ export default function OurFacilities() {
                                         className="object-cover transition-transform duration-700 group-hover:scale-110"
                                     />
 
-                                    <div className="absolute inset-0 bg-gradient-to-t from-pst-navy/70 via-transparent to-transparent" />
+                                    <div className="absolute inset-0 bg-gradient-to-t from-pstc-navy/70 via-transparent to-transparent" />
 
-                                    <div className="absolute bottom-5 start-5 flex h-12 w-12 items-center justify-center rounded-xl bg-white text-pst-blue shadow-lg">
+                                    <div className="absolute bottom-5 start-5 flex h-12 w-12 items-center justify-center rounded-xl bg-white text-pstc-blue shadow-lg">
                                         <Icon size={23} />
                                     </div>
                                 </div>
 
                                 {/* Content */}
                                 <div className="p-6">
-                                    <h3 className="mb-3 text-xl font-bold text-pst-navy">
+                                    <h3 className="mb-3 text-xl font-bold text-pstc-navy">
                                         {t(`${facility.key}.title`)}
                                     </h3>
 
@@ -118,7 +118,7 @@ export default function OurFacilities() {
                                         {t(`${facility.key}.description`)}
                                     </p>
 
-                                    <div className="mt-5 flex items-center justify-between border-t border-slate-100 pt-4 text-pst-blue">
+                                    <div className="mt-5 flex items-center justify-between border-t border-slate-100 pt-4 text-pstc-blue">
                                         <span className="text-xs font-semibold uppercase tracking-wider">
                                             {t("cardLabel")}
                                         </span>

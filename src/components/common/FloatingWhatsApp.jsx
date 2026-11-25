@@ -3,7 +3,7 @@ export default function FloatingWhatsApp() {
     const phoneNumber = "97450925474";
 
     const message = encodeURIComponent(
-        "Hello PST, I would like to know more about your services."
+        "Hello PSTC, I would like to know more about your services."
     );
 
     return (
@@ -11,12 +11,12 @@ export default function FloatingWhatsApp() {
             href={`https://wa.me/${phoneNumber}?text=${message}`}
             target="_blank"
             rel="noopener noreferrer"
-            aria-label="Chat with PST on WhatsApp"
+            aria-label="Chat with PSTC on WhatsApp"
             dir="ltr"
             className="group fixed bottom-6 right-6 left-auto z-[9999] flex flex-row items-center gap-3"
         >
             {/* Tooltip */}
-            <span className="rounded-full bg-white px-4 py-2 text-sm font-semibold text-pst-navy shadow-lg opacity-0 translate-x-2 pointer-events-none transition-all duration-300 group-hover:translate-x-0 group-hover:opacity-100">
+            <span className="rounded-full bg-white px-4 py-2 text-sm font-semibold text-pstc-navy shadow-lg opacity-0 translate-x-2 pointer-events-none transition-all duration-300 group-hover:translate-x-0 group-hover:opacity-100">
                 Chat with us
             </span>
 

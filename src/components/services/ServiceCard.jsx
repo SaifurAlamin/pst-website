@@ -39,7 +39,7 @@ export default function ServicesCard({ service, locale, index = 0 }) {
 
                 <div className="absolute inset-0 bg-gradient-to-t from-[#101D3A]/75 via-transparent to-transparent opacity-80 transition-opacity duration-500 group-hover:opacity-100" />
 
-                <span className="absolute left-5 top-5 flex h-12 w-12 items-center justify-center rounded-xl border border-white/30 bg-white/90 text-pst-blue shadow-lg backdrop-blur-md">
+                <span className="absolute left-5 top-5 flex h-12 w-12 items-center justify-center rounded-xl border border-white/30 bg-white/90 text-pstc-blue shadow-lg backdrop-blur-md">
                     <Icon size={23} strokeWidth={1.8} />
                 </span>
 
@@ -50,7 +50,7 @@ export default function ServicesCard({ service, locale, index = 0 }) {
 
             {/* Content */}
             <div className="flex flex-1 flex-col p-6 sm:p-7">
-                <h3 className="mb-3 text-xl font-bold leading-snug text-pst-navy transition-colors duration-300 group-hover:text-pst-blue">
+                <h3 className="mb-3 text-xl font-bold leading-snug text-pstc-navy transition-colors duration-300 group-hover:text-pstc-blue">
                     {content.title}
                 </h3>
 
@@ -59,7 +59,7 @@ export default function ServicesCard({ service, locale, index = 0 }) {
                 </p>
 
                 <div className="mb-5 flex items-center gap-2 text-xs font-semibold text-slate-500">
-                    <CheckCircle2 size={15} className="shrink-0 text-pst-blue" />
+                    <CheckCircle2 size={15} className="shrink-0 text-pstc-blue" />
                     <span>
                         {isArabic
                             ? "حلول فنية للمشاريع"
@@ -69,7 +69,7 @@ export default function ServicesCard({ service, locale, index = 0 }) {
 
                 <Link
                     href={`/services/${service.slug}`}
-                    className="group/link flex items-center justify-between border-t border-slate-100 pt-5 text-sm font-bold text-pst-blue transition-colors duration-300 hover:text-pst-red"
+                    className="group/link flex items-center justify-between border-t border-slate-100 pt-5 text-sm font-bold text-pstc-blue transition-colors duration-300 hover:text-pstc-red"
                 >
                     <span>
                         {isArabic ? "اكتشف الخدمة" : "Explore Service"}
@@ -90,7 +90,7 @@ export default function ServicesCard({ service, locale, index = 0 }) {
             </div>
 
             {/* Hover accent */}
-            <div className="absolute bottom-0 left-0 h-1 w-0 bg-pst-blue transition-all duration-500 group-hover:w-full" />
+            <div className="absolute bottom-0 left-0 h-1 w-0 bg-pstc-blue transition-all duration-500 group-hover:w-full" />
         </motion.article>
     );
 }

@@ -26,8 +26,8 @@ export default function GalleryGrid({ locale }) {
         return activeCategory === "all"
             ? galleryImages
             : galleryImages.filter(
-                  (image) => image.category === activeCategory
-              );
+                (image) => image.category === activeCategory
+            );
     }, [activeCategory]);
 
     const currentIndex = filteredImages.findIndex(
@@ -161,7 +161,7 @@ export default function GalleryGrid({ locale }) {
                         initial={{ opacity: 0, y: 15 }}
                         whileInView={{ opacity: 1, y: 0 }}
                         viewport={{ once: true }}
-                        className="text-sm font-bold uppercase tracking-[0.2em] text-pst-red"
+                        className="text-sm font-bold uppercase tracking-[0.2em] text-pstc-red"
                     >
                         {t.eyebrow}
                     </motion.span>
@@ -171,7 +171,7 @@ export default function GalleryGrid({ locale }) {
                         whileInView={{ opacity: 1, y: 0 }}
                         viewport={{ once: true }}
                         transition={{ delay: 0.1 }}
-                        className="mt-4 text-3xl font-bold text-pst-navy md:text-5xl"
+                        className="mt-4 text-3xl font-bold text-pstc-navy md:text-5xl"
                     >
                         {t.title}
                     </motion.h2>
@@ -201,11 +201,10 @@ export default function GalleryGrid({ locale }) {
                                     setActiveCategory(category.slug)
                                 }
                                 aria-pressed={isActive}
-                                className={`rounded-full border px-6 py-3 text-sm font-semibold transition duration-300 ${
-                                    isActive
-                                        ? "border-pst-navy bg-pst-navy text-white shadow-lg shadow-pst-navy/10"
-                                        : "border-slate-200 bg-white text-slate-600 hover:border-pst-blue hover:text-pst-blue"
-                                }`}
+                                className={`rounded-full border px-6 py-3 text-sm font-semibold transition duration-300 ${isActive
+                                        ? "border-pstc-navy bg-pstc-navy text-white shadow-lg shadow-pstc-navy/10"
+                                        : "border-slate-200 bg-white text-slate-600 hover:border-pstc-blue hover:text-pstc-blue"
+                                    }`}
                             >
                                 {category[locale] || category.en}
                             </button>
@@ -230,7 +229,7 @@ export default function GalleryGrid({ locale }) {
                                 }}
                                 onClick={() => setSelectedImage(image)}
                                 aria-label={image.title[locale] || image.title.en}
-                                className="group relative block overflow-hidden rounded-2xl bg-white text-start shadow-sm outline-none ring-pst-blue/30 transition hover:shadow-xl focus-visible:ring-2"
+                                className="group relative block overflow-hidden rounded-2xl bg-white text-start shadow-sm outline-none ring-pstc-blue/30 transition hover:shadow-xl focus-visible:ring-2"
                             >
                                 <div className="relative aspect-[4/3] overflow-hidden">
                                     <Image
@@ -243,7 +242,7 @@ export default function GalleryGrid({ locale }) {
                                     />
 
                                     {/* Overlay */}
-                                    <div className="absolute inset-0 bg-gradient-to-t from-pst-navy/90 via-pst-navy/10 to-transparent opacity-70 transition duration-300 group-hover:opacity-100" />
+                                    <div className="absolute inset-0 bg-gradient-to-t from-pstc-navy/90 via-pstc-navy/10 to-transparent opacity-70 transition duration-300 group-hover:opacity-100" />
 
                                     {/* Image Title */}
                                     <div className="absolute inset-x-0 bottom-0 flex items-end justify-between gap-4 p-5">
@@ -260,7 +259,7 @@ export default function GalleryGrid({ locale }) {
                                             </h3>
                                         </div>
 
-                                        <div className="flex h-10 w-10 shrink-0 items-center justify-center rounded-full bg-white text-pst-navy transition duration-300 group-hover:bg-pst-red group-hover:text-white">
+                                        <div className="flex h-10 w-10 shrink-0 items-center justify-center rounded-full bg-white text-pstc-navy transition duration-300 group-hover:bg-pstc-red group-hover:text-white">
                                             <ArrowUpRight size={20} />
                                         </div>
                                     </div>
@@ -296,7 +295,7 @@ export default function GalleryGrid({ locale }) {
                             type="button"
                             onClick={closePreview}
                             aria-label={t.close}
-                            className="absolute end-4 top-4 z-20 flex h-12 w-12 items-center justify-center rounded-full bg-white/10 text-white transition hover:bg-pst-red md:end-8 md:top-8"
+                            className="absolute end-4 top-4 z-20 flex h-12 w-12 items-center justify-center rounded-full bg-white/10 text-white transition hover:bg-pstc-red md:end-8 md:top-8"
                         >
                             <X size={24} />
                         </button>

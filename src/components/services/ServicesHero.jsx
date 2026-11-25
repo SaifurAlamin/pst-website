@@ -22,7 +22,7 @@ export default function ServicesHero({ locale }) {
     return (
         <section
             dir={isArabic ? "rtl" : "ltr"}
-            className="relative isolate flex min-h-[540px] items-center overflow-hidden bg-pst-navy sm:min-h-[600px] lg:min-h-[650px]"
+            className="relative isolate flex min-h-[540px] items-center overflow-hidden bg-pstc-navy sm:min-h-[600px] lg:min-h-[650px]"
         >
             {/* Background Image */}
             <div className="absolute inset-0 -z-20">
@@ -86,7 +86,7 @@ export default function ServicesHero({ locale }) {
                         variants={reduceMotion ? {} : fadeUp}
                         className="mb-6 flex items-center gap-3"
                     >
-                        <span className="h-[2px] w-10 bg-pst-red" />
+                        <span className="h-[2px] w-10 bg-pstc-red" />
 
                         <span className="text-xs font-bold uppercase tracking-[3px] text-blue-200 sm:text-sm">
                             {isArabic
@@ -134,7 +134,7 @@ export default function ServicesHero({ locale }) {
                     >
                         <Link
                             href="/contact"
-                            className="inline-flex items-center gap-3 rounded-lg bg-pst-blue px-7 py-4 text-sm font-bold text-white shadow-xl shadow-blue-950/30 transition-all duration-300 hover:-translate-y-1 hover:bg-blue-500"
+                            className="inline-flex items-center gap-3 rounded-lg bg-pstc-blue px-7 py-4 text-sm font-bold text-white shadow-xl shadow-blue-950/30 transition-all duration-300 hover:-translate-y-1 hover:bg-blue-500"
                         >
                             {isArabic ? "تواصل معنا" : "Discuss Your Project"}
 
@@ -156,7 +156,7 @@ export default function ServicesHero({ locale }) {
             </div>
 
             {/* Bottom Accent */}
-            <div className="absolute bottom-0 left-0 h-1 w-full bg-gradient-to-r from-pst-blue via-blue-400 to-pst-red" />
+            <div className="absolute bottom-0 left-0 h-1 w-full bg-gradient-to-r from-pstc-blue via-blue-400 to-pstc-red" />
         </section>
     );
 }

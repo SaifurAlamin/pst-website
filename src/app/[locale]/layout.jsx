@@ -18,8 +18,8 @@ export async function generateMetadata({ params }) {
 
     return {
         title: {
-            default: "PST | Your Trusted MEP Partner in Qatar",
-            template: "%s | PST",
+            default: "PSTC | Your Trusted MEP Partner in Qatar",
+            template: "%s | PSTC",
         },
         description:
             "Power Sixers Trading and Contracting W.L.L. - Your Trusted MEP Partner in Qatar.",
@@ -33,7 +33,7 @@ export async function generateMetadata({ params }) {
             type: "website",
             siteName: "Power Sixers Trading and Contracting W.L.L.",
             locale: locale === "ar" ? "ar_QA" : "en_QA",
-            title: "PST | Your Trusted MEP Partner in Qatar",
+            title: "PSTC | Your Trusted MEP Partner in Qatar",
             description:
                 "Professional MEP, HVAC and maintenance services in Qatar.",
         },

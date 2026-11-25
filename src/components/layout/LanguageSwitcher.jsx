@@ -21,7 +21,7 @@ export default function LanguageSwitcher() {
             type="button"
             onClick={handleLanguageChange}
             dir="ltr"
-            className="inline-flex items-center justify-center whitespace-nowrap rounded-lg border border-slate-200 px-4 py-2 text-sm font-semibold text-pst-navy transition duration-300 hover:border-pst-blue hover:bg-blue-50"
+            className="inline-flex items-center justify-center whitespace-nowrap rounded-lg border border-slate-200 px-4 py-2 text-sm font-semibold text-pstc-navy transition duration-300 hover:border-pstc-blue hover:bg-blue-50"
             aria-label={isArabic ? "Switch to English" : "Switch to Arabic"}
             lang={isArabic ? "en" : "ar"}
         >

@@ -11,9 +11,9 @@ export default function Button({
     ...props
 }) {
     const variants = {
-        primary: "bg-pst-blue text-white hover:bg-pst-navy shadow-lg shadow-blue-900/10",
-        secondary: "border border-pst-navy text-pst-navy hover:bg-pst-navy hover:text-white",
-        white: "bg-white text-pst-navy hover:bg-slate-100",
+        primary: "bg-pstc-blue text-white hover:bg-pstc-navy shadow-lg shadow-blue-900/10",
+        secondary: "border border-pstc-navy text-pstc-navy hover:bg-pstc-navy hover:text-white",
+        white: "bg-white text-pstc-navy hover:bg-slate-100",
     };
 
     const styles = `
@@ -22,7 +22,7 @@ export default function Button({
         text-sm font-bold
         transition-all duration-300
         focus-visible:outline-none focus-visible:ring-2
-        focus-visible:ring-pst-blue focus-visible:ring-offset-2
+        focus-visible:ring-pstc-blue focus-visible:ring-offset-2
         ${variants[variant] || variants.primary}
         ${className}
     `;

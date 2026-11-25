@@ -49,14 +49,14 @@ export default function ProjectsGrid({ locale }) {
                 {/* Section Heading */}
                 <div className="mx-auto mb-12 max-w-2xl text-center">
                     <div className="mb-4 flex items-center justify-center gap-3">
-                        <span className="h-[2px] w-8 bg-pst-red" />
-                        <span className="text-xs font-bold uppercase tracking-[0.2em] text-pst-blue">
+                        <span className="h-[2px] w-8 bg-pstc-red" />
+                        <span className="text-xs font-bold uppercase tracking-[0.2em] text-pstc-blue">
                             {isArabic ? "أعمالنا" : "OUR WORK"}
                         </span>
-                        <span className="h-[2px] w-8 bg-pst-red" />
+                        <span className="h-[2px] w-8 bg-pstc-red" />
                     </div>
 
-                    <h2 className="text-3xl font-extrabold text-pst-navy sm:text-4xl lg:text-5xl">
+                    <h2 className="text-3xl font-extrabold text-pstc-navy sm:text-4xl lg:text-5xl">
                         {isArabic
                             ? "مشاريعنا وأعمالنا"
                             : "Our Featured Projects"}
@@ -80,8 +80,8 @@ export default function ProjectsGrid({ locale }) {
                                 type="button"
                                 onClick={() => setActiveCategory(filter.value)}
                                 className={`rounded-md px-5 py-3 text-sm font-bold transition-all duration-300 ${isActive
-                                        ? "bg-pst-navy text-white shadow-lg shadow-slate-900/15"
-                                        : "border border-slate-200 bg-white text-slate-600 hover:border-pst-blue hover:text-pst-blue"
+                                    ? "bg-pstc-navy text-white shadow-lg shadow-slate-900/15"
+                                    : "border border-slate-200 bg-white text-slate-600 hover:border-pstc-blue hover:text-pstc-blue"
                                     }`}
                             >
                                 {filter.label}

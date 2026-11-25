@@ -1,33 +1,27 @@
 
 export const services = [
     {
-        slug: "hvac-ducting-installation",
+        slug: "hvac-duct-installation",
         image: "/images/services/hvac-ducting.webp",
         icon: "Building2",
         en: {
-            title: "HVAC Ducting Installation",
-            shortDescription:
-                "Professional HVAC ductwork installation solutions for commercial buildings and project requirements.",
-            description:
-                "Power Sixers Trading and Contracting W.L.L. provides HVAC ducting installation services to support air distribution and ventilation requirements in building projects.",
-            overview:
-                "HVAC ductwork plays an important role in distributing conditioned air throughout buildings. Our service scope covers ductwork installation and related work according to project requirements.",
+            title: "HVAC Duct Installation",
+            shortDescription: "Professional HVAC duct installation solutions for commercial buildings and project requirements.",
+            description: "Power Sixers Trading and Contracting W.L.L. provides HVAC duct installation services to support air distribution and ventilation requirements in building projects.",
+            overview: "HVAC ductwork plays an important role in distributing conditioned air throughout buildings. Our service scope covers ductwork installation and related work according to project requirements.",
             features: [
-                "HVAC ductwork installation",
+                "HVAC duct installation",
                 "Air distribution duct installation",
                 "Duct fitting and assembly",
                 "Installation coordination for project requirements"
             ],
-            imageAlt: "HVAC ductwork installation in a commercial building"
+            imageAlt: "HVAC duct installation in a commercial building"
         },
         ar: {
             title: "تركيب مجاري الهواء لأنظمة التكييف",
-            shortDescription:
-                "حلول احترافية لتركيب مجاري الهواء لأنظمة التكييف في المباني التجارية والمشاريع.",
-            description:
-                "تقدم شركة باور سيكسرز للتجارة والمقاولات خدمات تركيب مجاري الهواء لأنظمة التكييف لتلبية متطلبات توزيع الهواء والتهوية في مشاريع المباني.",
-            overview:
-                "تؤدي مجاري الهواء دوراً مهماً في توزيع الهواء المكيّف داخل المباني. تشمل خدماتنا تركيب مجاري الهواء والأعمال المرتبطة بها وفقاً لمتطلبات المشاريع.",
+            shortDescription: "حلول احترافية لتركيب مجاري الهواء لأنظمة التكييف في المباني التجارية والمشاريع.",
+            description: "تقدم شركة باور سيكسرز للتجارة والمقاولات خدمات تركيب مجاري الهواء لأنظمة التكييف لتلبية متطلبات توزيع الهواء والتهوية في مشاريع المباني.",
+            overview: "تؤدي مجاري الهواء دوراً مهماً في توزيع الهواء المكيّف داخل المباني. تشمل خدماتنا تركيب مجاري الهواء والأعمال المرتبطة بها وفقاً لمتطلبات المشاريع.",
             features: [
                 "تركيب مجاري الهواء لأنظمة التكييف",
                 "تركيب مجاري توزيع الهواء",
@@ -43,12 +37,9 @@ export const services = [
         icon: "Wind",
         en: {
             title: "VRF Installation",
-            shortDescription:
-                "Professional VRF system installation solutions for commercial buildings and indoor environments.",
-            description:
-                "We provide VRF installation services to support efficient air conditioning requirements in commercial and building projects.",
-            overview:
-                "Variable Refrigerant Flow (VRF) systems provide flexible air conditioning solutions for different building environments. Our service scope includes installation and setup of VRF systems according to project requirements.",
+            shortDescription: "Professional VRF system installation solutions for commercial buildings and indoor environments.",
+            description: "We provide VRF installation services to support efficient air conditioning requirements in commercial and building projects.",
+            overview: "Variable Refrigerant Flow (VRF) systems provide flexible air conditioning solutions for different building environments. Our service scope includes installation and setup of VRF systems according to project requirements.",
             features: [
                 "VRF system installation",
                 "Indoor and outdoor unit installation",
@@ -59,12 +50,9 @@ export const services = [
         },
         ar: {
             title: "تركيب أنظمة VRF",
-            shortDescription:
-                "حلول احترافية لتركيب أنظمة VRF في المباني التجارية والبيئات الداخلية.",
-            description:
-                "نقدم خدمات تركيب أنظمة VRF لتلبية متطلبات تكييف الهواء بكفاءة في المشاريع التجارية ومشاريع المباني.",
-            overview:
-                "توفر أنظمة تدفق غاز التبريد المتغير (VRF) حلولاً مرنة لتكييف الهواء في مختلف أنواع المباني. تشمل خدماتنا تركيب وتجهيز أنظمة VRF وفقاً لمتطلبات المشاريع.",
+            shortDescription: "حلول احترافية لتركيب أنظمة VRF في المباني التجارية والبيئات الداخلية.",
+            description: "نقدم خدمات تركيب أنظمة VRF لتلبية متطلبات تكييف الهواء بكفاءة في المشاريع التجارية ومشاريع المباني.",
+            overview: "توفر أنظمة تدفق غاز التبريد المتغير (VRF) حلولاً مرنة لتكييف الهواء في مختلف أنواع المباني. تشمل خدماتنا تركيب وتجهيز أنظمة VRF وفقاً لمتطلبات المشاريع.",
             features: [
                 "تركيب أنظمة VRF",
                 "تركيب الوحدات الداخلية والخارجية",
@@ -80,12 +68,9 @@ export const services = [
         icon: "Snowflake",
         en: {
             title: "AC Maintenance & Repair",
-            shortDescription:
-                "Air conditioning maintenance and repair services for building and project requirements.",
-            description:
-                "Our AC maintenance and repair service supports the upkeep and servicing requirements of air conditioning systems.",
-            overview:
-                "Regular maintenance is important for the continued operation of air conditioning equipment. Our service scope includes AC inspection, maintenance and repair-related support.",
+            shortDescription: "Air conditioning maintenance and repair services for building and project requirements.",
+            description: "Our AC maintenance and repair service supports the upkeep and servicing requirements of air conditioning systems.",
+            overview: "Regular maintenance is important for the continued operation of air conditioning equipment. Our service scope includes AC inspection, maintenance and repair-related support.",
             features: [
                 "Air conditioning inspection",
                 "Routine maintenance support",
@@ -96,12 +81,9 @@ export const services = [
         },
         ar: {
             title: "صيانة وإصلاح أجهزة التكييف",
-            shortDescription:
-                "خدمات صيانة وإصلاح أنظمة التكييف لتلبية متطلبات المباني والمشاريع.",
-            description:
-                "نقدم خدمات صيانة وإصلاح أجهزة وأنظمة التكييف لدعم متطلبات التشغيل والخدمة.",
-            overview:
-                "تساعد الصيانة الدورية في الحفاظ على أداء معدات التكييف. تشمل خدماتنا فحص أنظمة التكييف وصيانتها وتقديم الدعم المتعلق بالإصلاح.",
+            shortDescription: "خدمات صيانة وإصلاح أنظمة التكييف لتلبية متطلبات المباني والمشاريع.",
+            description: "نقدم خدمات صيانة وإصلاح أجهزة وأنظمة التكييف لدعم متطلبات التشغيل والخدمة.",
+            overview: "تساعد الصيانة الدورية في الحفاظ على أداء معدات التكييف. تشمل خدماتنا فحص أنظمة التكييف وصيانتها وتقديم الدعم المتعلق بالإصلاح.",
             features: [
                 "فحص أجهزة وأنظمة التكييف",
                 "دعم الصيانة الدورية",
@@ -112,77 +94,65 @@ export const services = [
         }
     },
     {
-        slug: "chilled-water-piping",
-        image: "/images/services/chilled-water-piping.webp",
-        icon: "GitBranch",
+        slug: "plumbing-services",
+        image: "/images/services/plumbing.webp",
+        icon: "Droplets",
         en: {
-            title: "Chilled Water Piping",
-            shortDescription:
-                "Chilled water piping installation solutions for HVAC systems in commercial buildings and projects.",
-            description:
-                "We provide chilled water piping installation services to support HVAC system requirements in building and commercial projects.",
-            overview:
-                "Chilled water piping is an important component of central air conditioning systems. Our service scope covers piping installation and related work according to project requirements.",
+            title: "Plumbing",
+            shortDescription: "Professional plumbing installation solutions for commercial buildings and construction projects.",
+            description: "We provide plumbing installation services to support essential water supply and drainage requirements in building projects.",
+            overview: "Plumbing systems are essential for the proper water supply and drainage infrastructure of buildings. Our service scope includes plumbing installation and related work according to project requirements.",
             features: [
-                "Chilled water piping installation",
-                "Chilled water supply and return piping",
-                "Pipe fitting and connection",
-                "Piping installation coordination"
+                "Plumbing system installation",
+                "Water supply piping",
+                "Drainage piping installation",
+                "Pipe fitting and connections"
             ],
-            imageAlt: "Chilled water piping installation for HVAC systems"
+            imageAlt: "Professional plumbing installation work in a building"
         },
         ar: {
-            title: "تركيب أنابيب المياه المبردة",
-            shortDescription:
-                "حلول تركيب أنابيب المياه المبردة لأنظمة التكييف في المباني التجارية والمشاريع.",
-            description:
-                "نقدم خدمات تركيب أنابيب المياه المبردة لتلبية متطلبات أنظمة التكييف في مشاريع المباني والمنشآت التجارية.",
-            overview:
-                "تُعد أنابيب المياه المبردة من المكونات المهمة في أنظمة التكييف المركزي. تشمل خدماتنا تركيب الأنابيب والأعمال المرتبطة بها وفقاً لمتطلبات المشاريع.",
+            title: "أعمال السباكة",
+            shortDescription: "حلول احترافية لتركيب أنظمة السباكة في المباني التجارية ومشاريع الإنشاء.",
+            description: "نقدم خدمات تركيب أنظمة السباكة لتلبية متطلبات إمدادات المياه والصرف الصحي في مشاريع المباني.",
+            overview: "تُعد أنظمة السباكة ضرورية للبنية التحتية لإمدادات المياه والصرف في المباني. تشمل خدماتنا أعمال التركيب وفقاً لمتطلبات المشاريع.",
             features: [
-                "تركيب أنابيب المياه المبردة",
-                "تركيب أنابيب إمداد وعودة المياه المبردة",
-                "تركيب وصلات الأنابيب وتوصيلها",
-                "تنسيق أعمال تركيب الأنابيب"
+                "تركيب أنظمة السباكة",
+                "تركيب أنابيب إمدادات المياه",
+                "تركيب أنابيب الصرف",
+                "تركيب وتوصيل الأنابيب"
             ],
-            imageAlt: "أعمال تركيب أنابيب المياه المبردة لأنظمة التكييف"
+            imageAlt: "أعمال تركيب أنظمة السباكة في أحد المباني"
         }
     },
     {
-        slug: "plumbing-fire-fighting",
-        image: "/images/services/plumbing-firefighting.webp",
-        icon: "Droplets",
+        slug: "chiller-fire-fighting",
+        image: "/images/services/chiller-fire-fighting.webp",
+        icon: "Flame",
         en: {
-            title: "Plumbing & Fire Fighting",
-            shortDescription:
-                "Plumbing and fire fighting installation solutions for building and project requirements.",
-            description:
-                "We provide plumbing and fire fighting installation services to support essential building systems and project requirements.",
-            overview:
-                "Plumbing and fire fighting systems are important components of building infrastructure and safety. Our service scope includes installation-related work for these systems.",
+            title: "Chiller & Fire Fighting",
+            shortDescription: "Chiller and fire fighting system installation solutions for commercial buildings and construction projects.",
+            description: "We provide chiller and fire fighting installation services to support cooling infrastructure and building fire safety requirements.",
+            overview: "Chiller and fire fighting systems are important components of commercial building infrastructure. Our service scope includes installation-related work according to project requirements.",
             features: [
-                "Plumbing system installation",
-                "Water supply and drainage piping",
+                "Chiller system installation",
+                "Chilled water piping installation",
                 "Fire fighting piping installation",
                 "Fire sprinkler system installation"
             ],
-            imageAlt: "Plumbing and fire fighting system installation"
+            imageAlt: "Chiller and fire fighting system installation in a commercial building"
         },
         ar: {
-            title: "السباكة ومكافحة الحريق",
-            shortDescription:
-                "حلول تركيب أنظمة السباكة ومكافحة الحريق لتلبية متطلبات المباني والمشاريع.",
-            description:
-                "نقدم خدمات تركيب أنظمة السباكة ومكافحة الحريق لدعم أنظمة المباني الأساسية ومتطلبات المشاريع.",
-            overview:
-                "تُعد أنظمة السباكة ومكافحة الحريق من المكونات المهمة للبنية التحتية وسلامة المباني. تشمل خدماتنا الأعمال المتعلقة بتركيب هذه الأنظمة.",
+            title: "أنظمة التبريد ومكافحة الحريق",
+            shortDescription: "حلول تركيب أنظمة التبريد ومكافحة الحريق في المباني التجارية ومشاريع الإنشاء.",
+            description: "نقدم خدمات تركيب أنظمة التبريد ومكافحة الحريق لدعم متطلبات البنية التحتية للتبريد وسلامة المباني.",
+            overview: "تُعد أنظمة التبريد ومكافحة الحريق من المكونات المهمة للبنية التحتية في المباني التجارية. تشمل خدماتنا الأعمال المتعلقة بتركيب هذه الأنظمة وفقاً لمتطلبات المشاريع.",
             features: [
-                "تركيب أنظمة السباكة",
-                "أنابيب إمدادات المياه والصرف",
+                "تركيب أنظمة التبريد",
+                "تركيب أنابيب المياه المبردة",
                 "تركيب أنابيب مكافحة الحريق",
                 "تركيب أنظمة رشاشات الحريق"
             ],
-            imageAlt: "تركيب أنظمة السباكة ومكافحة الحريق"
+            imageAlt: "تركيب أنظمة التبريد ومكافحة الحريق في مبنى تجاري"
         }
     },
     {
@@ -191,12 +161,9 @@ export const services = [
         icon: "Users",
         en: {
             title: "Skilled MEP Manpower",
-            shortDescription:
-                "Skilled technical manpower support for mechanical, electrical and plumbing project requirements.",
-            description:
-                "We provide skilled MEP manpower support to help meet technical workforce requirements for building and engineering projects.",
-            overview:
-                "Skilled technical personnel play an important role in MEP installation and project activities. Our manpower service focuses on supporting mechanical, electrical and plumbing-related workforce requirements.",
+            shortDescription: "Skilled technical manpower support for mechanical, electrical and plumbing project requirements.",
+            description: "We provide skilled MEP manpower support to help meet technical workforce requirements for building and engineering projects.",
+            overview: "Skilled technical personnel play an important role in MEP installation and project activities. Our manpower service focuses on supporting mechanical, electrical and plumbing-related workforce requirements.",
             features: [
                 "Mechanical technical manpower",
                 "Electrical technical manpower",
@@ -207,12 +174,9 @@ export const services = [
         },
         ar: {
             title: "العمالة الفنية الماهرة لأنظمة MEP",
-            shortDescription:
-                "توفير عمالة فنية ماهرة لتلبية متطلبات المشاريع الميكانيكية والكهربائية والسباكة.",
-            description:
-                "نقدم خدمات توفير العمالة الفنية الماهرة لأنظمة MEP لدعم احتياجات القوى العاملة الفنية في مشاريع المباني والهندسة.",
-            overview:
-                "يلعب الفنيون المهرة دوراً مهماً في أعمال تركيب أنظمة MEP وأنشطة المشاريع. تركز خدماتنا على دعم احتياجات العمالة الفنية في المجالات الميكانيكية والكهربائية والسباكة.",
+            shortDescription: "توفير عمالة فنية ماهرة لتلبية متطلبات المشاريع الميكانيكية والكهربائية والسباكة.",
+            description: "نقدم خدمات توفير العمالة الفنية الماهرة لأنظمة MEP لدعم احتياجات القوى العاملة الفنية في مشاريع المباني والهندسة.",
+            overview: "يلعب الفنيون المهرة دوراً مهماً في أعمال تركيب أنظمة MEP وأنشطة المشاريع. تركز خدماتنا على دعم احتياجات العمالة الفنية في المجالات الميكانيكية والكهربائية والسباكة.",
             features: [
                 "عمالة فنية ميكانيكية",
                 "عمالة فنية كهربائية",

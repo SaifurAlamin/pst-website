@@ -1,4 +1,4 @@
-# PST Website
+# PSTC Website
 
 ### Power Sixers Trading and Contracting W.L.L.
 
@@ -59,7 +59,7 @@ The website is designed to present the company's services, projects, business in
 ## 📂 Project Structure
 
 ```text
-pst-website/
+pstc-website/
 │
 ├── public/
 │   └── images/
@@ -131,13 +131,13 @@ The website presents six core service categories:
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/SaifurAlamin/pst-website.git
+git clone https://github.com/SaifurAlamin/pstc-website.git
 ```
 
 ### 2. Navigate to the project directory
 
 ```bash
-cd pst-website
+cd pstc-website
 ```
 
 ### 3. Install dependencies

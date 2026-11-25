@@ -18,31 +18,37 @@ import { Link } from "@/i18n/navigation";
 const services = [
     {
         key: "serviceOne",
+        slug: "hvac-duct-installation",
         icon: Wind,
         image: "/images/services/hvac-ducting.webp",
     },
     {
         key: "serviceTwo",
+        slug: "vrf-installation",
         icon: Snowflake,
         image: "/images/services/vrf-installation.webp",
     },
     {
         key: "serviceThree",
+        slug: "ac-maintenance-repair",
         icon: Wrench,
         image: "/images/services/ac-maintenance.webp",
     },
     {
         key: "serviceFour",
+        slug: "plumbing-services",
         icon: Droplets,
-        image: "/images/services/chilled-water-piping.webp",
+        image: "/images/services/plumbing.webp",
     },
     {
         key: "serviceFive",
+        slug: "chiller-fire-fighting",
         icon: Flame,
-        image: "/images/services/plumbing-firefighting.webp",
+        image: "/images/services/chiller-fire-fighting.webp",
     },
     {
         key: "serviceSix",
+        slug: "skilled-mep-manpower",
         icon: Users,
         image: "/images/services/mep-manpower.webp",
     },
@@ -69,73 +75,48 @@ export default async function ServicesPreview() {
                         return (
                             <Reveal key={service.key} delay={index * 0.08}>
                                 <Link
-                                    href="/services"
-                                    className="group relative flex h-full min-h-[270px] flex-col overflow-hidden rounded-2xl border border-slate-200 bg-white p-7 transition-all duration-300 hover:-translate-y-2 hover:border-blue-200 hover:shadow-xl hover:shadow-blue-900/10"
+                                    href={`/services/${service.slug}`}
+                                    className="group flex h-full flex-col overflow-hidden rounded-2xl border border-slate-200 bg-white transition-all duration-500 hover:-translate-y-2 hover:border-blue-200 hover:shadow-xl hover:shadow-blue-900/10"
                                 >
-                                    {/* Animated Background Image */}
-                                    <div
-                                        className="pointer-events-none absolute inset-0 z-0 overflow-hidden"
-                                        aria-hidden="true"
-                                    >
+                                    {/* Image */}
+                                    <div className="relative h-56 overflow-hidden sm:h-64">
                                         <img
                                             src={service.image}
                                             alt=""
-                                            className="h-full w-full object-cover opacity-100 transition-all duration-700 ease-out group-hover:scale-110"
+                                            className="h-full w-full object-cover transition-transform duration-700 ease-out group-hover:scale-110"
                                         />
-                                    </div>
 
-                                    {/* Light Overlay */}
-                                    <div className="pointer-events-none absolute inset-0 z-[1] bg-gradient-to-b from-transparent via-white/20 to-white/95" />
+                                        {/* Image Overlay */}
+                                        <div className="absolute inset-0 bg-gradient-to-t from-[#101D3A]/60 via-transparent to-transparent opacity-70 transition-opacity duration-500 group-hover:opacity-100" />
 
-                                    {/* Watermark Brand Text */}
-                                    <div className="pointer-events-none absolute bottom-5 end-5 select-none">
-                                        <span className="text-[10px] font-extrabold tracking-[2px] text-pst-navy/[0.07]">
-                                            POWER SIXERS
-                                        </span>
-                                    </div>
-
-
-                                    {/* Card Content */}
-                                    <div className="relative z-10 flex h-full flex-1 flex-col">
-
-                                        {/* Icon and Number */}
-                                        <div className="flex items-center justify-between">
-                                            <div className="flex h-16 w-16 items-center justify-center rounded-2xl bg-white/90 text-pst-blue shadow-sm transition-all duration-300 group-hover:bg-pst-blue group-hover:text-white">
-                                                <Icon size={29} strokeWidth={1.7} />
-                                            </div>
-
-                                            <span className="text-sm font-bold tracking-widest text-[#101D3A]">
-                                                {service.number}
-                                            </span>
+                                        {/* Icon */}
+                                        <div className="absolute bottom-5 start-5 flex h-14 w-14 items-center justify-center rounded-xl bg-white text-pstc-blue shadow-lg transition-all duration-500 group-hover:bg-pstc-blue group-hover:text-white group-hover:-translate-y-1">
+                                            <Icon size={27} strokeWidth={1.7} />
                                         </div>
 
-                                        {/* Title & Description at Bottom */}
-                                        <div className="mt-auto pt-10">
-
-                                            {/* Title */}
-                                            <h3 className="text-xl font-extrabold leading-snug text-pst-navy transition-colors duration-300 group-hover:text-pst-blue sm:text-2xl">
-                                                {t(`${service.key}Title`)}
-                                            </h3>
-
-                                            {/* Description */}
-                                            <p className="mt-4 text-sm font-semibold leading-7 text-pst-navy sm:text-[15px]">
-                                                {t(`${service.key}Description`)}
-                                            </p>
-
-                                            {/* Arrow */}
-                                            <div className="flex items-center justify-end pt-5 text-[#174A8B]">
-                                                <ArrowUpRight
-                                                    size={21}
-                                                    className="transition-transform duration-300 group-hover:-translate-y-1 group-hover:translate-x-1"
-                                                />
-                                            </div>
-
-                                        </div>
                                     </div>
 
+                                    {/* Content */}
+                                    <div className="flex flex-1 flex-col p-6 sm:p-7">
+                                        <h3 className="text-xl font-extrabold leading-snug text-pstc-navy transition-colors duration-300 group-hover:text-pstc-blue sm:text-2xl">
+                                            {t(`${service.key}Title`)}
+                                        </h3>
+
+                                        <p className="mt-3 text-sm leading-7 text-slate-600 sm:text-[15px]">
+                                            {t(`${service.key}Description`)}
+                                        </p>
+
+                                        {/* Arrow */}
+                                        <div className="mt-auto flex items-center justify-end pt-6 text-pstc-blue">
+                                            <ArrowUpRight
+                                                size={22}
+                                                className="transition-transform duration-300 group-hover:-translate-y-1 group-hover:translate-x-1"
+                                            />
+                                        </div>
+                                    </div>
 
                                     {/* Bottom Accent */}
-                                    <div className="absolute bottom-0 left-0 z-20 h-1 w-0 bg-pst-blue transition-all duration-300 group-hover:w-full" />
+                                    <div className="h-1 w-0 bg-pstc-blue transition-all duration-500 group-hover:w-full" />
                                 </Link>
                             </Reveal>
                         );
@@ -147,7 +128,7 @@ export default async function ServicesPreview() {
                     <div className="mt-12 text-center">
                         <Link
                             href="/services"
-                            className="inline-flex items-center gap-3 rounded-lg bg-pst-blue px-7 py-3.5 text-sm font-semibold text-white transition-all duration-300 hover:bg-pst-navy"
+                            className="inline-flex items-center gap-3 rounded-lg bg-pstc-blue px-7 py-3.5 text-sm font-semibold text-white transition-all duration-300 hover:bg-pstc-navy"
                         >
                             {t("servicesButton")}
                             <ArrowUpRight size={18} />

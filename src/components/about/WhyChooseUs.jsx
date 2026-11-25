@@ -35,11 +35,11 @@ export default function WhyChooseUs() {
                         viewport={{ once: true }}
                         transition={{ duration: 0.6 }}
                     >
-                        <span className="text-sm font-bold uppercase tracking-[0.2em] text-pst-blue">
+                        <span className="text-sm font-bold uppercase tracking-[0.2em] text-pstc-blue">
                             {t("eyebrow")}
                         </span>
 
-                        <h2 className="mt-4 text-3xl font-bold leading-tight text-pst-navy sm:text-4xl">
+                        <h2 className="mt-4 text-3xl font-bold leading-tight text-pstc-navy sm:text-4xl">
                             {t("title")}
                         </h2>
 
@@ -61,11 +61,11 @@ export default function WhyChooseUs() {
                                     transition={{ duration: 0.5, delay: index * 0.1 }}
                                     className="group rounded-2xl border border-slate-100 bg-slate-50 p-6 transition duration-300 hover:-translate-y-1 hover:border-blue-100 hover:bg-white hover:shadow-xl"
                                 >
-                                    <div className="mb-5 flex h-12 w-12 items-center justify-center rounded-xl bg-blue-50 text-pst-blue transition group-hover:bg-pst-blue group-hover:text-white">
+                                    <div className="mb-5 flex h-12 w-12 items-center justify-center rounded-xl bg-blue-50 text-pstc-blue transition group-hover:bg-pstc-blue group-hover:text-white">
                                         <Icon size={24} />
                                     </div>
 
-                                    <h3 className="text-lg font-bold text-pst-navy">
+                                    <h3 className="text-lg font-bold text-pstc-navy">
                                         {t(`${item.key}.title`)}
                                     </h3>
 

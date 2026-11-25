@@ -26,7 +26,7 @@ export default async function AboutPreview() {
                         <div className="relative mx-auto w-full max-w-xl">
 
                             {/* Decorative Border */}
-                            <div className="absolute -start-5 -top-5 h-32 w-32 rounded-2xl border-2 border-pst-blue/20" />
+                            <div className="absolute -start-5 -top-5 h-32 w-32 rounded-2xl border-2 border-pstc-blue/20" />
 
                             {/* Main Card */}
                             <div className="relative isolate overflow-hidden rounded-3xl bg-gradient-to-br from-[#101D3A] via-[#174A8B] to-[#0B152B] p-7 text-white shadow-2xl sm:p-10">
@@ -96,7 +96,7 @@ export default async function AboutPreview() {
                                     {t("aboutVisualBadge")}
                                 </p>
 
-                                <p className="mt-1 font-extrabold text-pst-navy">
+                                <p className="mt-1 font-extrabold text-pstc-navy">
                                     Build · Install · Maintain
                                 </p>
                             </div>
@@ -124,7 +124,7 @@ export default async function AboutPreview() {
                                     >
                                         <CheckCircle2
                                             size={20}
-                                            className="mt-0.5 shrink-0 text-pst-blue"
+                                            className="mt-0.5 shrink-0 text-pstc-blue"
                                         />
 
                                         <p className="text-sm font-medium leading-6 text-slate-700">

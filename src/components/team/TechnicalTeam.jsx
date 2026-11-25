@@ -54,12 +54,12 @@ export default function TechnicalTeam() {
                     transition={{ duration: 0.6 }}
                     className="mx-auto mb-14 max-w-3xl text-center"
                 >
-                    <span className="mb-4 inline-flex items-center gap-2 rounded-full bg-blue-100 px-5 py-2 text-sm font-bold text-pst-blue">
+                    <span className="mb-4 inline-flex items-center gap-2 rounded-full bg-blue-100 px-5 py-2 text-sm font-bold text-pstc-blue">
                         <Settings size={16} />
                         {t("eyebrow")}
                     </span>
 
-                    <h2 className="text-3xl font-bold leading-tight text-pst-navy sm:text-4xl lg:text-5xl">
+                    <h2 className="text-3xl font-bold leading-tight text-pstc-navy sm:text-4xl lg:text-5xl">
                         {t("title")}
                     </h2>
 
@@ -95,20 +95,20 @@ export default function TechnicalTeam() {
                                         className="object-cover transition-transform duration-700 group-hover:scale-110"
                                     />
 
-                                    <div className="absolute inset-0 bg-gradient-to-t from-pst-navy/70 via-transparent to-transparent" />
+                                    <div className="absolute inset-0 bg-gradient-to-t from-pstc-navy/70 via-transparent to-transparent" />
 
-                                    <div className={`absolute bottom-5 ${isArabic ? "right-5" : "left-5"} flex h-12 w-12 items-center justify-center rounded-xl bg-white text-pst-blue shadow-lg`}>
+                                    <div className={`absolute bottom-5 ${isArabic ? "right-5" : "left-5"} flex h-12 w-12 items-center justify-center rounded-xl bg-white text-pstc-blue shadow-lg`}>
                                         <Icon size={23} />
                                     </div>
                                 </div>
 
                                 {/* Content */}
                                 <div className="p-6">
-                                    <span className="mb-3 block text-xs font-bold uppercase tracking-wider text-pst-blue">
+                                    <span className="mb-3 block text-xs font-bold uppercase tracking-wider text-pstc-blue">
                                         {t("memberLabel")}
                                     </span>
 
-                                    <h3 className="text-xl font-bold text-pst-navy transition-colors group-hover:text-pst-blue">
+                                    <h3 className="text-xl font-bold text-pstc-navy transition-colors group-hover:text-pstc-blue">
                                         {t(`${member.key}.title`)}
                                     </h3>
 
@@ -116,7 +116,7 @@ export default function TechnicalTeam() {
                                         {t(`${member.key}.description`)}
                                     </p>
 
-                                    <div className="mt-5 h-1 w-12 rounded-full bg-pst-blue transition-all duration-500 group-hover:w-20" />
+                                    <div className="mt-5 h-1 w-12 rounded-full bg-pstc-blue transition-all duration-500 group-hover:w-20" />
                                 </div>
                             </motion.article>
                         );

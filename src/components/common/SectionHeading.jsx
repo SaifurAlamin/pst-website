@@ -15,12 +15,12 @@ export default function SectionHeading({
     return (
         <div className={`max-w-3xl ${alignment[align]} ${className}`}>
             {eyebrow && (
-                <p className="mb-4 text-sm font-bold uppercase tracking-[3px] text-pst-blue">
+                <p className="mb-4 text-sm font-bold uppercase tracking-[3px] text-pstc-blue">
                     {eyebrow}
                 </p>
             )}
 
-            <h2 className="text-3xl font-extrabold leading-tight tracking-tight text-pst-navy sm:text-4xl lg:text-5xl">
+            <h2 className="text-3xl font-extrabold leading-tight tracking-tight text-pstc-navy sm:text-4xl lg:text-5xl">
                 {title}
             </h2>
 

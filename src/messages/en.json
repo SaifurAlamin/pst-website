@@ -1,6 +1,6 @@
 {
     "Metadata": {
-        "title": "PST | Your Trusted MEP Partner in Qatar",
+        "title": "PSTC | Your Trusted MEP Partner in Qatar",
         "description": "Power Sixers Trading and Contracting W.L.L. provides MEP installation, HVAC, AC maintenance, plumbing, fire fighting and technical services in Qatar."
     },
     "Navigation": {
@@ -46,20 +46,20 @@
         "servicesEyebrow": "WHAT WE DO",
         "servicesTitle": "Our Professional MEP Services",
         "servicesDescription": "We provide reliable MEP installation, maintenance and technical services to support different project requirements.",
-        "serviceOneTitle": "HVAC Ducting Installation",
-        "serviceOneDescription": "Professional mechanical, electrical and plumbing installation solutions for project requirements.",
+        "serviceOneTitle": "HVAC Duct Installation",
+        "serviceOneDescription": "Professional HVAC duct installation solutions for commercial buildings and project requirements.",
         "serviceTwoTitle": "VRF Installation",
         "serviceTwoDescription": "Installation solutions for HVAC and VRF systems to support comfortable and efficient indoor environments.",
         "serviceThreeTitle": "AC Maintenance & Repair",
         "serviceThreeDescription": "Air conditioning maintenance and repair services to support reliable system performance.",
-        "serviceFourTitle": "Chilled Water Piping",
-        "serviceFourDescription": "Ducting and chilled water piping installation services for HVAC system requirements.",
-        "serviceFiveTitle": "Plumbing & Fire Fighting",
-        "serviceFiveDescription": "Plumbing installation and fire fighting system services for building project requirements.",
+        "serviceFourTitle": "Plumbing",
+        "serviceFourDescription": "Professional plumbing installation services for water supply and drainage requirements in building projects.",
+        "serviceFiveTitle": "Chiller & Fire Fighting",
+        "serviceFiveDescription": "Chiller installation and fire fighting system solutions for cooling and building safety requirements.",
         "serviceSixTitle": "Skilled MEP Manpower",
         "serviceSixDescription": "Technical manpower support for MEP installation and project-related requirements.",
         "servicesButton": "Explore All Services",
-        "whyChooseEyebrow": "WHY CHOOSE PST",
+        "whyChooseEyebrow": "WHY CHOOSE PSTC",
         "whyChooseTitle": "A Reliable Partner for Your Technical Projects",
         "whyChooseDescription": "We focus on practical MEP solutions, skilled technical support and quality-conscious project execution to address the requirements of our clients.",
         "whyChooseButton": "Discover Our Company",
@@ -90,7 +90,7 @@
         "contactEmailTitle": "Email Us",
         "contactEmailValue": "powersixers.qa@gmail.com",
         "contactBannerTitle": "Ready to Discuss Your Requirements?",
-        "contactBannerDescription": "Get in touch with PST and tell us about your project.",
+        "contactBannerDescription": "Get in touch with PSTC and tell us about your project.",
         "contactButton": "Contact Our Team"
     },
     "ServicesPage": {
@@ -98,16 +98,16 @@
         "title": "Our Professional Services",
         "description": "Explore our range of MEP and technical services designed to support building and project requirements.",
         "metadata": {
-            "title": "خدماتنا | أنظمة الهندسة والتكييف والصيانة في قطر - PST",
-            "description": "اكتشف خدمات PST في تركيب أنظمة الهندسة والتكييف المركزي وVRF وصيانة المكيفات وأعمال مجاري الهواء وأنابيب المياه المبردة والسباكة ومكافحة الحريق والعمالة الفنية في قطر.",
-            "imageAlt": "خدمات PST المهنية في مجال الهندسة والتكييف في قطر"
+            "title": "خدماتنا | أنظمة الهندسة والتكييف والصيانة في قطر - PSTC",
+            "description": "اكتشف خدمات PSTC في تركيب أنظمة الهندسة والتكييف المركزي وVRF وصيانة المكيفات وأعمال مجاري الهواء وأنابيب المياه المبردة والسباكة ومكافحة الحريق والعمالة الفنية في قطر.",
+            "imageAlt": "خدمات PSTC المهنية في مجال الهندسة والتكييف في قطر"
         }
     },
     "ContactPage": {
         "metadata": {
-            "title": "Contact Us | PST - MEP Company in Qatar",
+            "title": "Contact Us | PSTC - MEP Company in Qatar",
             "description": "Contact Power Sixers Trading and Contracting W.L.L. in Doha, Qatar for MEP installation, HVAC, AC maintenance, ducting, plumbing, fire fighting and technical manpower services.",
-            "imageAlt": "Contact PST for MEP and technical services in Qatar"
+            "imageAlt": "Contact PSTC for MEP and technical services in Qatar"
         },
         "hero": {
             "home": "Home",
@@ -143,7 +143,7 @@
                 "eyebrow": "CONTACT OUR LEADERSHIP",
                 "title": "Speak With Our Management",
                 "description": "Connect directly with our management team for business enquiries, project discussions and service-related assistance.",
-                "memberLabel": "PST MANAGEMENT",
+                "memberLabel": "PSTC MANAGEMENT",
                 "call": "Call",
                 "whatsapp": "WhatsApp",
                 "member1": {
@@ -191,14 +191,14 @@
     },
     "AboutPage": {
         "metadata": {
-            "title": "About Us | PST - MEP Company in Qatar",
+            "title": "About Us | PSTC - MEP Company in Qatar",
             "description": "Learn about Power Sixers Trading and Contracting W.L.L. in Doha, Qatar. Explore our MEP installation, HVAC, AC maintenance, plumbing, fire fighting and technical manpower services.",
-            "imageAlt": "PST - MEP services and project work in Qatar"
+            "imageAlt": "PSTC - MEP services and project work in Qatar"
         },
         "hero": {
             "home": "Home",
             "breadcrumb": "About Us",
-            "eyebrow": "GET TO KNOW PST",
+            "eyebrow": "GET TO KNOW PSTC",
             "title": "Building Reliable MEP Solutions for Qatar",
             "description": "Learn more about Power Sixers Trading and Contracting W.L.L., our services, our approach and our commitment to supporting project requirements across Qatar."
         },
@@ -237,7 +237,7 @@
             }
         },
         "whyChoose": {
-            "eyebrow": "WHY PST",
+            "eyebrow": "WHY PSTC",
             "title": "A Practical Approach to MEP Services",
             "description": "We focus on understanding project requirements and providing relevant installation, maintenance and technical support.",
             "solutions": {
@@ -314,17 +314,17 @@
     },
     "TeamPage": {
         "metadata": {
-            "title": "Our Team | MEP Engineers & Technical Professionals in Qatar - PST",
+            "title": "Our Team | MEP Engineers & Technical Professionals in Qatar - PSTC",
             "description": "Meet the team at Power Sixers Trading and Contracting W.L.L. in Qatar. Learn about our management, technical expertise and commitment to quality MEP services.",
             "keywords": [
-                "PST team Qatar",
+                "PSTC team Qatar",
                 "MEP engineers Qatar",
                 "MEP technical team",
                 "HVAC professionals Qatar",
                 "MEP contracting company Qatar",
                 "Power Sixers Trading and Contracting"
             ],
-            "imageAlt": "PST team members wearing safety helmets and reflective vests at a construction site"
+            "imageAlt": "PSTC team members wearing safety helmets and reflective vests at a construction site"
         },
         "hero": {
             "home": "Home",
@@ -333,13 +333,13 @@
             "title": "Our People, Our Strength",
             "description": "Our team brings together technical knowledge, practical experience and a shared commitment to delivering reliable MEP solutions.",
             "button": "Get in Touch",
-            "imageAlt": "PST team members wearing safety helmets and reflective vests at a construction site"
+            "imageAlt": "PSTC team members wearing safety helmets and reflective vests at a construction site"
         },
         "leadership": {
             "eyebrow": "OUR MANAGEMENT",
             "title": "Meet Our Leadership",
             "description": "Meet the people leading Power Sixers Trading and Contracting W.L.L. Our management team is committed to professional service, reliable project delivery and long-term business relationships.",
-            "memberLabel": "PST MANAGEMENT",
+            "memberLabel": "PSTC MANAGEMENT",
             "experienceLabel": "Years Experience",
             "member1": {
                 "experience": "5+ Years"
@@ -405,7 +405,7 @@
             "description": "Looking for reliable MEP solutions for your next project? Get in touch with our team to discuss your requirements.",
             "contactButton": "Contact Our Team",
             "whatsappButton": "Chat on WhatsApp",
-            "whatsappMessage": "Hello PST, I would like to discuss an MEP project with your team."
+            "whatsappMessage": "Hello PSTC, I would like to discuss an MEP project with your team."
         }
     },
     "Footer": {

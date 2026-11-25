@@ -43,10 +43,10 @@ export default function ContactForm() {
     };
 
     const inputClass =
-        "w-full rounded-xl border border-slate-200 bg-slate-50 px-4 py-3.5 text-sm text-slate-800 outline-none transition placeholder:text-slate-400 focus:border-pst-blue focus:bg-white focus:ring-4 focus:ring-blue-50";
+        "w-full rounded-xl border border-slate-200 bg-slate-50 px-4 py-3.5 text-sm text-slate-800 outline-none transition placeholder:text-slate-400 focus:border-pstc-blue focus:bg-white focus:ring-4 focus:ring-blue-50";
 
     const labelClass =
-        "mb-2 block text-sm font-semibold text-pst-navy";
+        "mb-2 block text-sm font-semibold text-pstc-navy";
 
     const renderError = (error) =>
         error && (
@@ -72,11 +72,11 @@ export default function ContactForm() {
                         transition={{ duration: 0.6 }}
                         className="lg:sticky lg:top-28"
                     >
-                        <span className="mb-4 inline-block text-sm font-bold uppercase tracking-[0.2em] text-pst-blue">
+                        <span className="mb-4 inline-block text-sm font-bold uppercase tracking-[0.2em] text-pstc-blue">
                             {t("eyebrow")}
                         </span>
 
-                        <h2 className="max-w-lg text-3xl font-bold leading-tight text-pst-navy sm:text-4xl lg:text-5xl">
+                        <h2 className="max-w-lg text-3xl font-bold leading-tight text-pstc-navy sm:text-4xl lg:text-5xl">
                             {t("title")}
                         </h2>
 
@@ -85,12 +85,12 @@ export default function ContactForm() {
                         </p>
 
                         <div className="mt-10 flex items-start gap-4 rounded-2xl border border-blue-100 bg-white p-5 shadow-sm">
-                            <div className="flex h-12 w-12 shrink-0 items-center justify-center rounded-xl bg-blue-50 text-pst-blue">
+                            <div className="flex h-12 w-12 shrink-0 items-center justify-center rounded-xl bg-blue-50 text-pstc-blue">
                                 <Send size={22} />
                             </div>
 
                             <div>
-                                <h3 className="font-bold text-pst-navy">
+                                <h3 className="font-bold text-pstc-navy">
                                     {t("noteTitle")}
                                 </h3>
                                 <p className="mt-2 text-sm leading-7 text-slate-500">
@@ -233,7 +233,7 @@ export default function ContactForm() {
                             {/* Submit */}
                             <button
                                 type="submit"
-                                className="group inline-flex w-full items-center justify-center gap-3 rounded-xl bg-pst-blue px-6 py-4 text-sm font-bold text-white shadow-lg shadow-blue-900/10 transition duration-300 hover:-translate-y-1 hover:bg-pst-navy hover:shadow-xl"
+                                className="group inline-flex w-full items-center justify-center gap-3 rounded-xl bg-pstc-blue px-6 py-4 text-sm font-bold text-white shadow-lg shadow-blue-900/10 transition duration-300 hover:-translate-y-1 hover:bg-pstc-navy hover:shadow-xl"
                             >
                                 {t("submit")}
                                 <Send

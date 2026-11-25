@@ -40,7 +40,7 @@ export default function ProjectsHero({ locale }) {
     return (
         <section
             dir={isArabic ? "rtl" : "ltr"}
-            className="relative flex min-h-[540px] items-center overflow-hidden bg-pst-navy sm:min-h-[600px] lg:min-h-[650px]"
+            className="relative flex min-h-[540px] items-center overflow-hidden bg-pstc-navy sm:min-h-[600px] lg:min-h-[650px]"
         >
             {/* Background Image */}
             <Image
@@ -48,7 +48,7 @@ export default function ProjectsHero({ locale }) {
                 alt={
                     isArabic
                         ? "مشاريع وحلول هندسية"
-                        : "PST engineering and MEP projects"
+                        : "PSTC engineering and MEP projects"
                 }
                 fill
                 priority
@@ -84,7 +84,7 @@ export default function ProjectsHero({ locale }) {
                             {t.breadcrumbHome}
                         </Link>
 
-                        <span className="text-pst-red">/</span>
+                        <span className="text-pstc-red">/</span>
 
                         <span className="font-medium text-white">
                             {t.breadcrumbCurrent}
@@ -116,7 +116,7 @@ export default function ProjectsHero({ locale }) {
                     <div className="mt-10 flex flex-wrap items-center gap-4">
                         <a
                             href="#projects-list"
-                            className="group inline-flex items-center gap-3 rounded-md bg-pst-blue px-7 py-4 text-sm font-bold text-white shadow-lg shadow-blue-950/20 transition-all duration-300 hover:bg-blue-700"
+                            className="group inline-flex items-center gap-3 rounded-md bg-pstc-blue px-7 py-4 text-sm font-bold text-white shadow-lg shadow-blue-950/20 transition-all duration-300 hover:bg-blue-700"
                         >
                             {t.button}
 

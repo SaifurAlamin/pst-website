@@ -82,11 +82,11 @@ export default function ContactInfo() {
                     transition={{ duration: 0.6 }}
                     className="mx-auto mb-14 max-w-2xl text-center"
                 >
-                    <span className="mb-4 inline-block text-sm font-bold uppercase tracking-[0.2em] text-pst-blue">
+                    <span className="mb-4 inline-block text-sm font-bold uppercase tracking-[0.2em] text-pstc-blue">
                         {t("eyebrow")}
                     </span>
 
-                    <h2 className="text-3xl font-bold text-pst-navy sm:text-4xl">
+                    <h2 className="text-3xl font-bold text-pstc-navy sm:text-4xl">
                         {t("title")}
                     </h2>
 
@@ -112,11 +112,11 @@ export default function ContactInfo() {
                                 }}
                                 className="group relative rounded-2xl border border-slate-100 bg-slate-50 p-7 transition-all duration-300 hover:-translate-y-2 hover:border-blue-100 hover:bg-white hover:shadow-xl"
                             >
-                                <div className="mb-6 flex h-14 w-14 items-center justify-center rounded-xl bg-blue-50 text-pst-blue transition-colors duration-300 group-hover:bg-pst-blue group-hover:text-white">
+                                <div className="mb-6 flex h-14 w-14 items-center justify-center rounded-xl bg-blue-50 text-pstc-blue transition-colors duration-300 group-hover:bg-pstc-blue group-hover:text-white">
                                     <Icon size={25} strokeWidth={1.8} />
                                 </div>
 
-                                <h3 className="mb-3 text-xl font-bold text-pst-navy">
+                                <h3 className="mb-3 text-xl font-bold text-pstc-navy">
                                     {t(`${item.key}.title`)}
                                 </h3>
 
@@ -129,7 +129,7 @@ export default function ContactInfo() {
                                         href={item.href}
                                         target={item.external ? "_blank" : undefined}
                                         rel={item.external ? "noopener noreferrer" : undefined}
-                                        className="mt-5 inline-flex items-center gap-2 text-sm font-bold text-pst-blue transition hover:text-pst-red"
+                                        className="mt-5 inline-flex items-center gap-2 text-sm font-bold text-pstc-blue transition hover:text-pstc-red"
                                     >
                                         {t(`${item.key}.action`)}
                                         <ArrowUpRight
@@ -153,12 +153,12 @@ export default function ContactInfo() {
                         transition={{ duration: 0.6 }}
                         className="mx-auto mb-12 max-w-2xl text-center"
                     >
-                        <span className="mb-4 inline-flex items-center gap-2 rounded-full bg-blue-50 px-5 py-2 text-sm font-bold text-pst-blue">
+                        <span className="mb-4 inline-flex items-center gap-2 rounded-full bg-blue-50 px-5 py-2 text-sm font-bold text-pstc-blue">
                             <Users size={16} />
                             {t("management.eyebrow")}
                         </span>
 
-                        <h2 className="text-3xl font-bold text-pst-navy sm:text-4xl">
+                        <h2 className="text-3xl font-bold text-pstc-navy sm:text-4xl">
                             {t("management.title")}
                         </h2>
 
@@ -171,8 +171,8 @@ export default function ContactInfo() {
                         {managementMembers.map((member, index) => {
                             const whatsappUrl = `https://wa.me/${member.phone.replace("+", "")}?text=${encodeURIComponent(
                                 isArabic
-                                    ? "مرحباً، أود التواصل معكم بخصوص خدمات PST."
-                                    : "Hello, I would like to contact you regarding PST services."
+                                    ? "مرحباً، أود التواصل معكم بخصوص خدمات PSTC."
+                                    : "Hello, I would like to contact you regarding PSTC services."
                             )}`;
 
                             return (
@@ -209,22 +209,22 @@ export default function ContactInfo() {
                                     <div className="p-6">
                                         <h3
                                             dir="ltr"
-                                            className="text-lg font-bold text-pst-navy"
+                                            className="text-lg font-bold text-pstc-navy"
                                         >
                                             {member.name}
                                         </h3>
 
-                                        <p className="mt-2 text-sm font-semibold text-pst-blue">
+                                        <p className="mt-2 text-sm font-semibold text-pstc-blue">
                                             {t(`management.${member.key}.designation`)}
                                         </p>
 
                                         <div className="mt-5 flex items-center gap-2 text-sm text-slate-500">
-                                            <Phone size={16} className="shrink-0 text-pst-blue" />
+                                            <Phone size={16} className="shrink-0 text-pstc-blue" />
 
                                             <a
                                                 href={`tel:${member.phone}`}
                                                 dir="ltr"
-                                                className="font-medium transition hover:text-pst-blue"
+                                                className="font-medium transition hover:text-pstc-blue"
                                             >
                                                 {member.phone}
                                             </a>
@@ -235,7 +235,7 @@ export default function ContactInfo() {
                                         <div className="grid grid-cols-2 gap-3">
                                             <a
                                                 href={`tel:${member.phone}`}
-                                                className="inline-flex items-center justify-center gap-2 rounded-lg bg-blue-50 px-3 py-3 text-sm font-bold text-pst-blue transition hover:bg-pst-blue hover:text-white"
+                                                className="inline-flex items-center justify-center gap-2 rounded-lg bg-blue-50 px-3 py-3 text-sm font-bold text-pstc-blue transition hover:bg-pstc-blue hover:text-white"
                                             >
                                                 <Phone size={16} />
                                                 {t("management.call")}

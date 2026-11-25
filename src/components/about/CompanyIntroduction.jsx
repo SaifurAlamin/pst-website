@@ -28,11 +28,11 @@ export default function CompanyIntroduction() {
                     viewport={{ once: true }}
                     transition={{ duration: 0.7 }}
                 >
-                    <span className="mb-4 inline-block text-sm font-bold uppercase tracking-[0.2em] text-pst-blue">
+                    <span className="mb-4 inline-block text-sm font-bold uppercase tracking-[0.2em] text-pstc-blue">
                         {t("eyebrow")}
                     </span>
 
-                    <h2 className="text-3xl font-bold leading-tight text-pst-navy sm:text-4xl lg:text-5xl">
+                    <h2 className="text-3xl font-bold leading-tight text-pstc-navy sm:text-4xl lg:text-5xl">
                         {t("title")}
                     </h2>
 
@@ -49,7 +49,7 @@ export default function CompanyIntroduction() {
                             <div key={index} className="flex items-center gap-3">
                                 <CheckCircle2
                                     size={20}
-                                    className="shrink-0 text-pst-blue"
+                                    className="shrink-0 text-pstc-blue"
                                 />
                                 <span className="text-sm font-semibold text-slate-700 sm:text-base">
                                     {feature}
@@ -95,7 +95,7 @@ export default function CompanyIntroduction() {
                         </div>
                     </div>
 
-                    <div className="absolute -bottom-5 -right-5 -z-10 h-32 w-32 rounded-br-[2rem] border-b-4 border-r-4 border-pst-blue" />
+                    <div className="absolute -bottom-5 -right-5 -z-10 h-32 w-32 rounded-br-[2rem] border-b-4 border-r-4 border-pstc-blue" />
                 </motion.div>
             </div>
         </section>

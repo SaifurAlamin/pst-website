@@ -56,12 +56,12 @@ export default function LeadershipTeam() {
                     transition={{ duration: 0.6 }}
                     className="mx-auto mb-14 max-w-3xl text-center"
                 >
-                    <span className="mb-4 inline-flex items-center gap-2 rounded-full bg-blue-50 px-5 py-2 text-sm font-bold text-pst-blue">
+                    <span className="mb-4 inline-flex items-center gap-2 rounded-full bg-blue-50 px-5 py-2 text-sm font-bold text-pstc-blue">
                         <Users size={16} />
                         {t("eyebrow")}
                     </span>
 
-                    <h2 className="text-3xl font-bold leading-tight text-pst-navy sm:text-4xl lg:text-5xl">
+                    <h2 className="text-3xl font-bold leading-tight text-pstc-navy sm:text-4xl lg:text-5xl">
                         {t("title")}
                     </h2>
 
@@ -81,8 +81,8 @@ export default function LeadershipTeam() {
                             .join("");
                         const whatsappUrl = `https://wa.me/${member.phone.replace("+", "")}?text=${encodeURIComponent(
                             isArabic
-                                ? "مرحباً، أود التواصل معكم بخصوص خدمات PST."
-                                : "Hello, I would like to contact you regarding PST services."
+                                ? "مرحباً، أود التواصل معكم بخصوص خدمات PSTC."
+                                : "Hello, I would like to contact you regarding PSTC services."
                         )}`;
                         return (
                             <motion.article
@@ -117,20 +117,20 @@ export default function LeadershipTeam() {
 
                                 {/* Member Information */}
                                 <div className="p-6">
-                                    <span className="mb-2 block text-xs font-bold uppercase tracking-wider text-pst-blue">
+                                    <span className="mb-2 block text-xs font-bold uppercase tracking-wider text-pstc-blue">
                                         {t("memberLabel")}
                                     </span>
 
                                     <h3
                                         dir="ltr"
-                                        className="text-lg font-bold text-pst-navy"
+                                        className="text-lg font-bold text-pstc-navy"
                                     >
                                         {member.name}
                                     </h3>
 
                                     {/* Experience */}
                                     <div className="mt-5 flex items-center gap-3 rounded-xl bg-blue-50/70 p-4">
-                                        <div className="flex h-10 w-10 shrink-0 items-center justify-center rounded-lg bg-white text-pst-blue shadow-sm">
+                                        <div className="flex h-10 w-10 shrink-0 items-center justify-center rounded-lg bg-white text-pstc-blue shadow-sm">
                                             <Award size={20} />
                                         </div>
 
@@ -139,7 +139,7 @@ export default function LeadershipTeam() {
                                                 {t("experienceLabel")}
                                             </p>
 
-                                            <p className="mt-1 text-base font-extrabold text-pst-navy">
+                                            <p className="mt-1 text-base font-extrabold text-pstc-navy">
                                                 {t(`${member.key}.experience`)}
                                             </p>
                                         </div>
@@ -148,7 +148,7 @@ export default function LeadershipTeam() {
                                     <div className="mt-5 grid grid-cols-2 gap-3">
                                         <a
                                             href={`tel:${member.phone}`}
-                                            className="inline-flex items-center justify-center gap-2 rounded-lg bg-blue-50 px-3 py-3 text-sm font-bold text-pst-blue transition hover:bg-pst-blue hover:text-white"
+                                            className="inline-flex items-center justify-center gap-2 rounded-lg bg-blue-50 px-3 py-3 text-sm font-bold text-pstc-blue transition hover:bg-pstc-blue hover:text-white"
                                         >
                                             <Phone size={16} />
                                             {t("call")}
@@ -173,7 +173,7 @@ export default function LeadershipTeam() {
                                             {t("whatsapp")}
                                         </a>
                                     </div>
-                                    <div className="mt-5 h-1 w-12 rounded-full bg-pst-blue transition-all duration-500 group-hover:w-20" />
+                                    <div className="mt-5 h-1 w-12 rounded-full bg-pstc-blue transition-all duration-500 group-hover:w-20" />
                                 </div>
                             </motion.article>
                         );

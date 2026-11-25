@@ -15,7 +15,7 @@ export default function TeamHero() {
     return (
         <section
             dir={isArabic ? "rtl" : "ltr"}
-            className="relative flex min-h-[520px] items-center overflow-hidden bg-pst-navy md:min-h-[620px]"
+            className="relative flex min-h-[520px] items-center overflow-hidden bg-pstc-navy md:min-h-[620px]"
         >
             {/* Background Image */}
             <Image
@@ -28,7 +28,7 @@ export default function TeamHero() {
             />
 
             {/* Dark Overlay */}
-            <div className="absolute inset-0 bg-gradient-to-r from-pst-navy/95 via-pst-navy/75 to-pst-navy/30" />
+            <div className="absolute inset-0 bg-gradient-to-r from-pstc-navy/95 via-pstc-navy/75 to-pstc-navy/30" />
 
             {/* Content */}
             <div className="relative z-10 mx-auto w-full max-w-7xl px-5 py-24 sm:px-8 lg:px-10">
@@ -81,7 +81,7 @@ export default function TeamHero() {
                         <div className="mt-9">
                             <Link
                                 href="/contact"
-                                className="inline-flex items-center gap-3 rounded-lg bg-pst-blue px-7 py-4 text-sm font-bold text-white shadow-lg transition-all duration-300 hover:-translate-y-1 hover:bg-blue-700"
+                                className="inline-flex items-center gap-3 rounded-lg bg-pstc-blue px-7 py-4 text-sm font-bold text-white shadow-lg transition-all duration-300 hover:-translate-y-1 hover:bg-blue-700"
                             >
                                 {t("button")}
                                 <ArrowRight
@@ -96,7 +96,7 @@ export default function TeamHero() {
             </div>
 
             {/* Bottom Accent */}
-            <div className="absolute bottom-0 left-0 h-1.5 w-full bg-gradient-to-r from-pst-blue via-white/40 to-pst-red" />
+            <div className="absolute bottom-0 left-0 h-1.5 w-full bg-gradient-to-r from-pstc-blue via-white/40 to-pstc-red" />
         </section>
     );
 }

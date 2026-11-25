@@ -45,35 +45,22 @@ export default function TopBar() {
 
 
     return (
+
         <div
             dir={isArabic ? "rtl" : "ltr"}
-            className="relative z-50 border-b border-slate-200/80 bg-white text-pst-navy"
+            className="relative z-50 border-b border-slate-200/80 bg-white text-pstc-navy animate-topbar"
         >
-            <div className="mx-auto flex max-w-7xl flex-wrap items-center justify-between gap-x-4 gap-y-2 px-4 py-2 sm:px-6 lg:px-8">
+            <div className="mx-auto flex max-w-7xl flex-wrap items-center justify-between gap-x-4 gap-y-2 px-4 py-3 sm:px-6 lg:px-8">
 
-                {/* Left Side - Logo & Phone Numbers */}
+                {/* Left Side - Phone Numbers */}
                 <div className="flex flex-wrap items-center gap-x-5 gap-y-2">
-
-                    {/* <Link
-                        href="/"
-                        dir="ltr"
-                        className="flex shrink-0 items-center"
-                    >
-                        <img
-                            src="/images/logo/logo.png"
-                            alt="Power Sixers Trading and Contracting W.L.L."
-                            className="h-11 w-auto object-contain sm:h-12"
-                            width="200"
-                            height="80"
-                        />
-                    </Link> */}
 
                     {/* Phone Contacts */}
                     <div className="flex min-w-0 items-center gap-2">
                         <div
-                            className={`flex h-7 w-7 shrink-0 items-center justify-center rounded-full transition-colors duration-300 ${showWhatsApp
-                                ? "bg-green-50 text-[#25D366]"
-                                : "bg-blue-50 text-pst-blue"
+                            className={`flex h-7 w-7 shrink-0 items-center justify-center rounded-full transition-all duration-300 ${showWhatsApp
+                                    ? "bg-green-50 text-[#25D366]"
+                                    : "bg-blue-50 text-pstc-blue"
                                 }`}
                         >
                             {showWhatsApp ? (
@@ -98,7 +85,7 @@ export default function TopBar() {
 
                                     <a
                                         href={`tel:${item.phone.replace(/\s/g, "")}`}
-                                        className="whitespace-nowrap transition-colors duration-200 hover:text-pst-red"
+                                        className="whitespace-nowrap transition-all duration-300 hover:-translate-y-0.5 hover:text-pstc-red"
                                     >
                                         {item.phone}
                                     </a>
@@ -108,31 +95,32 @@ export default function TopBar() {
                     </div>
                 </div>
 
-
                 {/* Right Side - Email, Location & Social Links */}
                 <div className="flex items-center gap-3 text-[11px] font-medium sm:gap-4 sm:text-xs">
 
+                    {/* Email */}
                     <a
                         dir="ltr"
                         href="mailto:powersixers.qa@gmail.com"
-                        className="hidden items-center gap-1.5 whitespace-nowrap transition-colors duration-200 hover:text-pst-red md:flex"
+                        className="hidden items-center gap-1.5 whitespace-nowrap transition-all duration-300 hover:-translate-y-0.5 hover:text-pstc-red md:flex"
                     >
-                        <Mail size={14} className="shrink-0 text-pst-blue" />
+                        <Mail size={14} className="shrink-0 text-pstc-blue" />
                         <span>powersixers.qa@gmail.com</span>
                     </a>
 
                     <span className="hidden text-slate-300 md:inline">|</span>
 
+                    {/* Location */}
                     <div className="flex items-center gap-1.5 whitespace-nowrap">
-                        <MapPin size={14} className="shrink-0 text-pst-red" />
+                        <MapPin size={14} className="shrink-0 text-pstc-red" />
                         <span>Doha, Qatar</span>
                     </div>
 
                     <span className="text-slate-300">|</span>
 
                     {/* Social Media */}
-                    {/* Social Media */}
                     <div className="flex items-center gap-3">
+
                         {/* Facebook */}
                         <a
                             href="https://www.facebook.com/profile.php?id=61596166545461"
@@ -140,7 +128,7 @@ export default function TopBar() {
                             rel="noopener noreferrer"
                             aria-label="Facebook"
                             title="Follow us on Facebook"
-                            className="text-[#1877F2] transition-all duration-200 hover:-translate-y-0.5 hover:opacity-75"
+                            className="text-[#1877F2] transition-all duration-300 hover:-translate-y-1 hover:scale-110 hover:opacity-75"
                         >
                             <svg
                                 xmlns="http://www.w3.org/2000/svg"
@@ -159,7 +147,7 @@ export default function TopBar() {
                             rel="noopener noreferrer"
                             aria-label="Instagram"
                             title="Follow us on Instagram"
-                            className="text-[#E4405F] transition-all duration-200 hover:-translate-y-0.5 hover:opacity-75"
+                            className="text-[#E4405F] transition-all duration-300 hover:-translate-y-1 hover:scale-110 hover:opacity-75"
                         >
                             <svg
                                 xmlns="http://www.w3.org/2000/svg"
@@ -178,9 +166,9 @@ export default function TopBar() {
                         </a>
                     </div>
                 </div>
-
             </div>
         </div>
+
     );
 
 

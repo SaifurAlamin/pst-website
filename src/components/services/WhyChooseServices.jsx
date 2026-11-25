@@ -108,14 +108,14 @@ export default function WhyChooseServices({ locale }) {
                     className="mx-auto mb-14 max-w-3xl text-center lg:mb-16"
                 >
                     <div className="mb-5 flex items-center justify-center gap-3">
-                        <span className="h-[2px] w-8 bg-pst-red" />
-                        <span className="text-xs font-bold uppercase tracking-[3px] text-pst-blue">
+                        <span className="h-[2px] w-8 bg-pstc-red" />
+                        <span className="text-xs font-bold uppercase tracking-[3px] text-pstc-blue">
                             {t.eyebrow}
                         </span>
-                        <span className="h-[2px] w-8 bg-pst-red" />
+                        <span className="h-[2px] w-8 bg-pstc-red" />
                     </div>
 
-                    <h2 className="text-3xl font-extrabold leading-tight tracking-tight text-pst-navy sm:text-4xl lg:text-5xl">
+                    <h2 className="text-3xl font-extrabold leading-tight tracking-tight text-pstc-navy sm:text-4xl lg:text-5xl">
                         {t.title}
                     </h2>
 
@@ -164,12 +164,12 @@ export default function WhyChooseServices({ locale }) {
                                 </span>
 
                                 {/* Icon */}
-                                <div className="mb-7 flex h-16 w-16 items-center justify-center rounded-2xl bg-blue-50 text-pst-blue transition-all duration-300 group-hover:bg-pst-blue group-hover:text-white">
+                                <div className="mb-7 flex h-16 w-16 items-center justify-center rounded-2xl bg-blue-50 text-pstc-blue transition-all duration-300 group-hover:bg-pstc-blue group-hover:text-white">
                                     <Icon size={29} strokeWidth={1.8} />
                                 </div>
 
                                 {/* Content */}
-                                <h3 className="mb-3 text-lg font-bold leading-snug text-pst-navy">
+                                <h3 className="mb-3 text-lg font-bold leading-snug text-pstc-navy">
                                     {item.title}
                                 </h3>
 
@@ -178,7 +178,7 @@ export default function WhyChooseServices({ locale }) {
                                 </p>
 
                                 {/* Bottom Accent */}
-                                <div className="absolute bottom-0 left-0 h-1 w-0 bg-pst-red transition-all duration-500 group-hover:w-full" />
+                                <div className="absolute bottom-0 left-0 h-1 w-0 bg-pstc-red transition-all duration-500 group-hover:w-full" />
                             </motion.div>
                         );
                     })}

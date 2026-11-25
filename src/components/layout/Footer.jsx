@@ -187,8 +187,13 @@ export default function Footer() {
                                     className="mt-1 shrink-0 text-blue-400"
                                 />
 
-                                <span className="text-sm leading-6 text-slate-400">
-                                    Doha, Qatar
+                                <span
+                                    dir={isArabic ? "rtl" : "ltr"}
+                                    className="text-sm leading-6 text-slate-400"
+                                >
+                                    {isArabic
+                                        ? "فريج بن عبد العزيز، الدوحة، قطر"
+                                        : "Fereej Bin Abdel Aziz, Doha, Qatar"}
                                 </span>
                             </li>
 

@@ -11,7 +11,7 @@ The website is designed to present the company's services, projects, business in
 ## 🌐 Website Overview
 
 - **Company:** Power Sixers Trading and Contracting W.L.L.
-- **Location:** Doha, Qatar
+- **Location:** Fereej Bin Abdel Aziz, Doha, Qatar
 - **Industry:** MEP & Technical Services
 - **Languages:** English and Arabic
 - **Direction Support:** LTR and RTL

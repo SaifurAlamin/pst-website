@@ -17,7 +17,7 @@ const contactItems = [
     {
         key: "location",
         icon: MapPin,
-        href: "https://www.google.com/maps/search/?api=1&query=Doha%2C+Qatar",
+        href: "https://www.google.com/maps/search/?api=1&query=Fereej+Bin+Abdel+Aziz%2C+Doha%2C+Qatar",
         external: true,
     },
     {
@@ -40,23 +40,27 @@ const contactItems = [
 const managementMembers = [
     {
         key: "member1",
-        name: "Md. Alamgir Hossain",
-        phone: "+97477676249",
+        name: "Md. Saju Bhuiyan",
+        phone: "+97450925474",
+        image: "/images/team/saju.webp",
     },
     {
         key: "member2",
         name: "Md. Masum",
         phone: "+97466262691",
+        image: "/images/team/masum.webp",
     },
     {
         key: "member3",
-        name: "Md. Saju",
-        phone: "+97450925474",
+        name: "Md. Alamgir Hossain",
+        phone: "+97477676249",
+        image: "/images/team/alamgir.webp",
     },
     {
         key: "member4",
         name: "Iqbal Hossain",
         phone: "+97470475299",
+        image: "/images/team/iqbal.webp",
     },
 ];
 
@@ -100,6 +104,20 @@ export default function ContactInfo() {
                     {contactItems.map((item, index) => {
                         const Icon = item.icon;
 
+                        const cardColors = [
+                            "border-blue-100 bg-blue-50/70 hover:border-blue-200",
+                            "border-emerald-100 bg-emerald-50/70 hover:border-emerald-200",
+                            "border-amber-100 bg-amber-50/70 hover:border-amber-200",
+                            "border-purple-100 bg-purple-50/70 hover:border-purple-200",
+                        ];
+
+                        const iconColors = [
+                            "bg-blue-100 text-blue-600 group-hover:bg-blue-600",
+                            "bg-emerald-100 text-emerald-600 group-hover:bg-emerald-600",
+                            "bg-amber-100 text-amber-600 group-hover:bg-amber-600",
+                            "bg-purple-100 text-purple-600 group-hover:bg-purple-600",
+                        ];
+
                         return (
                             <motion.div
                                 key={item.key}
@@ -110,9 +128,12 @@ export default function ContactInfo() {
                                     duration: 0.5,
                                     delay: index * 0.1,
                                 }}
-                                className="group relative rounded-2xl border border-slate-100 bg-slate-50 p-7 transition-all duration-300 hover:-translate-y-2 hover:border-blue-100 hover:bg-white hover:shadow-xl"
+                                className={`group relative rounded-2xl border p-7 transition-all duration-300 hover:-translate-y-2 hover:bg-white hover:shadow-xl ${cardColors[index]}`}
                             >
-                                <div className="mb-6 flex h-14 w-14 items-center justify-center rounded-xl bg-blue-50 text-pstc-blue transition-colors duration-300 group-hover:bg-pstc-blue group-hover:text-white">
+                                {/* Icon */}
+                                <div
+                                    className={`mb-6 flex h-14 w-14 items-center justify-center rounded-xl transition-all duration-300 group-hover:text-white ${iconColors[index]}`}
+                                >
                                     <Icon size={25} strokeWidth={1.8} />
                                 </div>
 
@@ -187,20 +208,18 @@ export default function ContactInfo() {
                                     }}
                                     className="group overflow-hidden rounded-2xl border border-slate-200 bg-white shadow-sm transition-all duration-300 hover:-translate-y-2 hover:border-blue-200 hover:shadow-xl"
                                 >
-                                    {/* Card Header */}
-                                    <div className="relative flex h-32 items-center gap-4 overflow-hidden bg-gradient-to-r from-[#101D3A] to-[#174A8B] px-6">
-                                        <div className="absolute -right-8 -top-12 h-36 w-36 rounded-full border border-white/10" />
-
-                                        <div className="relative flex h-16 w-16 shrink-0 items-center justify-center rounded-full border border-white/20 bg-white/10 text-xl font-bold text-white">
-                                            {member.name
-                                                .split(" ")
-                                                .filter(Boolean)
-                                                .map((word) => word[0])
-                                                .slice(0, 2)
-                                                .join("")}
+                                    {/* Profile Image */}
+                                    <div className="flex flex-col items-center px-6 pt-8">
+                                        <div className="relative h-24 w-24 overflow-hidden rounded-full border-4 border-blue-50 bg-slate-100 shadow-md transition-transform duration-500 group-hover:scale-105">
+                                            <img
+                                                src={member.image}
+                                                alt={member.name}
+                                                className="h-full w-full object-cover object-top"
+                                                loading="lazy"
+                                            />
                                         </div>
 
-                                        <span className="relative text-xs font-bold uppercase tracking-wider text-blue-100">
+                                        <span className="mt-4 rounded-full bg-blue-50 px-4 py-1.5 text-[11px] font-bold uppercase tracking-wider text-pstc-blue">
                                             {t("management.memberLabel")}
                                         </span>
                                     </div>

@@ -86,7 +86,7 @@
         "contactLocationTitle": "موقعنا",
         "contactLocationValue": "الدوحة، قطر",
         "contactPhoneTitle": "اتصل بنا",
-        "contactPhoneValue": "+974 5092 5474 / +974 6626 2691",
+        "contactPhoneValue": "+974 5092 5474 / +974 6626 2691 / +974 7767 6249",
         "contactEmailTitle": "راسلنا عبر البريد الإلكتروني",
         "contactEmailValue": "powersixers.qa@gmail.com",
         "contactBannerTitle": "هل أنت مستعد لمناقشة متطلباتك؟",
@@ -127,7 +127,7 @@
             },
             "phone": {
                 "title": "اتصل بنا",
-                "value": "+974 5092 5474\n+974 6626 2691",
+                "value": "+974 5092 5474\n+974 6626 2691\n+974 7767 6249",
                 "action": "اتصل الآن"
             },
             "email": {
@@ -147,13 +147,13 @@
                 "call": "اتصال",
                 "whatsapp": "واتساب",
                 "member1": {
-                    "designation": "المدير العام"
+                    "designation": "شريك إداري"
                 },
                 "member2": {
                     "designation": "شريك إداري"
                 },
                 "member3": {
-                    "designation": "شريك إداري"
+                    "designation": "المدير العام"
                 },
                 "member4": {
                     "designation": "شريك إداري"

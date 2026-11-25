@@ -26,7 +26,7 @@
         "visualItemThree": "Installation & Maintenance",
         "aboutEyebrow": "ABOUT OUR COMPANY",
         "aboutTitle": "Powering Your Projects with Reliable MEP Solutions",
-        "aboutDescription": "Power Sixers Trading and Contracting W.L.L. is based in Doha, Qatar. We provide MEP installation, HVAC, air conditioning, plumbing, fire fighting and technical manpower services for project requirements.",
+        "aboutDescription": "Power Sixers Trading and Contracting W.L.L. is based in Fereej Bin Abdel Aziz, Doha, Qatar. We provide MEP installation, HVAC, air conditioning, plumbing, fire fighting and technical manpower services for project requirements.",
         "aboutFeatureOne": "MEP installation solutions",
         "aboutFeatureTwo": "HVAC and VRF installation",
         "aboutFeatureThree": "AC maintenance and repair",
@@ -35,7 +35,7 @@
         "aboutVisualTitle": "Building Reliable Solutions",
         "aboutVisualDescription": "Supporting project requirements through installation, technical services and maintenance.",
         "aboutVisualItemOne": "MEP Services",
-        "aboutVisualItemTwo": "Doha, Qatar",
+        "aboutVisualItemTwo": "Fereej Bin Abdel Aziz, Doha, Qatar",
         "aboutVisualBadge": "OUR APPROACH",
         "highlightOne": "Company Location",
         "highlightOneDescription": "Operating from Doha, Qatar.",
@@ -84,9 +84,9 @@
         "contactTitle": "Let's Discuss Your Project",
         "contactDescription": "Have questions or planning a project? Reach out to our team to discuss your MEP and technical service requirements.",
         "contactLocationTitle": "Our Location",
-        "contactLocationValue": "Doha, Qatar",
+        "contactLocationValue": "Fereej Bin Abdel Aziz, Doha, Qatar",
         "contactPhoneTitle": "Call Us",
-        "contactPhoneValue": "+974 5092 5474 / +974 6626 2691",
+        "contactPhoneValue": "+974 5092 5474 / +974 6626 2691 / +974 7767 6249",
         "contactEmailTitle": "Email Us",
         "contactEmailValue": "powersixers.qa@gmail.com",
         "contactBannerTitle": "Ready to Discuss Your Requirements?",
@@ -106,7 +106,7 @@
     "ContactPage": {
         "metadata": {
             "title": "Contact Us | PSTC - MEP Company in Qatar",
-            "description": "Contact Power Sixers Trading and Contracting W.L.L. in Doha, Qatar for MEP installation, HVAC, AC maintenance, ducting, plumbing, fire fighting and technical manpower services.",
+            "description": "Contact Power Sixers Trading and Contracting W.L.L. in Fereej Bin Abdel Aziz, Doha, Qatar for MEP installation, HVAC, AC maintenance, ducting, plumbing, fire fighting and technical manpower services.",
             "imageAlt": "Contact PSTC for MEP and technical services in Qatar"
         },
         "hero": {
@@ -122,12 +122,12 @@
             "description": "Reach out to us for MEP solutions, project inquiries, or general information. Our team is ready to assist you.",
             "location": {
                 "title": "Our Location",
-                "value": "Doha, Qatar",
+                "value": "Fereej Bin Abdel Aziz, Doha, Qatar",
                 "action": "View Location"
             },
             "phone": {
                 "title": "Call Us",
-                "value": "+974 5092 5474\n+974 6626 2691",
+                "value": "+974 5092 5474\n+974 6626 2691\n+974 7767 6249",
                 "action": "Call Now"
             },
             "email": {
@@ -147,13 +147,13 @@
                 "call": "Call",
                 "whatsapp": "WhatsApp",
                 "member1": {
-                    "designation": "Managing Director"
+                    "designation": "Managing Partner"
                 },
                 "member2": {
                     "designation": "Managing Partner"
                 },
                 "member3": {
-                    "designation": "Managing Partner"
+                    "designation": "Managing Director"
                 },
                 "member4": {
                     "designation": "Managing Partner"
@@ -192,7 +192,7 @@
     "AboutPage": {
         "metadata": {
             "title": "About Us | PSTC - MEP Company in Qatar",
-            "description": "Learn about Power Sixers Trading and Contracting W.L.L. in Doha, Qatar. Explore our MEP installation, HVAC, AC maintenance, plumbing, fire fighting and technical manpower services.",
+            "description": "Learn about Power Sixers Trading and Contracting W.L.L. in Fereej Bin Abdel Aziz, Doha, Qatar. Explore our MEP installation, HVAC, AC maintenance, plumbing, fire fighting and technical manpower services.",
             "imageAlt": "PSTC - MEP services and project work in Qatar"
         },
         "hero": {
@@ -205,7 +205,7 @@
         "introduction": {
             "eyebrow": "WHO WE ARE",
             "title": "Your Trusted MEP Partner in Qatar",
-            "description": "Power Sixers Trading and Contracting W.L.L. is based in Doha, Qatar. We provide mechanical, electrical and plumbing related installation and technical services to support a variety of project requirements.",
+            "description": "Power Sixers Trading and Contracting W.L.L. is based in Fereej Bin Abdel Aziz, Doha, Qatar. We provide mechanical, electrical and plumbing related installation and technical services to support a variety of project requirements.",
             "secondDescription": "Our service areas include MEP installation, HVAC and VRF installation, AC maintenance and repair, ducting and chilled water piping, plumbing, fire fighting and skilled MEP manpower.",
             "features": {
                 "installation": "MEP installation solutions",
@@ -216,7 +216,7 @@
                 "eyebrow": "POWER SIXERS TRADING AND CONTRACTING W.L.L.",
                 "title": "Build. Install. Maintain.",
                 "description": "Supporting project requirements through practical MEP services and technical solutions.",
-                "location": "Doha, Qatar"
+                "location": "Fereej Bin Abdel Aziz, Doha, Qatar"
             }
         },
         "missionVision": {
@@ -413,7 +413,7 @@
         "quickLinks": "Quick Links",
         "servicesTitle": "Our Services",
         "contactTitle": "Contact Information",
-        "address": "Doha, Qatar",
+        "address": "Fereej Bin Abdel Aziz, Doha, Qatar",
         "crNumber": "CR Number: 169875",
         "email": "Email",
         "phone": "Phone",

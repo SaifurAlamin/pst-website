@@ -59,8 +59,8 @@ export default function TopBar() {
                     <div className="flex min-w-0 items-center gap-2">
                         <div
                             className={`flex h-7 w-7 shrink-0 items-center justify-center rounded-full transition-all duration-300 ${showWhatsApp
-                                    ? "bg-green-50 text-[#25D366]"
-                                    : "bg-blue-50 text-pstc-blue"
+                                ? "bg-green-50 text-[#25D366]"
+                                : "bg-blue-50 text-pstc-blue"
                                 }`}
                         >
                             {showWhatsApp ? (
@@ -113,7 +113,11 @@ export default function TopBar() {
                     {/* Location */}
                     <div className="flex items-center gap-1.5 whitespace-nowrap">
                         <MapPin size={14} className="shrink-0 text-pstc-red" />
-                        <span>Doha, Qatar</span>
+                        <span dir={isArabic ? "rtl" : "ltr"}>
+                            {isArabic
+                                ? "فريج بن عبد العزيز، الدوحة، قطر"
+                                : "Fereej Bin Abdel Aziz, Doha, Qatar"}
+                        </span>
                     </div>
 
                     <span className="text-slate-300">|</span>

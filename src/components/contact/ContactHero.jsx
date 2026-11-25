@@ -11,10 +11,22 @@ export default function ContactHero() {
 
     return (
         <section className="relative overflow-hidden bg-[#101D3A] py-24 sm:py-28 lg:py-32">
+            {/* Background Image */}
+            <div
+                className="absolute inset-0 bg-cover bg-center bg-no-repeat"
+                style={{
+                    backgroundImage: "url('/images/contact/contact.webp')",
+                }}
+            />
+
+            {/* Dark Overlay */}
+            <div className="absolute inset-0 bg-[#101D3A]/85" />
+
             {/* Background decoration */}
             <div className="pointer-events-none absolute -right-32 -top-32 h-96 w-96 rounded-full border border-white/10" />
             <div className="pointer-events-none absolute -right-16 -top-16 h-64 w-64 rounded-full border border-white/10" />
             <div className="pointer-events-none absolute -bottom-40 -left-20 h-96 w-96 rounded-full bg-[#174A8B]/30 blur-3xl" />
+
 
             <div className="relative mx-auto max-w-7xl px-5 sm:px-8">
                 <motion.div

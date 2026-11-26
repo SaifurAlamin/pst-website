@@ -141,7 +141,11 @@ export default function ContactInfo() {
                                     {t(`${item.key}.title`)}
                                 </h3>
 
-                                <p className="min-h-16 whitespace-pre-line text-sm leading-7 text-slate-500">
+                                <p
+                                    dir={item.key === "phone" ? "ltr" : isArabic ? "rtl" : "ltr"}
+                                    className={`min-h-16 whitespace-pre-line text-sm leading-7 text-slate-500 ${item.key === "phone" && isArabic ? "text-right" : ""
+                                        }`}
+                                >
                                     {t(`${item.key}.value`)}
                                 </p>
 

@@ -1,5 +1,5 @@
 
-import { getTranslations } from "next-intl/server";
+import { getTranslations, getLocale } from "next-intl/server";
 import { ArrowUpRight } from "lucide-react";
 
 import Container from "@/components/common/Container";
@@ -11,6 +11,7 @@ import { projects } from "@/data/projects";
 
 export default async function ProjectsPreview() {
     const t = await getTranslations("HomePage");
+    const locale = await getLocale();
 
     const featuredProjects = projects.slice(0, 3);
 
@@ -30,6 +31,8 @@ export default async function ProjectsPreview() {
                         <Reveal key={project.slug} delay={index * 0.08}>
                             <ProjectCard
                                 project={project}
+                                locale={locale}
+                                index={index}
                             />
                         </Reveal>
                     ))}

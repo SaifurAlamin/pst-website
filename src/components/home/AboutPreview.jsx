@@ -91,7 +91,7 @@ export default async function AboutPreview() {
                             </div>
 
                             {/* Floating Badge */}
-                            <div className="absolute -bottom-5 -end-4 hidden rounded-2xl bg-white p-5 shadow-xl sm:block">
+                            <div className="absolute -bottom-5 -end-4 hidden rounded-2xl bg-white p-4 shadow-xl sm:block">
                                 <p className="text-xs font-semibold text-slate-500">
                                     {t("aboutVisualBadge")}
                                 </p>
